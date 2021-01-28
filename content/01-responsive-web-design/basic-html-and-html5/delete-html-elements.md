@@ -9,9 +9,9 @@ dashedName: delete-html-elements
 
 # --description--
 
-Our phone doesn't have much vertical space.
+Nosso celular não tem muito espaço vertical.
 
-Let's remove the unnecessary elements so we can start building our CatPhotoApp.
+Vamos remover os elementos desnecessários para que possamos começar a construir nosso CatPhotoApp.
 
 # --instructions--
 
