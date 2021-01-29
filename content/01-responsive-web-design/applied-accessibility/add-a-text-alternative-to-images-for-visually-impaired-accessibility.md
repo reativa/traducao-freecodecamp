@@ -13,17 +13,18 @@ dashedName: add-a-text-alternative-to-images-for-visually-impaired-accessibility
 
 `<img src="importantLogo.jpeg" alt="Company logo">`
 
-People with visual impairments rely on screen readers to convert web content to an audio interface. They won't get information if it's only presented visually. For images, screen readers can access the `alt` attribute and read its contents to deliver key information.
+Pessoas com deficiência visual contam com leitores de tela para converter o conteúdo da web em uma interface de áudio. Eles não receberão informações se forem apresentadas apenas visualmente. Para imagens, os leitores de tela podem acessar o atributo `alt` e ler seu conteúdo para fornecer informações importantes.
 
-Good `alt` text provides the reader a brief description of the image. You should always include an `alt` attribute on your image. Per HTML5 specification, this is now considered mandatory.
+Um bom texto `alt` fornece ao leitor uma breve descrição da imagem. Você deve sempre incluir um atributo `alt` em sua imagem. De acordo com a especificação do HTML5, isso agora é considerado obrigatório.
 
 # --instructions--
 
-Camper Cat happens to be both a coding ninja and an actual ninja, who is building a website to share his knowledge. The profile picture he wants to use shows his skills and should be appreciated by all site visitors. Add an `alt` attribute in the `img` tag, that explains Camper Cat is doing karate. (The image `src` doesn't link to an actual file, so you should see the `alt` text in the display.)
+
+Acontece que Camper Cat é um ninja do código e um ninja de verdade, que está construindo um site para compartilhar seus conhecimentos. A foto do perfil que ele deseja usar mostra suas habilidades e deve ser apreciada por todos os visitantes do site. Adicione um atributo `alt` na tag` img`, que explica que Camper Cat está fazendo caratê. (A imagem `src` não tem um link real, então você deve ver o texto `alt` no display.)
 
 # --hints--
 
-Your `img` tag should have an `alt` attribute and it should not be empty.
+Sua  tag `img` deve ter um atributo `alt` e ele não deve estar vazio.
 
 ```js
 assert($('img').attr('alt'));
