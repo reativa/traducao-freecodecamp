@@ -21,7 +21,7 @@ As tags de abertura são assim:
 
 `<h1>`
 
-Tags de fechamento se parecem com isto:
+Tags de fechamento se parecem com isto: 
 
 `</h1>`
 
