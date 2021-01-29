@@ -9,11 +9,11 @@ dashedName: make-elements-only-visible-to-a-screen-reader-by-using-custom-css
 
 # --description--
 
-Have you noticed that all of the applied accessibility challenges so far haven't used any CSS? This is to show the importance of a logical document outline, and using semantically meaningful tags around your content before introducing the visual design aspect.
+Você notou que todos os desafios de acessibilidade aplicados até agora não usaram CSS? Isso mostra a importância de um esboço lógico do documento e do uso de tags semanticamente significativas em torno de seu conteúdo antes de introduzir o aspecto do design visual.
 
-However, CSS's magic can also improve accessibility on your page when you want to visually hide content meant only for screen readers. This happens when information is in a visual format (like a chart), but screen reader users need an alternative presentation (like a table) to access the data. CSS is used to position the screen reader-only elements off the visual area of the browser window.
+No entanto, a magia do CSS também pode melhorar a acessibilidade em sua página quando você deseja ocultar visualmente o conteúdo destinado apenas a leitores de tela. Isso acontece quando as informações estão em formato visual (como um gráfico), mas os usuários de leitores de tela precisam de uma apresentação alternativa (como uma tabela) para acessar os dados.O CSS é usado para posicionar os elementos somente do leitor de tela fora da área visual da janela do navegador.
 
-Here's an example of the CSS rules that accomplish this:
+Aqui está um exemplo das regras CSS que realizam isso:
 
 ```css
 .sr-only {
@@ -35,29 +35,29 @@ Here's an example of the CSS rules that accomplish this:
 
 # --instructions--
 
-Camper Cat created a really cool stacked bar chart for his training page, and put the data into a table for his visually impaired users. The table already has an `sr-only` class, but the CSS rules aren't filled in yet. Give the `position` an absolute value, the `left` a -10000px value, and the `width` and `height` both 1px values.
+Camper Cat criou um gráfico de barras muito legal para sua página de treinamento e colocou os dados em uma tabela para seus usuários com deficiência visual. A tabela já tem uma classe `sr-only`, mas as regras CSS ainda não foram preenchidas. Dê à `position` um valor absoluto, à `left` um valor de -10000px e à `width` e `height` os valores de 1px.
 
 # --hints--
 
-Your code should set the `position` property of the `sr-only` class to a value of absolute.
+Seu código deve definir a propriedade `position` da classe `sr-only` para um valor absoluto.
 
 ```js
 assert($('.sr-only').css('position') == 'absolute');
 ```
 
-Your code should set the `left` property of the `sr-only` class to a value of -10000px.
+eu código deve definir a propriedade `left` da classe `sr-only` para um valor de -10000px.
 
 ```js
 assert($('.sr-only').css('left') == '-10000px');
 ```
 
-Your code should set the `width` property of the `sr-only` class to a value of 1 pixel.
+Seu código deve definir a propriedade `width` da classe `sr-only` para um valor de 1 pixel.
 
 ```js
 assert(code.match(/width:\s*?1px/gi));
 ```
 
-Your code should set the `height` property of the `sr-only` class to a value of 1 pixel.
+Seu código deve definir a propriedade `height` da classe` sr-only` para um valor de 1 pixel.
 
 ```js
 assert(code.match(/height:\s*?1px/gi));
