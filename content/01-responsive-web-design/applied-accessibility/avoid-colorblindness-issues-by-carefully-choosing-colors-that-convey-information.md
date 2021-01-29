@@ -12,20 +12,20 @@ dashedName: >-
 
 # --description--
 
-Existem diversas formas de daltonismo. Eles podem variar de uma sensibilidade reduzida à um certo comprimento de onda de luz até a incapacidade de ver as cores. A forma mais comum é a sensibilidade reduzida para detectar verdes.
+Existem várias formas de daltonismo. Isso pode variar de uma sensibilidade reduzida a um determinado comprimento de onda de luz até a incapacidade de ver as cores. A forma mais comum é uma sensibilidade reduzida para detectar verdes.
 
-Por exemplo, se duas cores verdes similares são o primeiro plano e o plano de fundo do seu conteúdo, o usuário com daltonismo pode não ser capaz de distingui-las. Cores próximas podem consideradas vizinhas na Roda de Cores, e essas combinações devem ser evitadas ao transmitir informações importantes.
+Por exemplo, se duas cores verdes semelhantes são as cores do primeiro e segundo plano do seu conteúdo, um usuário daltônico pode não ser capaz de distingui-las. Cores próximas podem ser consideradas vizinhas na roda de cores e essas combinações devem ser evitadas ao transmitir informações importantes.
 
-**Nota:** Algumas ferramentas de seleção de cores incluem simulações visuais de como as cores aparecem para diferentes tipos de daltonismo. Esses são excelentes recursos além das calculadoras online de verificação de contraste.
+**Nota:** Algumas ferramentas de seleção de cores online incluem simulações visuais de como as cores aparecem para diferentes tipos de daltonismo. Esses são ótimos recursos além das calculadoras de verificação de contraste online.
 
 # --instructions--
 
-O Camper Cat está testando diferentes estilos para um botão importantes, mas o `background-color` amarelo (`#FFFF33`) e o texto com a propriedade `color` verde (`#33FF33`) são tons vizinhos na roda de cores e virtualmente indistinguíveis para alguns usuários com daltonismo. Suas luminosidades também falham na verificação da taxa de contraste. Mude o a propriedade `color` do texto para azul escuro (`#003366`) para resolver ambos os problemas.
 
+Camper Cat está testando estilos diferentes para um botão importante, mas o `background-color`  amarelo (`#FFFF33`)e o `color` do texto verde (`# 33FF33`) são matizes vizinhos na roda de cores e virtualmente indistinguíveis para alguns usuários daltônicos. (Sua leve semelhança também falha na verificação da taxa de contraste). Altere o `color` do texto para um azul escuro (`# 003366`) para resolver os dois problemas.
 
 # --hints--
 
-Seu código deve mudar a cor do texto do botão para azul escuro.
+Seu código deve mudar o `color` do texto do `button` para azul-escuro.
 
 ```js
 assert($('button').css('color') == 'rgb(0, 51, 102)');
@@ -48,7 +48,7 @@ assert($('button').css('color') == 'rgb(0, 51, 102)');
 </head>
 <body>
   <header>
-    <h1>Danger!</h1>
+    <h1>Perigo!</h1>
   </header>
   <button>Delete Internet</button>
 </body>
@@ -69,7 +69,7 @@ assert($('button').css('color') == 'rgb(0, 51, 102)');
 </head>
 <body>
   <header>
-    <h1>Danger!</h1>
+    <h1>Perigo!</h1>
   </header>
   <button>Delete Internet</button>
 </body>
