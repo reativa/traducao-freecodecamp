@@ -12,19 +12,20 @@ dashedName: >-
 
 # --description--
 
-There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.
+Existem diversas formas de daltonismo. Eles podem variar de uma sensibilidade reduzida à um certo comprimento de onda de luz até a incapacidade de ver as cores. A forma mais comum é a sensibilidade reduzida para detectar verdes.
 
-For example, if two similar green colors are the foreground and background color of your content, a colorblind user may not be able to distinguish them. Close colors can be thought of as neighbors on the color wheel, and those combinations should be avoided when conveying important information.
+Por exemplo, se duas cores verdes similares são o primeiro plano e o plano de fundo do seu conteúdo, o usuário com daltonismo pode não ser capaz de distingui-las. Cores próximas podem consideradas vizinhas na Roda de Cores, e essas combinações devem ser evitadas ao transmitir informações importantes.
 
-**Note:** Some online color picking tools include visual simulations of how colors appear for different types of colorblindness. These are great resources in addition to online contrast checking calculators.
+**Nota:** Algumas ferramentas de seleção de cores incluem simulações visuais de como as cores aparecem para diferentes tipos de daltonismo. Esses são excelentes recursos além das calculadoras online de verificação de contraste.
 
 # --instructions--
 
-Camper Cat is testing different styles for an important button, but the yellow (`#FFFF33`) `background-color` and the green (`#33FF33`) text `color` are neighboring hues on the color wheel and virtually indistinguishable for some colorblind users. (Their similar lightness also fails the contrast ratio check). Change the text `color` to a dark blue (`#003366`) to solve both problems.
+O Camper Cat está testando diferentes estilos para um botão importantes, mas o `background-color` amarelo (`#FFFF33`) e o texto com a propriedade `color` verde (`#33FF33`) são tons vizinhos na roda de cores e virtualmente indistinguíveis para alguns usuários com daltonismo. Suas luminosidades também falham na verificação da taxa de contraste. Mude o a propriedade `color` do texto para azul escuro (`#003366`) para resolver ambos os problemas.
+
 
 # --hints--
 
-Your code should change the text `color` for the `button` to the dark blue.
+Seu código deve mudar a cor do texto do botão para azul escuro.
 
 ```js
 assert($('button').css('color') == 'rgb(0, 51, 102)');
