@@ -9,44 +9,43 @@ dashedName: add-an-accessible-date-picker
 
 # --description--
 
-Forms often include the `input` field, which can be used to create several different form controls. The `type` attribute on this element indicates what kind of input will be created.
+Os formulários geralmente incluem o campo `input`, que pode ser usado para criar vários e diferentes controles de formulário. O atributo `type` neste elemento indica que tipo de entrada será criada.
 
-You may have noticed the `text` and `submit` input types in prior challenges, and HTML5 introduced an option to specify a `date` field. Depending on browser support, a date picker shows up in the `input` field when it's in focus, which makes filling in a form easier for all users.
+Você deve ter notado os tipos de entrada `text` e` submit` em desafios anteriores, e o HTML5 introduziu uma opção para especificar um campo `date`. Dependendo do suporte do navegador, um selecionador de data aparece no campo `input` quando ele está selecionado, o que torna o preenchimento de um formulário mais fácil para todos os usuários.
 
-For older browsers, the type will default to `text`, so it helps to show users the expected date format in the label or as placeholder text just in case.
+Para navegadores mais antigos, o tipo padrão será `texto`, então facilita para os usuários mostrar o formato de data esperado no título ou como texto no `placeholder` que é  reservado para o caso.
 
-Here's an example:
+Aqui está um exemplo: 
 
 ```html
-<label for="input1">Enter a date:</label>
+<label for="input1">Entre com uma data:</label>
 <input type="date" id="input1" name="input1">
 ```
 
 # --instructions--
 
-Camper Cat is setting up a Mortal Kombat tournament and wants to ask his competitors to see what date works best. Add an `input` tag with a `type` attribute of "date", an `id` attribute of "pickdate", and a `name` attribute of "date".
+Camper Cat está organizando um torneio de Mortal Kombat e quer perguntar a seus concorrentes para ver qual data é a melhor. Adicione uma tag `input` com um atributo `type` igual a "date", um atributo `id` igual "pickdate" e um atributo `name` igual "date".
 
 # --hints--
 
-Your code should add one `input` tag for the date selector field.
+Seu código deve ter uma tag `input` para o campo do seletor de date.
 
 ```js
 assert($('input').length == 2);
 ```
 
-Your `input` tag should have a `type` attribute with a value of date.
+Sua tag `input` deve ter um atributo `type` com um valor de date.
 
 ```js
 assert($('input').attr('type') == 'date');
 ```
-
-Your `input` tag should have an `id` attribute with a value of pickdate.
+Sua tag `input` deve ter um  atributo `id` com o valor de pickdate.
 
 ```js
 assert($('input').attr('id') == 'pickdate');
 ```
 
-Your `input` tag should have a `name` attribute with a value of date.
+Sua tag `input` deve ter um atributo `name` com um valor de date
 
 ```js
 assert($('input').attr('name') == 'date');
@@ -59,26 +58,26 @@ assert($('input').attr('name') == 'date');
 ```html
 <body>
   <header>
-    <h1>Tournaments</h1>
+    <h1>Torneios</h1>
   </header>
   <main>
     <section>
-      <h2>Mortal Kombat Tournament Survey</h2>
+      <h2>Pesquisa do Torneio Mortal Kombat</h2>
       <form>
-        <p>Tell us the best date for the competition</p>
-        <label for="pickdate">Preferred Date:</label>
+        <p>Diga-nos qual a melhor data para a competição</p>
+        <label for="pickdate">Melhor Data:</label>
 
-        <!-- Only change code below this line -->
+        <!-- Só mude o código abaixo dessa linha -->
 
 
 
-        <!-- Only change code above this line -->
+        <!-- Só o mude o código acima dessa linha -->
 
         <input type="submit" name="submit" value="Submit">
       </form>
     </section>
   </main>
-  <footer>&copy; 2018 Camper Cat</footer>
+  <footer>&copy;Camper Cat 2018</footer>
 </body>
 ```
 
@@ -87,19 +86,19 @@ assert($('input').attr('name') == 'date');
 ```html
 <body>
   <header>
-    <h1>Tournaments</h1>
+    <h1>Torneios</h1>
   </header>
   <main>
     <section>
-      <h2>Mortal Kombat Tournament Survey</h2>
+      <h2>Pesquisa do Torneio Mortal Kombat</h2>
       <form>
-        <p>Tell us the best date for the competition</p>
-        <label for="pickdate">Preferred Date:</label>
+        <p>Diga-nos qual a melhor data para a competição</p>
+        <label for="pickdate">Melhor Data:</label>
         <input type="date" id="pickdate" name="date">
         <input type="submit" name="submit" value="Submit">
       </form>
     </section>
   </main>
-  <footer>&copy; 2018 Camper Cat</footer>
+  <footer>&copy;Camper Cat 2018</footer>
 </body>
 ```
