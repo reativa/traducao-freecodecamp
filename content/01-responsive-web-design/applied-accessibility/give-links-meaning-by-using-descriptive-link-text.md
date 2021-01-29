@@ -9,18 +9,17 @@ dashedName: give-links-meaning-by-using-descriptive-link-text
 
 # --description--
 
-Screen reader users have different options for what type of content their device reads. This includes skipping to (or over) landmark elements, jumping to the main content, or getting a page summary from the headings. Another option is to only hear the links available on a page.
+Os usuários de leitores de tela têm opções diferentes para o tipo de conteúdo que seu dispositivo lê. Isso inclui pular para (ou mais) elementos de referência, pular para o conteúdo principal ou obter um resumo da página a partir dos títulos. Outra opção é ouvir apenas os links disponíveis em uma página.
 
-Screen readers do this by reading the link text, or what's between the anchor (`a`) tags. Having a list of "click here" or "read more" links isn't helpful. Instead, you should use brief but descriptive text within the `a` tags to provide more meaning for these users.
+Os leitores de tela fazem isso lendo o texto do link ou o que está entre as tags âncora (`a`). Ter uma lista de links "clique aqui" ou "leia mais" não é útil. Em vez disso, você deve usar um texto breve, mas descritivo, dentro das tags `a` para fornecer mais significado para esses usuários.
 
 # --instructions--
 
-The link text that Camper Cat is using is not very descriptive without the surrounding context. Move the anchor (`a`) tags so they wrap around the text "information about batteries" instead of "Click here".
+O texto do link que a Camper Cat está usando não é muito descritivo sem o contexto da situação. Mova as tags âncora (`a`) para que envolvam o texto "informações sobre baterias " ao invés do "Clique aqui ".
 
 # --hints--
 
-Your code should move the anchor `a` tags from around the words "Click here" to wrap around the words "information about batteries".
-
+Seu código deve mover as tags âncora `a` das palavras "Clique aqui" para envolver as palavras "informações sobre baterias ".
 ```js
 assert(
   $('a')
@@ -29,13 +28,13 @@ assert(
 );
 ```
 
-The `a` element should have an `href` attribute with a value of an empty string `""`.
+O elemento `a` deve ter um atributo` href` com um valor de uma string vazia `" "`.
 
 ```js
 assert($('a').attr('href') === '');
 ```
 
-The `a` element should have a closing tag.
+O elemento `a` deve ter uma tag a fechando
 
 ```js
 assert(
