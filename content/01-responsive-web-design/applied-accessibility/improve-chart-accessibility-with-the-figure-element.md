@@ -9,11 +9,11 @@ dashedName: improve-chart-accessibility-with-the-figure-element
 
 # --description--
 
-HTML5 introduced the `figure` element, along with the related `figcaption`. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. This gives a two-fold accessibility boost by both semantically grouping related content, and providing a text alternative that explains the `figure`.
+HTML5 introduziu o elemento `figure`, junto com o `figcaption` relacionado. Usados juntos, esses itens envolvem uma representação visual (como uma imagem, diagrama ou gráfico) junto com sua legenda. Isso aumenta a acessibilidade em duas partes, agrupando semanticamente o conteúdo relacionado e fornecendo uma alternativa em texto que explica a `figura`.
 
-For data visualizations like charts, the caption can be used to briefly note the trends or conclusions for users with visual impairments. Another challenge covers how to move a table version of the chart's data off-screen (using CSS) for screen reader users.
+Para visualizações de dados como gráficos, a legenda pode ser usada para observar brevemente as tendências ou conclusões para usuários com deficiência visual. Outro desafio abrange como mover uma versão de tabela dos dados do gráfico para fora da tela (usando CSS) para usuários de leitores de tela.
 
-Here's an example - note that the `figcaption` goes inside the `figure` tags and can be combined with other elements:
+Aqui está um exemplo - observe que a `figcaption` vai dentro das tags `figure` e pode ser combinada com outros elementos:
 
 ```html
 <figure>
@@ -27,41 +27,40 @@ Here's an example - note that the `figcaption` goes inside the `figure` tags and
 
 # --instructions--
 
-Camper Cat is hard at work creating a stacked bar chart showing the amount of time per week to spend training in stealth, combat, and weapons. Help him structure his page better by changing the `div` tag he used to a `figure` tag, and the `p` tag that surrounds the caption to a `figcaption` tag.
+O Camper Cat está trabalhando arduamente na criação de um gráfico de barras que mostra a quantidade de tempo por semana para gastar em treinamento furtivo, combate e armas. Ajude-o a estruturar melhor sua página alterando a tag `div` que ele usou para uma tag `figure`, e a tag `p` que envolva a legenda para uma tag `figcaption`.
 
 # --hints--
 
-Your code should have one `figure` tag.
+Seu código deve ter uma tag `figure`.
 
 ```js
 assert($('figure').length == 1);
 ```
 
-Your code should have one `figcaption` tag.
+Seu código deve ter uma tag `figcaption`.
 
 ```js
 assert($('figcaption').length == 1);
 ```
 
-Your code should not have any `div` tags.
+Seu código não deve ter nenhuma tag `div`.
 
 ```js
 assert($('div').length == 0);
 ```
-
-Your code should not have any `p` tags.
+Seu código não deve ter nenhuma tag `p`.
 
 ```js
 assert($('p').length == 0);
 ```
 
-The `figcaption` should be a child of the `figure` tag.
+A `figcaption` deve ser um filho da tag `figure`.
 
 ```js
 assert($('figure').children('figcaption').length == 1);
 ```
 
-Your `figure` element should have a closing tag.
+Seu elemento `figure` deve ter uma tag de fechamento.
 
 ```js
 assert(
