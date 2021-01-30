@@ -64,7 +64,7 @@ Seu código não deve ter nenhuma tag `div`.
 assert($('div').length == 0);
 ```
 
-Seu código não deve mais ter uma tag `p` ao redor do texto perguntando em que nível de ninja o usuário está.
+Seu código não deve mais ter uma tag `p` ao redor do texto perguntando em que nível de ninja o usuário está..
 
 ```js
 assert($('p').length == 4);
