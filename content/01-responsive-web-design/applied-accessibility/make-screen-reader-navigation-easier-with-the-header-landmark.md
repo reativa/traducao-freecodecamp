@@ -9,37 +9,37 @@ dashedName: make-screen-reader-navigation-easier-with-the-header-landmark
 
 # --description--
 
-The next HTML5 element that adds semantic meaning and improves accessibility is the `header` tag. It's used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
+O próximo elemento HTML5 que adiciona significado semântico e melhora a acessibilidade é a tag `header`. Ela é usada para envolver informações introdutórias ou links de navegação para sua tag pai e funciona bem em torno do conteúdo que é repetido no topo em várias páginas.
 
-`header` shares the embedded landmark feature you saw with `main`, allowing assistive technologies to quickly navigate to that content.
+`header` compartilha o recurso de marco embutido que você viu com `main`, permitindo que tecnologias assistivas naveguem rapidamente para aquele conteúdo.
 
-**Note:** The `header` is meant for use in the `body` tag of your HTML document. This is different than the `head` element, which contains the page's title, meta information, etc.
+**Nota:** O `header` destina-se ao uso dentro da tag `body` do seu documento HTML. Isso é diferente do elemento `head`, que contém o título da página,meta-informações, etc.
 
 # --instructions--
 
-Camper Cat is writing some great articles about ninja training, and wants to add a page for them to his site. Change the top `div` that currently contains the `h1` to a `header` tag instead.
+O Camper Cat está escrevendo ótimos artigos sobre treinamento de ninjas e deseja adicionar uma página para eles em seu site. Altere a `div` superior que atualmente contém o `h1` para uma tag `header`.
 
 # --hints--
 
-Your code should have one `header` tag.
+Seu código deve ter uma tag `header`.
 
 ```js
-assert($('header').length == 1);
+assert ($ ('header'). length == 1);
 ```
 
-Your `header` tags should wrap around the `h1`.
+Suas tags `header` devem envolver o `h1`.
 
 ```js
-assert($('header').children('h1').length == 1);
+assert ($ ('header'). children ('h1'). length == 1);
 ```
 
-Your code should not have any `div` tags.
+Seu código não deve ter nenhuma tag `div`.
 
 ```js
-assert($('div').length == 0);
+assert ($ ('div'). length == 0);
 ```
 
-Your `header` element should have a closing tag.
+Seu elemento `header` deve ter uma tag de fechamento.
 
 ```js
 assert(

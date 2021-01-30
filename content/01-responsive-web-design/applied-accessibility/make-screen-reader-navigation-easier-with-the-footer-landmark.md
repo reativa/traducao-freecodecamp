@@ -9,27 +9,27 @@ dashedName: make-screen-reader-navigation-easier-with-the-footer-landmark
 
 # --description--
 
-Similar to `header` and `nav`, the `footer` element has a built-in landmark feature that allows assistive devices to quickly navigate to it. It's primarily used to contain copyright information or links to related documents that usually sit at the bottom of a page.
+Semelhante ao `header` e ao `nav`, o elemento `footer` possui um recurso de ponto de referência embutido que permite com que dispositivos auxiliares naveguem rapidamente até ele. Isso é usado principalmente para conter informações de direitos autorais ou links para documentos relacionados, que geralmente ficam na parte inferior de uma página.
 
 # --instructions--
 
-Camper Cat's training page is making good progress. Change the `div` he used to wrap his copyright information at the bottom of the page to a `footer` element.
+A página de treinamento da Camper Cat está fazendo um bom progresso. Altere a `div` que ele usou para envolver suas informações de copyright no final da página com um elemento `footer`.
 
 # --hints--
 
-Your code should have one `footer` tag.
+Seu código deve ter uma tag `footer`.
 
 ```js
-assert($('footer').length == 1);
+assert ($ ('footer'). length == 1);
 ```
 
-Your code should not have any `div` tags.
+Seu código não deve ter nenhuma tag `div`.
 
 ```js
-assert($('div').length == 0);
+assert ($ ('div'). length == 0);
 ```
 
-Your code should have an opening and closing `footer` tag.
+Seu código deve ter uma tag de abertura e fechamento no `footer`.
 
 ```js
 assert(code.match(/<footer>\s*&copy; 2018 Camper Cat\s*<\/footer>/g));
