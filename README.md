@@ -53,7 +53,7 @@ dashedName: accessing-object-properties-with-bracket-notation
 ---
 ```
 
-Os headlines também NÃO precisam ser traduzir, por exemplo: 
+Os headlines também NÃO precisam ser traduzidos, por exemplo: 
 
 ```
 # --description--
