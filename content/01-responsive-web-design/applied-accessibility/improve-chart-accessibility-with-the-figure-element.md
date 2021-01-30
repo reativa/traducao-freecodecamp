@@ -9,7 +9,9 @@ dashedName: improve-chart-accessibility-with-the-figure-element
 
 # --description--
 
-HTML5 introduced the `figure` element, along with the related `figcaption`. Used together, these items wrap a visual representation (like an image, diagram, or chart) along with its caption. This gives a two-fold accessibility boost by both semantically grouping related content, and providing a text alternative that explains the `figure`.
+O HTML5 introduziu o elemento `figure`,  juntamente com o respectivo `figcaption`. Usados juntos, esses itens envolvem uma representação visual(como uma imagem, diagrama ou gráfico) juntamente com sua legenda. Isso dá um impulso duplo à acessibilidade, agrupando semanticamente conteúdos relacionados e fornecendo uma alternativa de texto que explica a `figure`;
+
+Para visualização de dados como gráficos, a legenda pode ser usada para registrar brevemente as tendências ou conclusões para usuários com deficiências visuais. Outro desafio 
 
 For data visualizations like charts, the caption can be used to briefly note the trends or conclusions for users with visual impairments. Another challenge covers how to move a table version of the chart's data off-screen (using CSS) for screen reader users.
 
