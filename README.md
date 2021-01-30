@@ -5,7 +5,7 @@
   </a>
 </p>
 
-> Traduçao dos enunciados do FreeCodeCamp para pt-br
+## Traduçao dos enunciados do FreeCodeCamp para pt-br
 
 ### 🏠 [Homepage](https://bit.ly/reativa-iniciantes)
 
@@ -13,7 +13,9 @@
 
 Nós não temos muita frescura, então basicamente você terá que escolher algum arquivo que esteja disponível e enviar o PR para nós.
 
-> E como encontrar os arquivos disponíveis?
+Se você tiver dúvidas sobre como fazer este processo, nós explicamos aqui [nessa Live](https://bit.ly/reativa-live-4) e se você ainda não sabe usar GIT direito, ou é a sua primeira contribuição, assista [estas aulas de GIT aqui](https://iniciantes.reativa.dev/git/aprenda_git).
+
+## Como encontrar os arquivos disponíveis?
 
 É só escolher qualquer arquivo que ainda esteja com o commit inicial `📦 add: first commit`.
 
@@ -23,7 +25,7 @@ Exemplo:
    <a href="#"><img src="https://github.com/reativa/traducao-freecodecamp/blob/master/assets/images/disponiveis.png?raw=true"></a>
 </p>
 
-> E quais cuidados devo tomar?
+## Quais cuidados devo tomar?
 
 Você não precisa traduzir as chaves do cabeçalho e nem os headlines, por exemplo: 
 
