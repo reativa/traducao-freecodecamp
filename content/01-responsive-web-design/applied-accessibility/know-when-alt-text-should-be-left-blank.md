@@ -9,29 +9,27 @@ dashedName: know-when-alt-text-should-be-left-blank
 
 # --description--
 
-In the last challenge, you learned that including an `alt` attribute when using `img` tags is mandatory. However, sometimes images are grouped with a caption already describing them, or are used for decoration only. In these cases `alt` text may seem redundant or unnecessary.
+No último desafio, você aprendeu que incluir um atributo `alt` ao usar as tags `img` é obrigatório. No entanto, às vezes as imagens são agrupadas com uma legenda que já as descreve ou são usadas apenas para decoração. Nestes casos, o texto `alt` pode parecer redundante ou desnecessário.
 
-In situations when an image is already explained with text content, or does not add meaning to a page, the `img` still needs an `alt` attribute, but it can be set to an empty string. Here's an example:
+Em situações em que uma imagem já é explicada com conteúdo de texto, ou não adiciona significado a uma página, o `img` ainda precisa de um atributo `alt`, mas pode ser definido como uma string vazia. Aqui está um exemplo:
 
-`<img src="visualDecoration.jpeg" alt="">`
+`<img src ="visualDecoration.jpeg" alt ="">`
 
-Background images usually fall under the 'decorative' label as well. However, they are typically applied with CSS rules, and therefore not part of the markup screen readers process.
+As imagens de fundo também costumam ser classificadas como "decorativas". No entanto, eles são normalmente aplicados com regras CSS e, portanto, não fazem parte do processo de leitores de tela de marcação.
 
-**Note:** For images with a caption, you may still want to include `alt` text, since it helps search engines catalog the content of the image.
+**Nota:** Para imagens com legenda, você ainda pode querer incluir o texto `alt`, pois ajuda os mecanismos de busca a catalogar o conteúdo da imagem.
 
 # --instructions--
 
-Camper Cat has coded a skeleton page for the blog part of his website. He's planning to add a visual break between his two articles with a decorative image of a samurai sword. Add an `alt` attribute to the `img` tag and set it to an empty string. (Note that the image `src` doesn't link to an actual file - don't worry that there are no swords showing in the display.)
-
+Camper Cat codificou um esqueleto de página para a parte do blog do seu site. Ele está planejando adicionar uma pausa visual entre seus dois artigos com uma imagem decorativa de uma espada de samurai. Adicione um atributo `alt` à tag `img` e defina-o como uma string vazia. (Observe que a imagem `src` não está vinculada a um arquivo real - não se preocupe se não houver espadas aparecendo na tela.)
 # --hints--
 
-Your `img` tag should have an `alt` attribute.
+Sua tag `img` deve ter um atributo `alt`.
 
 ```js
 assert(!($('img').attr('alt') == undefined));
 ```
-
-The `alt` attribute should be set to an empty string.
+O atributo `alt` deve ser definido como uma string vazia.
 
 ```js
 assert($('img').attr('alt') == '');

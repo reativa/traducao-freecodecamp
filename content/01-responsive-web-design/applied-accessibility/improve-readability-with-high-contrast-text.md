@@ -9,23 +9,22 @@ dashedName: improve-readability-with-high-contrast-text
 
 # --description--
 
-Low contrast between the foreground and background colors can make text difficult to read. Sufficient contrast improves the readability of your content, but what exactly does "sufficient" mean?
+O baixo contraste entre as cores do primeiro plano e do plano de fundo pode dificultar a leitura do texto. Contraste suficiente melhora a legibilidade do seu conteúdo, mas o que exatamente significa "suficiente"?
 
-The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text. The ratio is calculated by comparing the relative luminance values of two colors. This ranges from 1:1 for the same color, or no contrast, to 21:1 for white against black, the strongest contrast. There are many contrast checking tools available online that calculate this ratio for you.
+As Diretrizes de Acessibilidade de Conteúdo da Web (WCAG) recomendam uma relação de contraste de pelo menos 4,5 para 1 para texto normal. A proporção é calculada comparando os valores de luminância relativa de duas cores. Isso varia de 1: 1 para a mesma cor, ou sem contraste, a 21: 1 para branco contra preto, o contraste mais forte. Existem muitas ferramentas de verificação de contraste disponíveis online que calculam essa relação para você.
 
 # --instructions--
 
-Camper Cat's choice of light gray text on a white background for his recent blog post has a 1.5:1 contrast ratio, making it hard to read. Change the `color` of the text from the current gray (`#D3D3D3`) to a darker gray (`#636363`) to improve the contrast ratio to 6:1.
+A escolha de Camper Cat por um texto cinza claro em um fundo branco para sua postagem recente no blog tem uma relação de contraste de 1,5: 1, dificultando a leitura. Altere a `cor` do texto do cinza atual (` # D3D3D3`) para um cinza mais escuro (`# 636363`) para melhorar a taxa de contraste para 6: 1.
 
 # --hints--
 
-Your code should change the text `color` for the `body` to the darker gray.
-
+Seu código deve alterar a `color` do texto do `body` para um cinza mais escuro.
 ```js
 assert($('body').css('color') == 'rgb(99, 99, 99)');
 ```
 
-Your code should not change the `background-color` for the `body`.
+Seu código não deve mudar o `background-color` do `body`.
 
 ```js
 assert($('body').css('background-color') == 'rgb(255, 255, 255)');
