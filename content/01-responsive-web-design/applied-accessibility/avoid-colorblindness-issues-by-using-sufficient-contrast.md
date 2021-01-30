@@ -9,27 +9,26 @@ dashedName: avoid-colorblindness-issues-by-using-sufficient-contrast
 
 # --description--
 
-Color is a large part of visual design, but its use introduces two accessibility issues. First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
+A cor é uma grande parte do design visual, mas seu uso apresenta dois problemas de acessibilidade. Primeiro, a cor sozinha não deve ser usada como a única maneira de transmitir informações importantes, porque os usuários de leitores de tela não as verão. Em segundo lugar, as cores do primeiro plano e do plano de fundo precisam de contraste suficiente para que usuários daltônicos possam distingui-las.
 
-Previous challenges covered having text alternatives to address the first issue. The last challenge introduced contrast checking tools to help with the second. The WCAG-recommended contrast ratio of 4.5:1 applies for color use as well as gray-scale combinations.
+Os desafios anteriores cobriram alternativas de texto para resolver o primeiro problema. O último desafio introduziu ferramentas de verificação de contraste para ajudar com o segundo. A taxa de contraste recomendada pela WCAG de 4,5: 1 se aplica tanto ao uso de cores quanto às combinações de tons de cinza.
 
-Colorblind users have trouble distinguishing some colors from others - usually in hue but sometimes lightness as well. You may recall the contrast ratio is calculated using the relative luminance (or lightness) values of the foreground and background colors.
+Usuários daltônicos têm dificuldade em distinguir algumas cores de outras - geralmente em matiz, mas às vezes também em luminosidade. Você deve se lembrar que a taxa de contraste é calculada usando os valores de luminância (ou luminosidade) relativa das cores do primeiro plano e do plano de fundo.
 
-In practice, the 4.5:1 contrast ratio can be reached by shading (adding black to) the darker color and tinting (adding white to) the lighter color. Darker shades on the color wheel are considered to be shades of blues, violets, magentas, and reds, whereas lighter tinted colors are oranges, yellows, greens, and blue-greens.
+Na prática, a taxa de contraste de 4,5: 1 pode ser alcançada sombreando (adicionando preto) à cor mais escura e matizando (adicionando branco) à cor mais clara. Tons mais escuros na roda de cores são considerados tons de azul, violetas, magentas e vermelhos, enquanto as cores mais claras são laranjas, amarelos, verdes e azuis-verdes.
 
 # --instructions--
 
-Camper Cat is experimenting with using color for his blog text and background, but his current combination of a greenish `background-color` with maroon text `color` has a 2.5:1 contrast ratio. You can easily adjust the lightness of the colors since he declared them using the CSS `hsl()` property (which stands for hue, saturation, lightness) by changing the third argument. Increase the `background-color` lightness value from 35% to 55%, and decrease the `color` lightness value from 20% to 15%. This improves the contrast to 5.9:1.
+Camper Cat está experimentando usar cores para o texto e o plano de fundo de seu blog, mas sua combinação atual de um `background-color` esverdeado com uma `color` de texto marrom tem uma relação de contraste de 2,5: 1. Você pode ajustar facilmente a claridade das cores, já que ele as declarou usando a propriedade CSS `hsl ()` (que significa hue, saturation, lightness) alterando o terceiro argumento. Aumente o valor de claridade do `background-color` de 35% para 55% e diminua o valor de claridade da`color` de 20% para 15%. Isso melhora o contraste para 5,9: 1.
 
 # --hints--
 
-Your code should only change the lightness value for the text `color` property to a value of 15%.
-
+Seu código só deve alterar o valor de claridade da propriedade `color` do texto para um valor de 15%.
 ```js
 assert(code.match(/color:\s*?hsl\(0,\s*?55%,\s*?15%\)/gi));
 ```
 
-Your code should only change the lightness value for the `background-color` property to a value of 55%.
+Seu código só deve alterar o valor de claridade da propriedade  `background-color` para um valor de 55%.
 
 ```js
 assert(code.match(/background-color:\s*?hsl\(120,\s*?25%,\s*?55%\)/gi));
