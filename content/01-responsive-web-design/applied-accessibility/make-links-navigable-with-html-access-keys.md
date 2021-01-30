@@ -9,39 +9,39 @@ dashedName: make-links-navigable-with-html-access-keys
 
 # --description--
 
-HTML offers the `accesskey` attribute to specify a shortcut key to activate or bring focus to an element. This can make navigation more efficient for keyboard-only users.
+O HTML oferece o atributo `accesskey` para especificar uma tecla de atalho para ativar ou trazer o foco para um elemento. Isso pode tornar a navegação mais eficiente para usuários apenas com teclado.
 
-HTML5 allows this attribute to be used on any element, but it's particularly useful when it's used with interactive ones. This includes links, buttons, and form controls.
+O HTML5 permite que este atributo seja usado em qualquer elemento, mas é particularmente útil quando é usado com elementos interativos. Isso inclui links, botões e controles de formulário.
 
-Here's an example:
+Aqui está um exemplo:
 
 `<button accesskey="b">Important Button</button>`
 
 # --instructions--
 
-Camper Cat wants the links around the two blog article titles to have keyboard shortcuts so his site's users can quickly navigate to the full story. Add an `accesskey` attribute to both links and set the first one to "g" (for Garfield) and the second one to "c" (for Chuck Norris).
+Camper Cat quer que os links em torno dos títulos dos dois artigos do blog tenham atalhos de teclado para que os usuários de seu site possam navegar rapidamente pela história completa. Adicione um atributo `accesskey` em ambos os links e defina o primeiro como "g"(para Garfield) e o segundo como "c"(para Chuck Norris).
 
 # --hints--
 
-Your code should add an `accesskey` attribute to the `a` tag with the `id` of "first".
+Seu código deve adicionar um atributo `accesskey` à tag `a` com o `id` igual a "primeiro ".
 
 ```js
-assert($('#first').attr('accesskey'));
+assert ($ ('# first'). attr ('accesskey'));
 ```
 
-Your code should add an `accesskey` attribute to the `a` tag with the `id` of "second".
+Seu código deve adicionar um atributo `accesskey` à tag `a` com o `id` igual a "segundo ".
 
 ```js
-assert($('#second').attr('accesskey'));
+assert ($ ('# segundo'). attr ('accesskey'));
 ```
 
-Your code should set the `accesskey` attribute on the `a` tag with the `id` of "first" to "g". Note that case matters.
+Seu código deve definir o atributo `accesskey` na tag `a` com o `id` igual a "first " para "g ". Note que esse caso é importante.
 
 ```js
-assert($('#first').attr('accesskey') == 'g');
+assert ($ ('# first'). attr ('accesskey') == 'g');
 ```
 
-Your code should set the `accesskey` attribute on the `a` tag with the `id` of "second" to "c". Note that case matters.
+Seu código deve definir o atributo `accesskey` na tag `a` com o `id` igual a "segundo" para "c ". Note que esse caso é importante.
 
 ```js
 assert($('#second').attr('accesskey') == 'c');
