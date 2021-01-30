@@ -9,43 +9,43 @@ dashedName: use-headings-to-show-hierarchical-relationships-of-content
 
 # --description--
 
-Headings (`h1` through `h6` elements) are workhorse tags that help provide structure and labeling to your content. Screen readers can be set to read only the headings on a page so the user gets a summary. This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
+Os cabeçalhos (elementos `h1` a `h6`) são tags burras que ajudam a fornecer estrutura e rotulagem ao seu conteúdo. Os leitores de tela podem ser configurados para ler apenas os cabeçalhos de uma página para que o usuário obtenha um resumo. Isso significa que é importante que as tags de título em sua marcação tenham significado semântico e se relacionem umas com as outras,e não sejam escolhidas apenas por seus valores de tamanho.
 
-*Semantic meaning* means that the tag you use around content indicates the type of information it contains.
+*Significado semântico* significa que a tag que você usa em torno do conteúdo indica o tipo de informação que ela contém.
 
-If you were writing a paper with an introduction, a body, and a conclusion, it wouldn't make much sense to put the conclusion as a subsection of the body in your outline. It should be its own section. Similarly, the heading tags in a webpage need to go in order and indicate the hierarchical relationships of your content.
+Se você estivesse escrevendo um artigo com uma introdução, um corpo e uma conclusão, não faria muito sentido colocar a conclusão como uma subseção do corpo em seu esboço. Ela deveria  estar em sua própria seção. Da mesma forma, as tags de título em uma página da web precisam estar em ordem e indicar as relações hierárquicas de seu conteúdo.
 
-Headings with equal (or higher) rank start new implied sections, headings with lower rank start subsections of the previous one.
+Títulos com classificação igual (ou superior) iniciam novas seções implícitas, títulos com classificação inferior começam subseções da anterior.
 
-As an example, a page with an `h2` element followed by several subsections labeled with `h4` tags would confuse a screen reader user. With six choices, it's tempting to use a tag because it looks better in a browser, but you can use CSS to edit the relative sizing.
+Como exemplo, uma página com um elemento `h2` seguido por várias subseções rotuladas com tags `h4` confundiria um usuário de leitor de tela. Com seis opções, é tentador usar uma tag porque fica melhor em um navegador, mas você pode usar CSS para editar o tamanho relativo.
 
-One final point, each page should always have one (and only one) `h1` element, which is the main subject of your content. This and the other headings are used in part by search engines to understand the topic of the page.
+Um último ponto, cada página deve sempre ter um (e apenas um) elemento `h1`, que é o assunto principal do seu conteúdo. Este e outros cabeçalhos são usados ​​em parte pelos mecanismos de pesquisa para entender o tópico da página.
 
 # --instructions--
 
-Camper Cat wants a page on his site dedicated to becoming a ninja. Help him fix the headings so his markup gives semantic meaning to the content, and shows the proper parent-child relationships of his sections. Change all the `h5` tags to the proper heading level to indicate they are subsections of the `h2` ones. Use `h3` tags for the purpose.
+Camper Cat quer uma página em seu site dedicada a se tornar um ninja. Ajude-o a corrigir os títulos para que sua marcação dê significado semântico ao conteúdo e mostre as relações pai-filho adequadas de suas seções. Mude todas as tags `h5` para o nível de cabeçalho apropriado para indicar que são subseções das tags `h2`. Use tags `h3` para esse propósito.
 
 # --hints--
 
-Your code should have 6 `h3` tags.
+Seu código deve ter 6 tags `h3`.
 
 ```js
-assert($('h3').length === 6);
+assert ($ ('h3'). length === 6);
 ```
 
-Your code should have 6 `h3` closing tags.
+Seu código deve ter 6 tags de fechamento `h3`.
 
 ```js
-assert((code.match(/\/h3/g) || []).length === 6);
+assert ((code.match (/ \ / h3 / g) || []). length === 6);
 ```
 
-Your code should not have any `h5` tags.
+Seu código não deve ter nenhuma tag `h5`.
 
 ```js
-assert($('h5').length === 0);
+assert ($ ('h5'). length === 0);
 ```
 
-Your code should not have any `h5` closing tags.
+Seu código não deve ter nenhuma tag de fechamento `h5`.
 
 ```js
 assert(/\/h5/.test(code) === false);
