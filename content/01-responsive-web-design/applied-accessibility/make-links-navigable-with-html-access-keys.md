@@ -43,6 +43,7 @@ assert ($ ('# first'). attr ('accesskey') == 'g');
 
 Seu código deve definir o atributo `accesskey` na tag `a` com o `id` igual a "segundo" para "c ". Note que esse caso é importante.
 
+
 ```js
 assert($('#second').attr('accesskey') == 'c');
 ```
