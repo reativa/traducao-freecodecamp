@@ -9,27 +9,27 @@ dashedName: create-a-media-query
 
 # --description--
 
-Media Queries are a new technique introduced in CSS3 that change the presentation of content based on different viewport sizes. The viewport is a user's visible area of a web page, and is different depending on the device used to access the site.
+Media Queries são uma nova técnica introduzida no CSS3 que altera a apresentação do conteúdo baseando-se nas diferentes dimensões da janela de exibição (viewport). A janela de exibição é a área vísivel para o usuário de uma página web, e é diferente dependendo do dispositivo utilizado para acessar o site.
 
-Media Queries consist of a media type, and if that media type matches the type of device the document is displayed on, the styles are applied. You can have as many selectors and styles inside your media query as you want.
+Media Queries consistem em media types, e se esse determinado media type corresponde ao dispositivo que está exibindo o documento, os estilos são aplicados. Você pode ter quantos seletores e estilos quiser dentro de sua media query.
 
-Here's an example of a media query that returns the content when the device's width is less than or equal to 100px:
+Aqui está um exemplo de media query que retorna o conteúdo quando a largura do dispositivo é menor ou igual a 100px:
 
-`@media (max-width: 100px) { /* CSS Rules */ }`
+`@media (max-width: 100px) { /* Regras de CSS */ }`
 
-and the following media query returns the content when the device's height is more than or equal to 350px:
+e a seguinte media query retorna o conteúdo quando a altura do dispositivo é maior ou igual a 350px:
 
-`@media (min-height: 350px) { /* CSS Rules */ }`
+`@media (min-height: 350px) { /* Regras de CSS */ }`
 
-Remember, the CSS inside the media query is applied only if the media type matches that of the device being used.
+Lembre-se, o CSS dentro da media query é aplicado somente quando a media corresponde com o dispositivo que está sendo usado.
 
 # --instructions--
 
-Add a media query, so that the `p` tag has a `font-size` of `10px` when the device's height is less than or equal to `800px`.
+Adicione uma media query, então a tag `p` tem `font-size` de `10px`quando a altura do dispositivo for menos ou igual a `800px`.
 
 # --hints--
 
-You should declare a `@media` query for devices with a `height` less than or equal to 800px.
+Você deve declarar `@media` query para dispositivos com `height`menor ou igual a 800px.
 
 ```js
 assert(
@@ -40,7 +40,8 @@ assert(
 );
 ```
 
-Your `p` element should have a `font-size` of 10px when the device `height` is less than or equal to 800px.
+Seu elemento `p` deve ter `font-size` de 10px quando o `height`do dispositivo for menor ou igual a 800px. 
+
 
 ```js
 assert(
@@ -50,8 +51,7 @@ assert(
     .match(/@media\(max-height:800px\){p{font-size:10px;?}}/g)
 );
 ```
-
-Your `p` element should have an initial `font-size` of 20px when the device `height` is more than 800px.
+Seu elemento `p` deve ter `font-size` inicial de 20px quando o `height`do dispositivo for maior que 800px. 
 
 ```js
 assert(
@@ -73,9 +73,9 @@ assert(
     font-size: 20px;
   }
 
-  /* Only change code below this line */
+  /* Somente altere o código abaixo dessa linha*/
 
-  /* Only change code above this line */
+  /* Somente altere o código acima dessa linha */
 </style>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>

@@ -9,29 +9,29 @@ dashedName: make-typography-responsive
 
 # --description--
 
-Instead of using `em` or `px` to size text, you can use viewport units for responsive typography. Viewport units, like percentages, are relative units, but they are based off different items. Viewport units are relative to the viewport dimensions (width or height) of a device, and percentages are relative to the size of the parent container element.
+Ao invés de utilizar `em` ou `px` para dimensionar o texto, você pode utilizar as unidades da viewport para obter uma tipografia responsiva. As unidades da viewport, assim como porcentagens, são unidades relativas, mas são baseadas em itens diferentes. As unidades da viewport são relativas as dimensões da viewport (largura ou altura) do dispositivo, e as porcentagens são relativas ao tamanho do container que é elemento pai.
 
-The four different viewport units are:
+As quatro diferentes unidades da viewport são:
 
-<ul><li><code>vw</code> (viewport width): <code>10vw</code> would be 10% of the viewport's width.</li><li><code>vh</code> (viewport height): <code>3vh</code> would be 3% of the viewport's height.</li><li><code>vmin</code> (viewport minimum): <code>70vmin</code> would be 70% of the viewport's smaller dimension (height or width).</li><li><code>vmax</code> (viewport maximum): <code>100vmax</code> would be 100% of the viewport's bigger dimension (height or width).</li></ul>
+<ul><li><code>vw</code> (viewport width): <code>10vw</code> representa 10% da largura da viewport.</li><li><code>vh</code> (viewport height): <code>3vh</code> representa 3% da altura da viewport.</li><li><code>vmin</code> (viewport minimum): <code>70vmin</code> representa 70% da menor dimensão da viewport (altura ou largura).</li><li><code>vmax</code> (viewport maximum): <code>100vmax</code> representa 100% da maior dimensão da viewport (altura ou largura).</li></ul>
 
-Here is an example that sets a body tag to 30% of the viewport's width.
+Aqui está um exemplo que faz a tag body ter 30% da largura da viewport.
 
 `body { width: 30vw; }`
 
 # --instructions--
 
-Set the `width` of the `h2` tag to 80% of the viewport's width and the `width` of the paragraph as 75% of the viewport's smaller dimension.
+Coloque a `width` da tag `h2` em 80% da largura da viewport e a `width` do parágrafo com 75% da viewport de menor dimensão.
 
 # --hints--
 
-Your `h2` tag should have a `width` of 80vw.
+Sua tag `h2` deve ter a `width` de 80vw.
 
 ```js
 assert(code.match(/h2\s*?{\s*?width:\s*?80vw;\s*?}/g));
 ```
 
-Your `p` tag should have a `width` of 75vmin.
+Sua tag `p` deve ter a `width` de 75vmin.
 
 ```js
 assert(code.match(/p\s*?{\s*?width:\s*?75vmin;\s*?}/g));

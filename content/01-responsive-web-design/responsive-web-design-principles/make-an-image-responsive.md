@@ -9,7 +9,7 @@ dashedName: make-an-image-responsive
 
 # --description--
 
-Making images responsive with CSS is actually very simple. You just need to add these properties to an image:
+Tornar imagens responsivas com CSS é na verdade muito simples. Você simplesmente precisa adicionar estas propriedades a imagem:
 
 ```css
 img {
@@ -18,21 +18,22 @@ img {
 }
 ```
 
-The `max-width` of `100%` will make sure the image is never wider than the container it is in, and the `height` of `auto` will make the image keep its original aspect ratio.
+A `max-width` de `100%` dará certeza absoluta que a imagem nunca será maior que o container que a abriga, e a `height` de `auto`fará a imagem manter a proporção original. 
 
 # --instructions--
 
-Add the style rules to the `responsive-img` class to make it responsive. It should never be wider than its container (in this case, it's the preview window) and it should keep its original aspect ratio. After you have added your code, resize the preview to see how your images behave.
+
+Adicione as regras de estilização a classe `responsive-img` para tornar a imagem responsiva. Nunca deve ser maior que o container (neste caso, a janela anteiror) e deve manter a proporção original. Após adicionar este código, redimensione a visualização para ver como a imagem se comporta.
 
 # --hints--
 
-Your `responsive-img` class should have a `max-width` set to `100%`.
+Sua classe `responsive-img` deve ter a `max-width` setada em `100%`.
 
 ```js
 assert(getComputedStyle($('.responsive-img')[0]).maxWidth === '100%');
 ```
 
-Your `responsive-img` class should have a `height` set to `auto`.
+Sua classe `responsive-img` deve ter a`height` setada em `auto`.
 
 ```js
 assert(code.match(/height:\s*?auto;/g));
