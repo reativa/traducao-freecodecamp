@@ -9,13 +9,13 @@ dashedName: improve-form-field-accessibility-with-the-label-element
 
 # --description--
 
-Improving accessibility with semantic HTML markup applies to using both appropriate tag names as well as attributes. The next several challenges cover some important scenarios using attributes in forms.
+Melhorar a acessibilidade com a marcação semântica HTML se aplica ao uso de nomes de tag apropriadas, bem como atributos. Os próximos desafios cobrem alguns cenários importantes usando atributos em formulários.
 
-The `label` tag wraps the text for a specific form control item, usually the name or label for a choice. This ties meaning to the item and makes the form more readable. The `for` attribute on a `label` tag explicitly associates that `label` with the form control and is used by screen readers.
+A tag `label` envolve o texto para um item de controle de formulário específico, geralmente o nome ou rótulo de uma escolha. Isso vincula o significado ao item e torna o formulário mais legível. O atributo `for` em uma tag` label` associa explicitamente essa `label` com o controle de formulário e é usado por leitores de tela.
 
-You learned about radio buttons and their labels in a lesson in the Basic HTML section. In that lesson, we wrapped the radio button input element inside a `label` element along with the label text in order to make the text clickable. Another way to achieve this is by using the `for` attribute as explained in this lesson.
+Você aprendeu sobre botões de opção e seus rótulos em uma lição na seção HTML básico. Nessa lição, envolvemos o elemento de entrada do botão de opção dentro de um elemento `label` junto com o texto do rótulo para tornar o texto clicável. Outra maneira de conseguir isso é usando o atributo `for` conforme explicado nesta lição.
 
-The value of the `for` attribute must be the same as the value of the `id` attribute of the form control. Here's an example:
+O valor do atributo `for` deve ser igual ao valor do atributo `id` do controle de formulário. Aqui está um exemplo:
 
 ```html
 <form>
@@ -26,20 +26,20 @@ The value of the `for` attribute must be the same as the value of the `id` attri
 
 # --instructions--
 
-Camper Cat expects a lot of interest in his thoughtful blog posts and wants to include an email sign up form. Add a `for` attribute on the email `label` that matches the `id` on its `input` field.
+Camper Cat espera atrair muito interesse pelo seu blog cheio de postagens profundas,sendo assim ele quer incluir um formulário de inscrição por e-mail. Adicione um atributo `for` no` label` do e-mail que corresponda ao `id` em seu campo` input`.
 
 # --hints--
 
-Your code should have a `for` attribute on the `label` tag that is not empty.
+Seu código deve ter um atributo `for` na tag` label` que não está vazio.
 
 ```js
-assert($('label').attr('for'));
+assert ($ ('label'). attr ('for'));
 ```
 
-Your `for` attribute value should match the `id` value on the email `input`.
+O valor do atributo `for` deve corresponder ao valor` id` no `input` do e-mail.
 
 ```js
-assert($('label').attr('for') == 'email');
+assert ($ ('label'). attr ('for') == 'email');
 ```
 
 # --seed--

@@ -7,37 +7,37 @@ dashedName: part-1
 
 # --description--
 
-HTML elements have opening tags like `<h1>` and closing tags like `</h1>`.
+Os elementos HTML têm tags de abertura como `<h1>` e tag de fechamento como `</h1>`.
 
-Find the `h1` element and change the text between its opening and closing tags to say `CatPhotoApp`.
+encontre o elemento `h1` e altere o texto entre as tags de abertura e fechamento para dizer `CatPhotoApp`.
 
 # --hints--
 
-The text `CatPhotoApp` should be present in the code. You may want to check your spelling.
+O texto `CatPhotoApp` deve esta presente no código. Você pode querer verificar a ortografia.
 
 ```js
 assert(code.match(/catphotoapp/i));
 ```
 
-Your `h1` element should have an opening tag. Opening tags have this syntax: `<elementName>`.
+Seu elemento `h1` deve ter uma tag de abertura. tags de abertura tem essa sintaxe: `<elementName>`.
 
 ```js
 assert(document.querySelector('h1'));
 ```
 
-Your `h1` element should have a closing tag. Closing tags have a `/` just after the `<` character.
+Seu elemento `h1` deve ter uma tag de fechamento. Tag de fechamento `/` logo após o `<` .
 
 ```js
 assert(code.match(/<\/h1\>/));
 ```
 
-You have more than one `h1` element. Remove the extra `h1` element.
+Você tem mais de um elemento `h1`. Remova o elemento `h1` extra.
 
 ```js
 assert(document.querySelectorAll('h1').length === 1);
 ```
 
-Your `h1` element's text should be `CatPhotoApp`. You have either omitted the text, have a typo, or it is not between the `h1` element's opening and closing tags.
+Seu elemento `h1` deve ter o texto `CatPhotoApp`. Você omitiu o texto, cometeu um erro de digitação ou ele não está entre as tags de abertura e fechamento do elemento `h1`.
 
 ```js
 assert(document.querySelector('h1').innerText.toLowerCase() === 'catphotoapp');

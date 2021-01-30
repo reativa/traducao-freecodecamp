@@ -9,33 +9,34 @@ dashedName: say-hello-to-html-elements
 
 # --description--
 
-Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
+Bem-vindo aos desafios de codificação HTML do freeCodeCamp. Eles o guiarão pelo desenvolvimento da Web passo a passo.
 
-First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
+Primeiro, você começará construindo uma página da web simples usando HTML. Você pode editar o código em seu editor de código, que está embutido nesta página da web.
 
-Do you see the code in your code editor that says `<h1>Hello</h1>`? That's an HTML element.
+Você vê o código em seu editor de código que diz `<h1>Hello</h1>`? Esse é um elemento html.
 
-Most HTML elements have an opening tag and a closing tag.
+A maioria dos elementos HTML tem uma tag de abertura e uma tag de fechamento.
 
-Opening tags look like this:
+As tags de abertura são assim:
 
 `<h1>`
 
-Closing tags look like this:
+Tags de fechamento se parecem com isto: 
 
 `</h1>`
 
-The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
+A única diferença entre abrir e fechar as tags é a barra após o colchete de abertura de uma tag de fechamento.
 
-Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
+Cada desafio possui testes que você pode executar a qualquer momento clicando no botão "Executar testes". Quando você passar em todos os testes, será solicitado a enviar sua solução e passar para o próximo desafio de codificação.
+
 
 # --instructions--
 
-To pass the test on this challenge, change your `h1` element's text to say "Hello World".
+Para passar no teste deste desafio, mude seu texto do elemento `h1` para dizer "Hello World".
 
 # --hints--
 
-Your `h1` element should have the text "Hello World".
+Seu elemento `h1` deve ter o texto "Hello World".
 
 ```js
 assert.isTrue(/hello(\s)+world/gi.test($('h1').text()));
