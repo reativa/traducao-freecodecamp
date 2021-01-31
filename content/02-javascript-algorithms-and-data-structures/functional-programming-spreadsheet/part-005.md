@@ -1,13 +1,13 @@
 ---
 id: 5d792532b07918c3a5904913
-title: Part 5
+title: Parte 5
 challengeType: 0
 dashedName: part-5
 ---
 
 # --description--
 
-Anonymous functions are functions without names - they are used only once and then forgotten. The syntax is the same as for normal functions but without the name:
+Funções anônimas, são funções sem nome - Elas são usadas apenas uma vez e depois esquecidas. A sintaxe é a mesma das funções normais, mas sem o nome:
 
 ```js
 function(x) {
@@ -15,11 +15,11 @@ function(x) {
 }
 ```
 
-First, remove the `addVar` definition.
+Primeiro, remova a definição `addVar`.
 
 # --hints--
 
-See description above for instructions.
+Veja a descrição acima para obter mais instruções.
 
 ```js
 assert(!code.replace(/\s/g, '').includes('constaddVar=add'));
