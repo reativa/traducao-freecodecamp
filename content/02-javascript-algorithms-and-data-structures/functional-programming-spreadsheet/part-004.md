@@ -7,7 +7,7 @@ dashedName: part-4
 
 # --description--
 
-Em JavaScript, as funções são de primeira classe. Isso significa que eles podem ser usados como quaisquer outros valores - por exemplo, eles podem ser atribuidos a variáveis.
+Em JavaScript, as funções são de primeira classe. Isso significa que elas podem ser usados como quaisquer outros valores - por exemplo, elas podem ser atribuídos a variáveis.
 
 Atribua `add` para uma nova variável `addVar`.
 
