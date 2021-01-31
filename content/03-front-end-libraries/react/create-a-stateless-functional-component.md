@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036162
-title: Create a Stateless Functional Component
+title: Criar um componente funcional sem estado
 challengeType: 6
 forumTopicId: 301392
 dashedName: create-a-stateless-functional-component
@@ -23,7 +23,7 @@ const DemoComponent = function() {
 };
 ```
 
-Por causa que um componente JSX representa HTML, você poderia colocar vários componentes juntos para criar um página HTML mais complexa. Essa é uma das principais vantagens da arquitetura de componentes que o React provê. Isso permite que você componha sua UI(User interface, que traduzindo é Interface do usuário) de vários componentes separados e isolados. Isso deixa mais fácil a construção e manutenção de interfaces complexas.
+Por causa que um componente JSX representa HTML, você poderia colocar vários componentes juntos para criar uma página HTML mais complexa. Essa é uma das principais vantagens da arquitetura de componentes que o React provê. Isso permite que você componha sua UI(User interface, que traduzindo é Interface do usuário) de vários componentes separados e isolados. Isso deixa mais fácil a construção e manutenção de interfaces complexas.
 
 # --instructions--
 
