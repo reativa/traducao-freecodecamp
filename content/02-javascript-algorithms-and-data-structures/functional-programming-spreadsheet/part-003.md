@@ -11,7 +11,7 @@ Agora retorne a soma de `x` e `y` usando a palavra-chave `return`.
 
 # --hints--
 
-Veja a descrição acima para obter instruções.
+Veja a descrição acima para obter as instruções.
 
 ```js
 assert(add(1, 2) === 3 && add(100, 2000) === 2100);

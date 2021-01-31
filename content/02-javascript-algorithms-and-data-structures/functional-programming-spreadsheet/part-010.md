@@ -11,7 +11,7 @@ Remova a definição `addVar` agora redudante.
 
 # --hints--
 
-Veja a descrição acima para obter instruções.
+Veja a descrição acima para obter as instruções.
 
 ```js
 assert(typeof addVar === 'undefined');

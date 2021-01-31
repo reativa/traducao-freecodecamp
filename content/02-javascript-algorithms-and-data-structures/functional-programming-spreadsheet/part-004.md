@@ -13,7 +13,7 @@ Atribua `add` para uma nova variável `addVar`.
 
 # --hints--
 
-Veja a descrição acima para obter instruções.
+Veja a descrição acima para obter as instruções.
 
 ```js
 assert(code.replace(/\s/g, '').includes('constaddVar=add'));

@@ -19,7 +19,7 @@ Observe que o valor é retornado implicitamente.
 
 # --hints--
 
-Veja a descrição acima para obter instruções.
+Veja a descrição acima para obter as instruções.
 
 ```js
 assert(code.replace(/\s/g, '').includes('constaddVar=(x,y)=>x+y'));

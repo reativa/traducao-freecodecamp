@@ -11,7 +11,7 @@ Adicione a chave `+` a `infixToFunction` e atribula a ela o valor `addVar`.
 
 # --hints--
 
-Veja a descrição acima para obter instruções.
+Veja a descrição acima para obter as instruções.
 
 ```js
 assert(infixToFunction['+'].toString() === addVar.toString());
