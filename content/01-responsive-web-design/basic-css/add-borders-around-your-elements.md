@@ -9,9 +9,9 @@ dashedName: add-borders-around-your-elements
 
 # --description--
 
-CSS borders have properties like `style`, `color` and `width`.
+Bordas em CSS têm propriedades como `style`,` color` e `width`.
 
-For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
+Por exemplo, se quisessemos criar uma borda vermelha de 5 pixels em torno de um elemento HTML, poderíamos usar esta classe:
 
 ```html
 <style>
@@ -25,27 +25,27 @@ For example, if we wanted to create a red, 5 pixel border around an HTML element
 
 # --instructions--
 
-Create a class called `thick-green-border`. This class should add a 10px, solid, green border around an HTML element. Apply the class to your cat photo.
+Crie uma classe chamada `thick-green-border`. Esta classe deve adicionar uma borda sólida verde de 10 px ao redor de um elemento HTML. Aplique a classe à foto do seu gato.
 
-Remember that you can apply multiple classes to an element using its `class` attribute, by separating each class name with a space. For example:
+Lembre-se de que você pode aplicar várias classes a um elemento usando seu atributo `class`, separando cada nome de classe com um espaço. Por exemplo: 
 
 `<img class="class1 class2">`
 
 # --hints--
 
-Your `img` element should have the class `smaller-image`.
+Seu elemento `img` deve ter a classe `smaller-image`.
 
 ```js
 assert($('img').hasClass('smaller-image'));
 ```
 
-Your `img` element should have the class `thick-green-border`.
+Seu elemento `img` deve ter a classe` thick-green-border`. 
 
 ```js
 assert($('img').hasClass('thick-green-border'));
 ```
 
-Your image should have a border width of `10px`.
+Sua imagem deve ter uma largura de borda de `10px`.
 
 ```js
 assert(
@@ -55,13 +55,13 @@ assert(
 );
 ```
 
-Your image should have a border style of `solid`.
+Sua imagem deve ter um estilo de borda `solid`. 
 
 ```js
 assert($('img').css('border-right-style') === 'solid');
 ```
 
-The border around your `img` element should be green.
+A borda ao redor do elemento `img` deve ser verde.
 
 ```js
 assert($('img').css('border-left-color') === 'rgb(0, 128, 0)');
