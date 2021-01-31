@@ -7,7 +7,7 @@ dashedName: part-10
 
 # --description--
 
-Remova a definição `addVar` agora redudante.
+Remova a constante `addVar` agora redudante.
 
 # --hints--
 
