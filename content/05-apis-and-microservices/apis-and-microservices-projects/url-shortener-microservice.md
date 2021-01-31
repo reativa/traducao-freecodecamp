@@ -32,6 +32,7 @@ Você deve fornecer seu próprio projeto, não a URL utilizada como exemplo.
     )
   );
 };
+
 ```
 Você pode realizar uma requisição `POST` da URL para `/api/shorturl/new` e receber um JSON como reposta com as propriedades `original_url` e `short_url`. Exemplo: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`.
 
