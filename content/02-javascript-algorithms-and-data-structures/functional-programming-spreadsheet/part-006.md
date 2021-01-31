@@ -1,13 +1,13 @@
 ---
 id: 5d792533cc8b18b6c133edc7
-title: Part 6
+title: Parte 6
 challengeType: 0
 dashedName: part-6
 ---
 
 # --description--
 
-Anonymous functions are often passed as arguments to other functions, but what if you want to call one later? You can assign anonymous functions to variables and call them with the variable's name:
+As funções anônimas são frequentemente passadas como argumentos para outras funções, mas e se você quiser chamar uma depois? você pode atribuir funções anônimas a variáveis e chamá-las com o nome da variável:
 
 ```js
 const fn = function(x) {
@@ -17,11 +17,11 @@ const fn = function(x) {
 fn();
 ```
 
-Assign the anonymous function to the variable `addVar`.
+Atribua a função anônima à variável `addVar`.
 
 # --hints--
 
-See description above for instructions.
+Veja a descrição acima para obter instruções.
 
 ```js
 assert(code.replace(/\s/g, '').includes('constaddVar=function(x,y){returnx+y'));
