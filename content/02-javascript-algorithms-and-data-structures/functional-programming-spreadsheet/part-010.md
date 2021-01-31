@@ -7,11 +7,11 @@ dashedName: part-10
 
 # --description--
 
-Remove the now redundant `addVar` definition.
+Remova a definição `addVar` agora redudante.
 
 # --hints--
 
-See description above for instructions.
+Veja a descrição acima para obter instruções.
 
 ```js
 assert(typeof addVar === 'undefined');
