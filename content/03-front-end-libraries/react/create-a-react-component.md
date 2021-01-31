@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036163
-title: Create a React Component
+title: Criando um componente React
 challengeType: 6
 forumTopicId: 301386
 dashedName: create-a-react-component
@@ -8,7 +8,7 @@ dashedName: create-a-react-component
 
 # --description--
 
-The other way to define a React component is with the ES6 `class` syntax. In the following example, `Kitten` extends `React.Component`:
+A outra forma de criar um componente React é com a sintaxe de classe do ES6(com a palavra reservada `class`). No exemplo a seguir, o componente ``Kitten` extende a classe `Component` de dentro do React.
 
 ```jsx
 class Kitten extends React.Component {
@@ -17,43 +17,36 @@ class Kitten extends React.Component {
   }
 
   render() {
-    return (
-      <h1>Hi</h1>
-    );
+    return <h1>Hi</h1>;
   }
 }
 ```
 
-This creates an ES6 class `Kitten` which extends the `React.Component` class. So the `Kitten` class now has access to many useful React features, such as local state and lifecycle hooks. Don't worry if you aren't familiar with these terms yet, they will be covered in greater detail in later challenges. Also notice the `Kitten` class has a `constructor` defined within it that calls `super()`. It uses `super()` to call the constructor of the parent class, in this case `React.Component`. The constructor is a special method used during the initialization of objects that are created with the `class` keyword. It is best practice to call a component's `constructor` with `super`, and pass `props` to both. This makes sure the component is initialized properly. For now, know that it is standard for this code to be included. Soon you will see other uses for the constructor as well as `props`.
+Isso irá criar uma classe usando a sintaxe de classes do ES6, essa classe terá o nome `Kitten`, e ela extenderá a classe `Component` do React(ou `React.Component` em outras palavras). Por causa disso a classe `Kitten` agora tem acesso a muitas funcionalidades úteis do React, como estado local e hooks de ciclo de vida. Não se preocupe se você ainda não é tão familiar com estes termos, eles serão vistos com mais detalhes em desafios futuros. Perceba também que a classe `Kitten` tem um método `constructor` definido dentro dela, este método por sua vez chama o método `super()`. O método `super` é usado para chamar o construtor da classe pai, que neste caso é a classe `Component` do React. O construtor é um método especial usado na inicialização de objetos que são criados com a palavra chave `class`. É uma boa prática chamar o construtor de um componente com o método `super` e passar as `props` para ambos. Isso garante que o componente foi inicializado corretamente. Logo você verá outros usos para o construtor(como as props por exemplo).
 
 # --instructions--
 
-`MyComponent` is defined in the code editor using class syntax. Finish writing the `render` method so it returns a `div` element that contains an `h1` with the text `Hello React!`.
+`MyComponent` é definido usando uma sintaxe de classe. Termine de escrever o método `render` e então ele retornará uma `div` que contém um `h1` com o texto `Hello React!`.
 
 # --hints--
 
-The React component should return a `div` element.
+O componente deve retornar um elemento com a tag `div`.
 
 ```js
-assert(Enzyme.shallow(React.createElement(MyComponent)).type() === 'div');
+assert(Enzyme.shallow(React.createElement(MyComponent)).type() === "div");
 ```
 
-The returned `div` should render an `h1` header within it.
+A `div` retornada deve ter um `h1` dentro dela.
+
+```js
+assert(/<div><h1>.*<\/h1><\/div>/.test(Enzyme.shallow(React.createElement(MyComponent)).html()));
+```
+
+O `h1` por sua vez deve conter o texto `Hello React!`.
 
 ```js
 assert(
-  /<div><h1>.*<\/h1><\/div>/.test(
-    Enzyme.shallow(React.createElement(MyComponent)).html()
-  )
-);
-```
-
-The `h1` header should contain the string `Hello React!`.
-
-```js
-assert(
-  Enzyme.shallow(React.createElement(MyComponent)).html() ===
-    '<div><h1>Hello React!</h1></div>'
+  Enzyme.shallow(React.createElement(MyComponent)).html() === "<div><h1>Hello React!</h1></div>"
 );
 ```
 
@@ -62,7 +55,7 @@ assert(
 ## --after-user-code--
 
 ```jsx
-ReactDOM.render(<MyComponent />, document.getElementById('root'))
+ReactDOM.render(<MyComponent />, document.getElementById("root"));
 ```
 
 ## --seed-contents--
@@ -74,12 +67,9 @@ class MyComponent extends React.Component {
   }
   render() {
     // Change code below this line
-
-
-
     // Change code above this line
   }
-};
+}
 ```
 
 # --solutions--
@@ -98,5 +88,5 @@ class MyComponent extends React.Component {
     );
     // Change code above this line
   }
-};
+}
 ```
