@@ -1,17 +1,17 @@
 ---
 id: 5d79253352e33dd59ec2f6de
-title: Part 8
+title: Parte 8
 challengeType: 0
 dashedName: part-8
 ---
 
 # --description--
 
-Add the key `+` to `infixToFunction` and assign it the value `addVar`.
+Adicione a chave `+` a `infixToFunction` e atribula a ela o valor `addVar`.
 
 # --hints--
 
-See description above for instructions.
+Veja a descrição acima para obter instruções.
 
 ```js
 assert(infixToFunction['+'].toString() === addVar.toString());
