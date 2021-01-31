@@ -14,6 +14,8 @@ Construa um projeto Javascript full stack cuja funcionalidade seja a similar a e
 - Utilize [nosso inicializador de projeto repl.it ](https://repl.it/github/freeCodeCamp/boilerplate-project-urlshortener) para completar seu projeto.
 - Utilize um inicializador de sua preferência para completar o projeto. Assegure-se de incorporar todos os arquivos à partir do nosso repositório GitHub.
 
+Ao terminar, assegure-se de que uma versão funcional do seu projeto esteja hospedada em algum lugar público. Em seguida, submeta a URL da sua versão no campo `Link da Solução`. Ainda, você pode, de forma opcional, submeter o link do código-fonte do seu projeto no campo `Link GitHub`.
+
 # --instructions--
 
 **HINT:** Não se esqueça de utilizar um body parsing middleware para lidar com as requisições `POST`. Além disso, você pode utilizar a função `dns.lookup(host, cb)` do módulo central `dns` para verificar uma URL submetida.
