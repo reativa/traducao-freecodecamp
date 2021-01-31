@@ -81,7 +81,7 @@ Uma requisição `GET` para `/api/timestamp/1451001600000` deve retornar `{ unix
   );
 ```
 
-Seu projeto pode lidar com datas que podem ser parseadas com sucesso por `new Date(date_string)`.
+Seu projeto pode lidar com datas string que podem ser convertidas com sucesso por `new Date(date_string)`.
 
 ```js
 (getUserInput) =>
