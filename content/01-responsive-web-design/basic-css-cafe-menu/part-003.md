@@ -1,15 +1,16 @@
+
 ---
 id: 5f331e55dfab7a896e53c3a1
-title: Part 3
+title: Parte 3
 challengeType: 0
 dashedName: part-3
 ---
 
 # --description--
 
-The `title` is one of several elements that provide extra information not visible on the web page, but could be useful for search engines or how the page gets displayed.
+O `title` é um dos vários elementos que proveem informações extras que não são visíveis na página web, mas podem ser úteis para motores de busca ou a forma como a página é exibida.
 
-Inside the `head` element, nest a `meta` element with an attribute named `charset` set to the value `utf-8` to tell the browser how to encode characters for the page. Note tha `meta` elements are self-closing.
+Dentro do elemento `head`, aninhe um elemento `meta` com um atributo chamado `charset` com o valor `uft-8` para dizer ao navegador como codificar caracteres para a página. Note que elementos `meta` possuem auto fechamento. 
 
 # --hints--
 
