@@ -1,19 +1,19 @@
 ---
 id: 5d7925329445167ecc2ac9c9
-title: Part 4
+title: Parte 4
 challengeType: 0
 dashedName: part-4
 ---
 
 # --description--
 
-In JavaScript, functions are first class. This means that they can be used like any other values - for example, they can be assigned to variables.
+Em JavaScript, as funções são de primeira classe. Isso significa que eles podem ser usados como quaisquer outros valores - por exemplo, eles podem ser atribuidos a variáveis.
 
-Assign `add` to a new variable `addVar`.
+Atribua `add` para uma nova variável `addVar`.
 
 # --hints--
 
-See description above for instructions.
+Veja a descrição acima para obter mais instruções.
 
 ```js
 assert(code.replace(/\s/g, '').includes('constaddVar=add'));
