@@ -9,40 +9,40 @@ dashedName: standardize-times-with-the-html5-datetime-attribute
 
 # --description--
 
-Continuing with the date theme, HTML5 also introduced the `time` element along with a `datetime` attribute to standardize times. This is an inline element that can wrap a date or time on a page. A valid format of that date is held by the `datetime` attribute. This is the value accessed by assistive devices. It helps avoid confusion by stating a standardized version of a time, even if it's written in an informal or colloquial manner in the text.
+Continuando com o tema de datas, o HTML5 também introduziu o elemento `time` junto com um atributo `datetime` para padronizar os horários. Este é um elemento embutido que pode envolver uma data ou hora em uma página. Um formato válido dessa data é mantido pelo atributo `datetime`. Este é o valor acessado por dispositivos auxiliares. Ajuda a evitar confusão ao declarar uma versão padronizada de um horário, mesmo que seja escrito de maneira informal ou coloquial no texto.
 
-Here's an example:
+Aqui está um exemplo:
 
 `<p>Master Camper Cat officiated the cage match between Goro and Scorpion <time datetime="2013-02-13">last Wednesday</time>, which ended in a draw.</p>`
 
 # --instructions--
 
-Camper Cat's Mortal Kombat survey results are in! Wrap a `time` tag around the text "Thursday, September 15&lt;sup>th&lt;/sup>" and add a `datetime` attribute to it set to "2016-09-15".
+Os resultados da pesquisa de Mortal Kombat do Camper Cat chegaram! Envolva uma tag `time` em torno do texto "Thursday, September 15&lt;sup>th&lt;/sup>" e adicione um atributo `datetime` a ele, definido como "2016-09-15".
 
 # --hints--
 
-Your code should have a `p` element which includes the text `Thank you to everyone for responding to Master Camper Cat's survey.` and include a `time` element.
+Seu código deve ter um elemento `p` que inclui o texto `Thank you to everyone for responding to Master Camper Cat's survey.` e incluir um elemento `time`.
 
 ```js
-assert(timeElement.length);
+assert (timeElement.length);
 ```
 
-Your added `time` tags should wrap around the text `Thursday, September 15<sup>th</sup>`.
+Suas tags `time` adicionadas devem envolver o texto `Thursday, September 15<sup>th</sup>`.
 
 ```js
-assert(
-  timeElement.length &&
-    $(timeElement).html().trim() === 'Thursday, September 15<sup>th</sup>'
+afirmar(
+   timeElement.length &&
+     $ (timeElement) .html (). trim () === 'Quinta-feira, 15 de setembro <sup> th </sup>'
 );
 ```
 
-Your added `time` tag should have a `datetime` attribute that is not empty.
+A tag `time` adicionada deve ter um atributo `datetime` não vazio.
 
 ```js
-assert(datetimeAttr && datetimeAttr.length);
+assert (datetimeAttr && datetimeAttr.length);
 ```
 
-Your added `datetime` attribute should be set to a value of `2016-09-15`.
+O atributo `datetime` adicionado deve ser definido para um valor igual a `2016-09-15`.
 
 ```js
 assert(datetimeAttr === '2016-09-15');

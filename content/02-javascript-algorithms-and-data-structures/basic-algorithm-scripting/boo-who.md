@@ -8,67 +8,67 @@ dashedName: boo-who
 
 # --description--
 
-Check if a value is classified as a boolean primitive. Return true or false.
+Verifique se um valor é classificado como boleano primitivo. Retorne verdadeiro (true) ou falso (false).
 
-Boolean primitives are true and false.
+Boleanos primitivos são *true* ou *false*.
 
 # --hints--
 
-`booWho(true)` should return true.
+`booWho(true)` Devemos retornar true.
 
 ```js
 assert.strictEqual(booWho(true), true);
 ```
 
-`booWho(false)` should return true.
+`booWho(false)` Devemos retornar true.
 
 ```js
 assert.strictEqual(booWho(false), true);
 ```
 
-`booWho([1, 2, 3])` should return false.
+`booWho([1, 2, 3])` Devemos retornar false.
 
 ```js
 assert.strictEqual(booWho([1, 2, 3]), false);
 ```
 
-`booWho([].slice)` should return false.
+`booWho([].slice)` Devemos retornar false.
 
 ```js
 assert.strictEqual(booWho([].slice), false);
 ```
 
-`booWho({ "a": 1 })` should return false.
+`booWho({ "a": 1 })` Devemos retornar false.
 
 ```js
 assert.strictEqual(booWho({ a: 1 }), false);
 ```
 
-`booWho(1)` should return false.
+`booWho(1)` Devemos retornar false.
 
 ```js
 assert.strictEqual(booWho(1), false);
 ```
 
-`booWho(NaN)` should return false.
+`booWho(NaN)` Devemos retornar false.
 
 ```js
 assert.strictEqual(booWho(NaN), false);
 ```
 
-`booWho("a")` should return false.
+`booWho("a")` Devemos retornar false.
 
 ```js
 assert.strictEqual(booWho('a'), false);
 ```
 
-`booWho("true")` should return false.
+`booWho("true")` Devemos retornar false.
 
 ```js
 assert.strictEqual(booWho('true'), false);
 ```
 
-`booWho("false")` should return false.
+`booWho("false")` Devemos retornar false.
 
 ```js
 assert.strictEqual(booWho('false'), false);

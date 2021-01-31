@@ -6,17 +6,16 @@ videoUrl: 'https://scrimba.com/c/cPp79S3'
 forumTopicId: 301029
 dashedName: wrap-content-in-the-article-element
 ---
-
 # --description--
 
-`article` is another one of the new HTML5 elements that adds semantic meaning to your markup. `article` is a sectioning element, and is used to wrap independent, self-contained content. The tag works well with blog entries, forum posts, or news articles.
+O `article` é outro dos novos elementos HTML5 que adiciona significado semântico à sua marcação. O `article` é um elemento de seccionamento e é usado para envolver conteúdo independente e autocontido. A tag funciona bem com entradas de blog, postagens de fórum ou artigos de notícias.
 
-Determining whether content can stand alone is usually a judgement call, but there are a couple simple tests you can use. Ask yourself if you removed all surrounding context, would that content still make sense? Similarly for text, would the content hold up if it were in an RSS feed?
+Determinar se o conteúdo pode ser independente geralmente é uma questão de julgamento, mas existem alguns testes simples que você pode usar. Pergunte a si mesmo: se você removeu todo o contexto circundante, esse conteúdo ainda faria sentido? Da mesma forma para textos, o conteúdo se manteria se estivesse em um feed RSS?
 
-Remember that folks using assistive technologies rely on organized, semantically meaningful markup to better understand your work.
+Lembre-se de que as pessoas que usam tecnologias assistivas contam com uma marcação organizada e semanticamente significativa para entender melhor seu trabalho.
 
-**Note about `section` and `div`**  
-The `section` element is also new with HTML5, and has a slightly different semantic meaning than `article`. An `article` is for standalone content, and a `section` is for grouping thematically related content. They can be used within each other, as needed. For example, if a book is the `article`, then each chapter is a `section`. When there's no relationship between groups of content, then use a `div`.
+**Nota sobre `section` e `div`**
+O elemento `section` também é novo no HTML5 e tem um significado semântico ligeiramente diferente do `article`. Um `article` é para um conteúdo autônomo, e uma `section` é para agrupar conteúdo relacionado por temas. Eles podem ser usados ​​uns com os outros, conforme necessário. Por exemplo, se um livro é o `article`, então cada capítulo é uma `section`. Quando não há relacionamento entre grupos de conteúdo, use uma `div`.
 
 ```html
 <div> - groups content
@@ -26,17 +25,19 @@ The `section` element is also new with HTML5, and has a slightly different seman
 
 # --instructions--
 
-Camper Cat used `article` tags to wrap the posts on his blog page, but he forgot to use them around the top one. Change the `div` tag to use an `article` tag instead.
+
+O Camper Cat usou as tags `article` para envolver as postagens em sua página de blog, mas ele se esqueceu de usá-las na parte superior. Altere a tag `div` para usar uma tag `article`.
+
 
 # --hints--
 
-Your code should have three `article` tags.
+Seu código deve ter três tags `article`.
 
 ```js
 assert($('article').length == 3);
 ```
 
-Your code should not have any `div` tags.
+Seu código não deve ter nenhuma tag `div`.
 
 ```js
 assert($('div').length == 0);

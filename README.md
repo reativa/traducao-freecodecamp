@@ -1,15 +1,15 @@
-<h1 align="center">Seja bem vindo ao projeto de traducao dos enunciados do freecodecamp 👋</h1>
+<h1 align="center">Seja bem vindo ao projeto de tradução dos enunciados do freecodecamp 👋</h1>
 <p>
   <a href="https://opensource.org/licenses/MIT" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
 
-## Traduçao dos enunciados do FreeCodeCamp para pt-br
+## Tradução dos enunciados do FreeCodeCamp para PT-BR
 
 ### 🏠 [Homepage](https://bit.ly/reativa-iniciantes)
 
-# Como contribuir? 
+# Como contribuir?
 
 Nós não temos muita frescura, então basicamente você terá que escolher algum arquivo que esteja disponível e enviar o PR para nós.
 
@@ -19,7 +19,7 @@ Se você tiver dúvidas sobre como fazer este processo, nós explicamos aqui [ne
 
 É só escolher qualquer arquivo que ainda esteja com o commit inicial `📦 add: first commit`.
 
-Exemplo: 
+Exemplo:
 
 <p align="center">
    <a href="#"><img src="https://github.com/reativa/traducao-freecodecamp/blob/master/assets/images/disponiveis.png?raw=true"></a>
@@ -27,7 +27,7 @@ Exemplo:
 
 ## Quais cuidados devo tomar?
 
-Você não precisa traduzir as chaves do cabeçalho e nem os headlines, por exemplo: 
+Você não precisa traduzir as chaves do cabeçalho e nem os headlines, por exemplo:
 
 Você não deve traduzir as chaves `id, title, challengeType, videoUrl, forumTopicId, dashedName`, nesse caso você traduzirá apenas o valor do título, então isso daqui:
 
@@ -42,7 +42,7 @@ dashedName: accessing-object-properties-with-bracket-notation
 ---
 ```
 
-Se transformaria nisso: 
+Se transformaria nisso:
 
 ```
 ---
@@ -55,7 +55,7 @@ dashedName: accessing-object-properties-with-bracket-notation
 ---
 ```
 
-Os headlines também NÃO precisam ser traduzidos, por exemplo: 
+Os headlines também NÃO precisam ser traduzidos, por exemplo:
 
 ```
 # --description--
@@ -81,8 +81,8 @@ Se tiver dúvidas, crie uma Issue.
 
 👤 **Paulo Luan**
 
-* Website: https://bit.ly/reativa-iniciantes
-* LinkedIn: [@pauloluan](http://bit.ly/pauloluan)
+- Website: https://bit.ly/reativa-iniciantes
+- LinkedIn: [@pauloluan](http://bit.ly/pauloluan)
 
 ## Show your support
 
