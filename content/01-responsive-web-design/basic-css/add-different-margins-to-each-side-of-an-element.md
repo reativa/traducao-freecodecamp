@@ -1,6 +1,6 @@
 ---
 id: bad87fee1248bd9aedf08824
-title: Add Different Margins to Each Side of an Element
+title: Adicionando margens diferentes para cada lado de um elemento.
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cg4RWh4'
 forumTopicId: 16633

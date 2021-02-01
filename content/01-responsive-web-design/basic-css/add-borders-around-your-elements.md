@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9bedf08813
-title: Add Borders Around Your Elements
+title: Adicionando bordas ao redor de seus elementos 
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MvnHZ'
 forumTopicId: 16630
