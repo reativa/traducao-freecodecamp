@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036164
-title: Crie um componente com composição
+title: Criando um componente com composição
 challengeType: 6
 forumTopicId: 301383
 dashedName: create-a-component-with-composition
