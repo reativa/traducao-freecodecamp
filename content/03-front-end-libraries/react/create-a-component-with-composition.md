@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036164
-title: Create a Component with Composition
+title: Crie um componente com composição
 challengeType: 6
 forumTopicId: 301383
 dashedName: create-a-component-with-composition
@@ -8,9 +8,9 @@ dashedName: create-a-component-with-composition
 
 # --description--
 
-Now we will look at how we can compose multiple React components together. Imagine you are building an App and have created three components, a `Navbar`, `Dashboard`, and `Footer`.
+Agora veremos como nós podemos compor múltiplos componentes React juntos. Imagine que você está construindo um App e criou três componentes, uma `Navbar`, `Dashboard` e um `Footer`.
 
-To compose these components together, you could create an `App` *parent* component which renders each of these three components as *children*. To render a component as a child in a React component, you include the component name written as a custom HTML tag in the JSX. For example, in the `render` method you could write:
+Para compor esses componentes juntos, você poderia criar um componente *pai* `App` que renderiza cada um desses três componentes como componentes *filhos*. Para renderizar um componente como um componente filho no React, você precisa incluir o nome do componente escrito como uma tag HTML no JSX. Por exemplo, no método `render` você poderia escrever:
 
 ```jsx
 return (
@@ -22,17 +22,17 @@ return (
 )
 ```
 
-When React encounters a custom HTML tag that references another component (a component name wrapped in `< />` like in this example), it renders the markup for that component in the location of the tag. This should illustrate the parent/child relationship between the `App` component and the `Navbar`, `Dashboard`, and `Footer`.
+Quando o React encontra uma tag HTML personalizada que faz referência a outro componente (que está encapsulado em `< />` como neste exemplo), ele renderiza as marcações daquele componente no lugar da tag. Isso deveria ilustrar a relação de pai e filho entre o componente `App` e os componentes `Navbar`, `Dashboard` e `Footer`.
 
 # --instructions--
 
-In the code editor, there is a simple functional component called `ChildComponent` and a class component called `ParentComponent`. Compose the two together by rendering the `ChildComponent` within the `ParentComponent`. Make sure to close the `ChildComponent` tag with a forward slash.
+No editor, há um simples componente em forma de função chamado `ChildComponent` e um componente em forma de classe chamado `ParentComponent`. Componha os dois componentes juntos ao renderizar o `ChildComponent` dentro do `ParentComponent`. Se certifique de fechar a tag do `ChildComponent` com uma `/>`, por exemplo: `<ChildComponent />`.
 
-**Note:** `ChildComponent` is defined with an ES6 arrow function because this is a very common practice when using React. However, know that this is just a function. If you aren't familiar with the arrow function syntax, please refer to the JavaScript section.
+**Note:** `ChildComponent` está definido com uma arrow function do ES6, essa é uma prática muito comum no React. Todavia, saiba que isso é somente uma função. Se você não é familiar com essa sintáxe de arrow function, veja a seção de Javascript.
 
 # --hints--
 
-The React component should return a single `div` element.
+O componente deve retornar um único elemento, que é uma `div`.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-The component should return two nested elements.
+O componente deve retornar dois elementos aninhados.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-The component should return the ChildComponent as its second child.
+O componente deve retornar o ChildComponent como seu segundo filho.
 
 ```js
 assert(
