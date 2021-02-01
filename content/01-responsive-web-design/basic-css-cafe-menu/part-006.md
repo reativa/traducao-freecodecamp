@@ -1,13 +1,14 @@
+
 ---
 id: 5f332a88dc25a0fd25c7687a
-title: Part 6
+title: Parte 6
 challengeType: 0
 dashedName: part-6
 ---
 
 # --description--
 
-To let visitors know the cafe was founded in 2020, add a `p` element below the `h1` element with the text `Est. 2020`.
+Para informar aos visitantes que o café foi fundado em 2020, adicione um elemento `p` abaixo do elemento `h1` com o texto `Est. 2020`.
 
 # --hints--
 
