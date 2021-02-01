@@ -9,15 +9,13 @@ dashedName: adjust-the-tone-of-a-color
 
 # --description--
 
-The `hsl()` option in CSS also makes it easy to adjust the tone of a color. Mixing white with a pure hue creates a tint of that color, and adding black will make a shade. Alternatively, a tone is produced by adding gray or by both tinting and shading. Recall that the 's' and 'l' of `hsl()` stand for saturation and lightness, respectively. The saturation percent changes the amount of gray and the lightness percent determines how much white or black is in the color. This is useful when you have a base hue you like, but need different variations of it.
-
+A opção `hsl ()` em CSS também facilita o ajuste do tom de uma cor. A mistura de branco com um matiz puro cria uma tonalidade dessa cor, e a adição de preto criará uma sombra. Como alternativa, um tom é produzido adicionando cinza, ou o matizando e o sombreando. Lembre-se de que o 's' e 'l' de `hsl ()` representam saturação e leveza, respectivamente. A porcentagem de saturação altera a quantidade de cinza e a porcentagem de claridade determina quanto branco ou preto há na cor. Isso é útil quando você tem um matiz básico de que gosta, mas precisa de diferentes variações dele.
 # --instructions--
 
-All elements have a default `background-color` of `transparent`. Our `nav` element currently appears to have a `cyan` background, because the element behind it has a `background-color` set to `cyan`. Add a `background-color` to the `nav` element so it uses the same `cyan` hue, but has `80% saturation` and `25% lightness` values to change its tone and shade.
-
+Todos os elementos têm uma `background-color` padrão `transparent`. Nosso elemento `nav` atualmente parece ter um fundo `cyan`, porque o elemento atrás dele tem um `background-color` definido como `cyan`. Adicione um `background-color` ao elemento `nav` para que ele use o mesmo matiz `cyan`, mas tenha valores de `80% saturation` e `25% lightness` para alterar seu tom e sombra.
 # --hints--
 
-The `nav` element should have a `background-color` of the adjusted cyan tone using the `hsl()` property.
+O elemento `nav` deve ter um `background-color` do tom ciano(cyan) ajustado, usando a propriedade `hsl ()`.
 
 ```js
 assert(
