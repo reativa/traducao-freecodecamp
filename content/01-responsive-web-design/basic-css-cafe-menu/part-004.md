@@ -1,13 +1,14 @@
+
 ---
 id: 5f3326b143638ee1a09ff1e3
-title: Part 4
+title: Parte 4
 challengeType: 0
 dashedName: part-4
 ---
 
 # --description--
 
-To prepare to create some actual content, add a `body` element below the `head` element.
+Para se preparar para criar algum conteúdo real, adicione um elemento `body` abaixo do elemento `head`.
 
 # --hints--
 
