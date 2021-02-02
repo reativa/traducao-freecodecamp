@@ -9,15 +9,15 @@ dashedName: adjust-the-size-of-a-header-versus-a-paragraph-tag
 
 # --description--
 
-The font size of header tags (`h1` through `h6`) should generally be larger than the font size of paragraph tags. This makes it easier for the user to visually understand the layout and level of importance of everything on the page. You use the `font-size` property to adjust the size of the text in an element.
+O tamanho da fonte das tags de cabeçalho (`h1` à `h6`) geralmente deve ser maior do que o tamanho da fonte das tags de parágrafo. Isso torna mais fácil para o usuário entender visualmente o layout e o nível de importância de tudo na página. Use a propriedade `font-size` para ajustar o tamanho do texto em um elemento.
 
 # --instructions--
 
-To make the heading significantly larger than the paragraph, change the `font-size` of the `h4` tag to 27 pixels.
+Para tornar o título significativamente maior do que o parágrafo, altere o `font-size` da tag `h4` para 27 pixels.
 
 # --hints--
 
-Your code should add a `font-size` property to the `h4` element set to 27 pixels.
+Seu código deve adicionar uma propriedade `font-size` ao elemento `h4` definindo-o para 27 pixels.
 
 ```js
 assert($('h4').css('font-size') == '27px');

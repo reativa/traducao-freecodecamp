@@ -1,13 +1,14 @@
+
 ---
 id: 5f332b23c2045fb843337579
-title: Part 7
+title: Parte 7
 challengeType: 0
 dashedName: part-7
 ---
 
 # --description--
 
-Since the `p` element added in the previous step provides supplemental information about the cafe, nest both the `h1` and `p` elements in a `header` element.
+Como o elemento `p` adicionado na etapa anterior provê informação adicional sobre o café, aninhe ambos os elementos `h1` e `p` em um elemento `header`.
 
 # --hints--
 

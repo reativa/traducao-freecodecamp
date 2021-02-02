@@ -1,17 +1,17 @@
 ---
 id: 5d792532f631702ae6d23e11
-title: Part 3
+title: Parte 3
 challengeType: 0
 dashedName: part-3
 ---
 
 # --description--
 
-Now return the sum of `x` and `y` using the `return` keyword.
+Agora retorne a soma de `x` e `y` usando a palavra-chave `return`.
 
 # --hints--
 
-See description above for instructions.
+Veja a descrição acima para obter as instruções.
 
 ```js
 assert(add(1, 2) === 3 && add(100, 2000) === 2100);
