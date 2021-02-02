@@ -3,7 +3,7 @@
 
 id:  587d78ad367417b2b2512af8
 
-title:  Alinhando Elementos Usando a Propriedade align-items 
+title:  Alinhe Elementos Usando a Propriedade align-items 
 
 challengeType:  0
 
@@ -33,7 +33,7 @@ Um exemplo ajuda a mostrar essa propriedade em ação. Adicione à propriedade `
 
 **Bônus**
 
-Tente as outras opções para a propriedade `align-items` no editor de códigoproperty para ver suas diferenças. Mas apenas o valor `center`  é o único que passará no teste deste desafio.
+Tente as outras opções para a propriedade `align-items` no editor de código para ver suas diferenças. Mas apenas o valor `center`  é o único que passará no teste deste desafio.
 
 # --hints--
 
