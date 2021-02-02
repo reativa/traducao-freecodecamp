@@ -18,6 +18,7 @@ Adicione uma propriedade `z-index` ao elemento com o nome de classe `first` (o r
 # --hints--
 
 O elemento com a classe `first` deve ter um valor de `z-index` de 2.
+
 ```js
 assert($('.first').css('z-index') == '2');
 ```
