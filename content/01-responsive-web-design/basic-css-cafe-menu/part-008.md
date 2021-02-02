@@ -1,13 +1,15 @@
 ---
 id: 5f33310c1851c6c4da013250
-title: Part 8
+title: Parte 8
 challengeType: 0
 dashedName: part-8
 ---
 
 # --description--
 
-It's time to add some menu content. Add a `main` element below the existing `header` element. It will eventually contain pricing information about coffees and desserts offered by the cafe.
+
+
+É hora de adicionar algum conteúdo ao menu. Adicione um elemento `main` abaixo do elemento `header` existente. Este irá eventualmente conter informações sobre preço das bebidas e sobremesas oferecidas pelo café.
 
 # --hints--
 

@@ -1,13 +1,13 @@
 ---
 id: 5f344fbc22624a2976425065
-title: Part 10
+title: Parte 10
 challengeType: 0
 dashedName: part-10
 ---
 
 # --description--
 
-Create an `h2` element in the `section` element and give it the text `Coffees`.
+Crie um elemento `h2` no elemento `section` e adicione a ele o texto `Coffes`.
 
 # --hints--
 

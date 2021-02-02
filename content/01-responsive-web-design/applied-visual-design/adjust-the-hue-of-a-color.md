@@ -9,55 +9,55 @@ dashedName: adjust-the-hue-of-a-color
 
 # --description--
 
-Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the `hsl()` property as an alternative way to pick a color by directly stating these characteristics.
+As cores têm várias características, incluindo Hue(matiz), Saturation(saturação) e Lightness(luminosidade). CSS3 introduziu a propriedade `hsl ()` como uma forma alternativa de escolher uma cor, declarando diretamente essas características.
 
-**Hue** is what people generally think of as 'color'. If you picture a spectrum of colors starting with red on the left, moving through green in the middle, and blue on right, the hue is where a color fits along this line. In `hsl()`, hue uses a color wheel concept instead of the spectrum, where the angle of the color on the circle is given as a value between 0 and 360.
+**Hue** é o que as pessoas geralmente chamam de 'cor'. Se você imaginar um espectro de cores começando com o vermelho à esquerda, passando pelo verde no meio e pelo azul à direita, o matiz é onde uma cor se ajusta ao longo desta linha. Em `hsl ()`, *hue* usa um conceito de roda de cores em vez do espectro, onde o ângulo da cor no círculo é dado como um valor entre 0 e 360.
 
-**Saturation** is the amount of gray in a color. A fully saturated color has no gray in it, and a minimally saturated color is almost completely gray. This is given as a percentage with 100% being fully saturated.
+**Saturation** é a quantidade de cinza em uma cor. Uma cor totalmente saturada não contém cinza e uma cor minimamente saturada é quase totalmente cinza. Sendo uma porcentagem com 100% igual a totalmente saturado.
 
-**Lightness** is the amount of white or black in a color. A percentage is given ranging from 0% (black) to 100% (white), where 50% is the normal color.
+**Lightness**  é a quantidade de branco ou preto em uma cor. Uma porcentagem é fornecida variando de 0% (preto) a 100% (branco), onde 50% é a cor normal.
 
-Here are a few examples of using `hsl()` with fully-saturated, normal lightness colors:
+Aqui estão alguns exemplos de uso de `hsl ()` com cores de claridade normais totalmente saturadas:
 
 <table class='table table-striped'><thead><tr><th>Color</th><th>HSL</th></tr></thead><tbody><tr><td>red</td><td>hsl(0, 100%, 50%)</td></tr><tr><td>yellow</td><td>hsl(60, 100%, 50%)</td></tr><tr><td>green</td><td>hsl(120, 100%, 50%)</td></tr><tr><td>cyan</td><td>hsl(180, 100%, 50%)</td></tr><tr><td>blue</td><td>hsl(240, 100%, 50%)</td></tr><tr><td>magenta</td><td>hsl(300, 100%, 50%)</td></tr></tbody></table>
 
 # --instructions--
 
-Change the `background-color` of each `div` element based on the class names (`green`, `cyan`, or `blue`) using `hsl()`. All three should have full saturation and normal lightness.
+Altere a `background-color` de cada elemento `div` com base nos nomes das classes (`green`,`cyan` ou `blue`) usando `hsl ()`. Todos os três devem ter saturação total e leveza normal.
 
 # --hints--
 
-Your code should use the `hsl()` property to declare the color green.
+Seu código deve usar a propriedade `hsl ()` para declarar a cor verde.
 
 ```js
 assert(code.match(/\.green\s*?{\s*?background-color:\s*?hsl/gi));
 ```
 
-Your code should use the `hsl()` property to declare the color cyan.
+Seu código deve usar a propriedade `hsl ()` para declarar a cor ciano.
 
 ```js
 assert(code.match(/\.cyan\s*?{\s*?background-color:\s*?hsl/gi));
 ```
 
-Your code should use the `hsl()` property to declare the color blue.
+Seu código deve usar a propriedade `hsl ()` para declarar a cor azul.
 
 ```js
 assert(code.match(/\.blue\s*?{\s*?background-color:\s*?hsl/gi));
 ```
 
-The `div` element with class `green` should have a `background-color` of green.
+O elemento `div` com classe `green` deve ter uma `background-color` verde.
 
 ```js
 assert($('.green').css('background-color') == 'rgb(0, 255, 0)');
 ```
 
-The `div` element with class `cyan` should have a `background-color` of cyan.
+O elemento `div` com a classe `cyan` deve ter uma `background-color` de ciano.
 
 ```js
 assert($('.cyan').css('background-color') == 'rgb(0, 255, 255)');
 ```
 
-The `div` element with class `blue` should have a `background-color` of blue.
+O elemento `div` com a classe `blue` deve ter uma `background-color` azul.
 
 ```js
 assert($('.blue').css('background-color') == 'rgb(0, 0, 255)');

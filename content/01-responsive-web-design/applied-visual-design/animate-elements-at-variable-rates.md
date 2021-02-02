@@ -9,18 +9,17 @@ dashedName: animate-elements-at-variable-rates
 
 # --description--
 
-There are a variety of ways to alter the animation rates of similarly animated elements. So far, this has been achieved by applying an `animation-iteration-count` property and setting `@keyframes` rules.
+Existem várias maneiras de alterar as ritmos de animação similarmente a elementos animados. Até agora, isso foi conseguido aplicando uma propriedade `animation-iteration-count` e definindo regras `@ keyframes`.
 
-To illustrate, the animation on the right consists of two "stars" that each decrease in size and opacity at the 20% mark in the `@keyframes` rule, which creates the twinkle animation. You can change the `@keyframes` rule for one of the elements so the stars twinkle at different rates.
+Para ilustrar, a animação à direita consiste em duas "estrelas" que diminuem em tamanho e opacidade na marca de 20% utilizando a regra `@ keyframes`, que cria a animação cintilante. Você pode alterar a regra do `@ keyframes` para um dos elementos, para que as estrelas cintilem em ritmos diferentes.
 
 # --instructions--
 
-Alter the animation rate for the element with the class name of `star-1` by changing its `@keyframes` rule to 50%.
+Altere o ritmo de animação para o elemento com o nome de classe `star-1` alterando sua regra de `@ keyframes` para 50%.
 
 # --hints--
 
-The `@keyframes` rule for the `star-1` class should be 50%.
-
+A regra `@ keyframes` para a classe `star-1` deve ser de 50%.
 ```js
 assert(code.match(/twinkle-1\s*?{\s*?50%/g));
 ```

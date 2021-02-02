@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036162
-title: Create a Stateless Functional Component
+title: Criar um componente funcional sem estado
 challengeType: 6
 forumTopicId: 301392
 dashedName: create-a-stateless-functional-component
@@ -8,11 +8,11 @@ dashedName: create-a-stateless-functional-component
 
 # --description--
 
-Components are the core of React. Everything in React is a component and here you will learn how to create one.
+Componentes são o coração do React. Tudo no React é um componente e aqui você aprenderá como criar um.
 
-There are two ways to create a React component. The first way is to use a JavaScript function. Defining a component in this way creates a *stateless functional component*. The concept of state in an application will be covered in later challenges. For now, think of a stateless component as one that can receive data and render it, but does not manage or track changes to that data. (We'll cover the second way to create a React component in the next challenge.)
+Existem duas formas de se criar um componente do React. A primeira forma é usando uma função do Javascript. Definindo um componente dessa forma você ira criar um *componente funcional sem estado* ou em outras palavras um *stateless functional component*. O conceito de estado em uma aplicação será abordado em desafios futuros. Por enquanto, pense em um componente sem estado/stateless component como um componente que pode receber dados e renderizá-los, mas não gerencia ou rastreia as alterações desses dados. (Nós vamos abordar a segunda forma de se criar um componente React no próximo desafio.)
 
-To create a component with a function, you simply write a JavaScript function that returns either JSX or `null`. One important thing to note is that React requires your function name to begin with a capital letter. Here's an example of a stateless functional component that assigns an HTML class in JSX:
+Para criar um componente com uma função, você simplesmente escreve uma função normal do JavaScript que retorna ou um JSX ou `null`. Uma coisa importante de se notar é que o React requer que sua função começe com uma letra maiúscula. Segue um exemplo abaixo de um componente sem estado que retorna um elemento HTML com JSX:
 
 ```jsx
 // After being transpiled, the <div> will have a CSS class of 'customClass'
@@ -23,17 +23,17 @@ const DemoComponent = function() {
 };
 ```
 
-Because a JSX component represents HTML, you could put several components together to create a more complex HTML page. This is one of the key advantages of the component architecture React provides. It allows you to compose your UI from many separate, isolated components. This makes it easier to build and maintain complex user interfaces.
+Por causa que um componente JSX representa HTML, você poderia colocar vários componentes juntos para criar uma página HTML mais complexa. Essa é uma das principais vantagens da arquitetura de componentes que o React provê. Isso permite que você componha sua UI(User interface, que traduzindo é Interface do usuário) de vários componentes separados e isolados. Isso deixa mais fácil a construção e manutenção de interfaces complexas.
 
 # --instructions--
 
-The code editor has a function called `MyComponent`. Complete this function so it returns a single `div` element which contains some string of text.
+O editor tem uma função chamada `My Component`. Complete esta função de forma que ela retorna uma única `div` que contém algum texto.
 
-**Note:** The text is considered a child of the `div` element, so you will not be able to use a self-closing tag.
+**Nota:** O texto é considerado um filho da `div`, então você não poderá usar uma tag que fecha nela mesma(por exemplo: `<div />`)
 
 # --hints--
 
-`MyComponent` should return JSX.
+`MyComponent` deve retornar JSX.
 
 ```js
 assert(
@@ -44,7 +44,7 @@ assert(
 );
 ```
 
-`MyComponent` should return a `div` element.
+`MyComponent` deve retornar um elemento `div`.
 
 ```js
 assert(
@@ -55,7 +55,7 @@ assert(
 );
 ```
 
-The `div` element should contain a string of text.
+A `div` deve conter um texto.
 
 ```js
 assert(

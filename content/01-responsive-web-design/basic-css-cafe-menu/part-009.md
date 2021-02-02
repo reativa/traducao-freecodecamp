@@ -1,13 +1,13 @@
 ---
 id: 5f344fc1520b6719f2e35605
-title: Part 9
+title: Parte 9
 challengeType: 0
 dashedName: part-9
 ---
 
 # --description--
 
-There will be two sections on the menu, one for coffees and one for desserts. Add a `section` element within the `main` element so you have a place to put all the coffees available.
+Haverá duas seções no menu, uma para bebidas e outra para sobremesas. Adicione um elemento `section` dentro do elemento `main` e então você tem um lugar para colocar todas as bebidas disponíveis. 
 
 # --hints--
 
