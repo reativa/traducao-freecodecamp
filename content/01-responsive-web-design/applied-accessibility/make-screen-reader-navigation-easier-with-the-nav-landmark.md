@@ -9,35 +9,35 @@ dashedName: make-screen-reader-navigation-easier-with-the-nav-landmark
 
 # --description--
 
-The `nav` element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This tag is meant to wrap around the main navigation links in your page.
+O elemento `nav` é outro item HTML5 com o recurso de marco integrado para facilitar a navegação do leitor de tela. Essa tag destina-se a envolver os principais links de navegação em sua página.
 
-If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a `nav` tag as well. Using a `footer` (covered in the next challenge) is sufficient.
+Se houver links de site repetidos na parte inferior da página, não é necessário marcá-los com a tag `nav` também. Usar um `footer` (abordado no próximo desafio) é suficiente.
 
 # --instructions--
 
-Camper Cat included navigation links at the top of his training page, but wrapped them in a `div`. Change the `div` to a `nav` tag to improve the accessibility on his page.
+Camper Cat incluiu links de navegação no topo de sua página de treinamento, mas os envolveu em uma `div`. Mude a `div` para uma tag `nav` para melhorar a acessibilidade em sua página.
 
 # --hints--
 
-Your code should have one `nav` tag.
+Seu código deve ter uma tag `nav`.
 
 ```js
-assert($('nav').length == 1);
+assert ($ ('nav'). length == 1);
 ```
 
-Your `nav` tags should wrap around the `ul` and its list items.
+Suas tags `nav` devem envolver o `ul` e seus itens de lista.
 
 ```js
-assert($('nav').children('ul').length == 1);
+assert ($ ('nav'). children ('ul'). length == 1);
 ```
 
-Your code should not have any `div` tags.
+Seu código não deve ter nenhuma tag `div`.
 
 ```js
-assert($('div').length == 0);
+assert ($ ('div'). length == 0);
 ```
 
-Your `nav` element should have a closing tag.
+Seu elemento `nav` deve ter uma tag de fechamento.
 
 ```js
 assert(

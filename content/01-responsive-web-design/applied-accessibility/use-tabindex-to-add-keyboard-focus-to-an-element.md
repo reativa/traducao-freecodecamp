@@ -9,27 +9,28 @@ dashedName: use-tabindex-to-add-keyboard-focus-to-an-element
 
 # --description--
 
-The HTML `tabindex` attribute has three distinct functions relating to an element's keyboard focus. When it's on a tag, it indicates that element can be focused on. The value (an integer that's positive, negative, or zero) determines the behavior.
+O atributo HTML `tabindex` tem três funções distintas relacionadas ao foco do teclado de um elemento. Quando está em uma tag, indica que o elemento pode ser focalizado. O valor (um número inteiro positivo, negativo ou zero) determina o comportamento.
 
-Certain elements, such as links and form controls, automatically receive keyboard focus when a user tabs through a page. It's in the same order as the elements come in the HTML source markup. This same functionality can be given to other elements, such as `div`, `span`, and `p`, by placing a `tabindex="0"` attribute on them. Here's an example:
+Certos elementos, como links e controles de formulário, recebem automaticamente o foco do teclado quando um usuário passa por uma página, na mesma ordem em que os elementos vêm da marcação de origem HTML. Esta mesma funcionalidade pode ser dada a outros elementos, como `div`,`span` e `p`, colocando um atributo `tabindex = "0"` neles. Aqui está um exemplo:
 
 `<div tabindex="0">I need keyboard focus!</div>`
 
-**Note:** A negative `tabindex` value (typically -1) indicates that an element is focusable, but is not reachable by the keyboard. This method is generally used to bring focus to content programmatically (like when a `div` used for a pop-up window is activated), and is beyond the scope of these challenges.
+**Nota:** Um valor `tabindex` negativo (normalmente -1) indica que um elemento pode ser focalizado, mas não pode ser alcançado pelo teclado. Este método geralmente é usado para trazer o foco para o conteúdo de forma programática (como quando uma `div` usada para que uma janela pop-up seja ativada), e isso está além do escopo desses desafios.
 
 # --instructions--
 
-Camper Cat created a new survey to collect information about his users. He knows input fields automatically get keyboard focus, but he wants to make sure his keyboard users pause at the instructions while tabbing through the items. Add a `tabindex` attribute to the `p` tag and set its value to `"0"`. Bonus - using `tabindex` also enables the CSS pseudo-class `:focus` to work on the `p` tag.
+Camper Cat criou uma nova pesquisa para coletar informações sobre seus usuários. Ele sabe que os campos de entrada obtêm o foco do teclado automaticamente, mas quer ter certeza de que os usuários do teclado pausem nas instruções enquanto percorrem os itens. Adicione um atributo `tabindex` à tag `p` e defina seu valor para `"0"`.
+ Bônus - o uso de `tabindex` também permite que a pseudo-classe CSS `: focus` funcione na tag `p`.
 
 # --hints--
 
-Your code should add a `tabindex` attribute to the `p` tag that holds the form instructions.
+Seu código deve adicionar um atributo `tabindex` à tag `p` que contém as instruções do formulário.
 
 ```js
 assert($('p').attr('tabindex'));
 ```
 
-Your code should set the `tabindex` attribute on the `p` tag to a value of 0.
+Seu código deve definir o atributo `tabindex` na tag `p` para um valor de 0.
 
 ```js
 assert($('p').attr('tabindex') == '0');

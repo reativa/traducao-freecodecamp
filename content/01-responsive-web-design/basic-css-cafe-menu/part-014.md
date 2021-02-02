@@ -1,13 +1,13 @@
 ---
 id: 5f3477ae34c1239cafe128be
-title: Part 14
+title: Parte 14
 challengeType: 0
 dashedName: part-14
 ---
 
 # --description--
 
-You now have three type selectors with the exact same styling. You can add the same group of styles to many elements by separating the selectors with commas like this:
+Agora você tem três tipos de seletores com exatamente o mesmo estilo. Você pode adicionar o mesmo grupo de estilos para vários elementos separando os seletores com vírgulas, do seguinte modo:
 
 ```css
 selector1, selector2 {

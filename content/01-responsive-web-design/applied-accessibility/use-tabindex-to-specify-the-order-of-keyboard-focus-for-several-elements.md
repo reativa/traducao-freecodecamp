@@ -9,13 +9,13 @@ dashedName: use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elem
 
 # --description--
 
-The `tabindex` attribute also specifies the exact tab order of elements. This is achieved when the value of the attribute is set to a positive number of 1 or higher.
+O atributo `tabindex` também especifica a ordem de tabulação exata dos elementos. Isso é obtido quando o valor do atributo é definido como um número positivo de 1 ou superior.
 
-Setting a `tabindex="1"` will bring keyboard focus to that element first. Then it cycles through the sequence of specified `tabindex` values (2, 3, etc.), before moving to default and `tabindex="0"` items.
+Definir um `tabindex =" 1 "` trará o foco do teclado para esse elemento primeiro. Em seguida, ele percorre a sequência de valores `tabindex` especificados (2, 3, etc.), antes de mover para os itens padrão e o `tabindex = "0"`.
 
-It's important to note that when the tab order is set this way, it overrides the default order (which uses the HTML source). This may confuse users who are expecting to start navigation from the top of the page. This technique may be necessary in some circumstances, but in terms of accessibility, take care before applying it.
+É importante observar que quando a ordem das guias é definida dessa forma, ela substitui a ordem padrão (que usa o código-fonte HTML). Isso pode confundir os usuários que esperam iniciar a navegação do topo da página. Esta técnica pode ser necessária em algumas circunstâncias, mas em termos de acessibilidade, tome cuidado antes de aplicá-la.
 
-Here's an example:
+Aqui está um exemplo:
 
 `<div tabindex="1">I get keyboard focus, and I get it first!</div>`
 
@@ -23,29 +23,29 @@ Here's an example:
 
 # --instructions--
 
-Camper Cat has a search field on his Inspirational Quotes page that he plans to position in the upper right corner with CSS. He wants the search `input` and submit `input` form controls to be the first two items in the tab order. Add a `tabindex` attribute set to `"1"` to the search `input`, and a `tabindex` attribute set to `"2"` to the submit `input`.
+Camper Cat tem um campo de pesquisa em sua página de citações inspiradoras, que ele planeja posicionar no canto superior direito com CSS. Ele deseja que os controles de formulário de pesquisa `input` e envio `input` sejam os dois primeiros itens na ordem das guias. Adicione um atributo `tabindex` definido como `"1"` para a pesquisa `input`, e um atributo `tabindex` definido como `"2"` para enviar `input`.
 
 # --hints--
 
-Your code should add a `tabindex` attribute to the search `input` tag.
+Seu código deve adicionar um atributo `tabindex` à tag search `input`.
 
 ```js
 assert($('#search').attr('tabindex'));
 ```
 
-Your code should add a `tabindex` attribute to the submit `input` tag.
+Seu código deve adicionar um atributo `tabindex` à tag `input` do submit.
 
 ```js
 assert($('#submit').attr('tabindex'));
 ```
 
-Your code should set the `tabindex` attribute on the search `input` tag to a value of 1.
+Seu código deve definir o atributo `tabindex` na tag de pesquisa `input` para um valor de 1.
 
 ```js
 assert($('#search').attr('tabindex') == '1');
 ```
 
-Your code should set the `tabindex` attribute on the submit `input` tag to a value of 2.
+Seu código deve definir o atributo `tabindex` na tag `input` do submit para um valor de 2.
 
 ```js
 assert($('#submit').attr('tabindex') == '2');
