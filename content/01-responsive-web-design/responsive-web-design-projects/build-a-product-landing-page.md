@@ -8,48 +8,48 @@ dashedName: build-a-product-landing-page
 
 # --description--
 
-**Objective:** Build a [CodePen.io](https://codepen.io) app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/RKRbwL>.
+**Objective:** Crie um app [CodePen.io](https://codepen.io) que seja funcionalmente similar a este: <https://codepen.io/freeCodeCamp/full/RKRbwL>.
 
-Fulfill the below [user stories](https://en.wikipedia.org/wiki/User_story) and get all of the tests to pass. Give it your own personal style.
+Preencha a [user story](https://en.wikipedia.org/wiki/User_story) abaixo e passe nos testes para prosseguir. Dê seu estilo pessoal ao projeto.
 
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Você pode utilizar HTML, JavaScript, e CSS para completar este projeto. CSS puro é recomendado porque até então é o que vimos nas lições anteriores e você deve praticar com este CSS puro. Você pode usar Bootstrap ou SAAS se vocÊ quiser. Tecnologias adicionais (como por exemplo jQuery, React, Angular, or Vue) não são recomendadas para este projeto, e utilizá-las é por sua conta e risco. Outros projetos darão a você a chance de trabalhar com diferentes stacks como o React. Nós aceitaremos e tentaremos corrigir todos os problemas relatados que utilizem a stack recomendada para este projeto. Bora codar!
 
-**User Story #1:** My product landing page should have a `header` element with a corresponding `id="header"`.
+**User Story #1:** Minha página inicial deve ter um elemento `header` com o identificador correspondente `id="header"`.
 
-**User Story #2:** I can see an image within the `header` element with a corresponding `id="header-img"`. A company logo would make a good image here.
+**User Story #2:** Posso visualizar uma imagem dentro do elemento `header` com o identificador correspondente `id="header-img"`. Utilizar imagem com a logo de uma empresa seria apropriado aqui.
 
-**User Story #3:** Within the `#header` element I can see a `nav` element with a corresponding `id="nav-bar"`.
+**User Story #3:** Dentro do elemento `#header` posso ver um elemento `nav` com o identificador correspondente `id="nav-bar"`.
 
-**User Story #4:** I can see at least three clickable elements inside the `nav` element, each with the class `nav-link`.
+**User Story #4:** Posso ver ao menos três elementos clicáveis dentro do elemento `nav`, cada um com a classe `nav-link`.
 
-**User Story #5:** When I click a `.nav-link` button in the `nav` element, I am taken to the corresponding section of the landing page.
+**User Story #5:** Quando clico no botão `.nav-link` no elemento `nav`, sou direcionado para seção correspondente na página inicial.
 
-**User Story #6:** I can watch an embedded product video with `id="video"`.
+**User Story #6:** Posso ver um vídeo embutido de um produto com o `id="video"`.
 
-**User Story #7:** My landing page has a `form` element with a corresponding `id="form"`.
+**User Story #7:** Minha página inicial tem um elemento `form` com o identificador correspondente `id="form"`.
 
-**User Story #8:** Within the form, there is an `input` field with `id="email"` where I can enter an email address.
+**User Story #8:** Dentro do formulário, há um campo `input` com o `id="email"` onde eu posso colocar o respectivo email.
 
-**User Story #9:** The `#email` input field should have placeholder text to let the user know what the field is for.
+**User Story #9:** O campo input do `#email` deve ter um texto substituto (placeholder) para informar ao usuário para que serve aquele campo.
 
-**User Story #10:** The `#email` input field uses HTML5 validation to confirm that the entered text is an email address.
+**User Story #10:** O campo input do `#email` utiliza validação HTML5 para confirmar que o texto digitado pelo usuário é um email.
 
-**User Story #11:** Within the form, there is a submit `input` with a corresponding `id="submit"`.
+**User Story #11:** Dentro do formulário, há um `input` de submissão com o identificador correspondente `id="submit"`.
 
-**User Story #12:** When I click the `#submit` element, the email is submitted to a static page (use this mock URL: <https://www.freecodecamp.com/email-submit>).
+**User Story #12:** Quando clico no elemento `#submit`, o email é direcionado a uma página estática (use este modelo: <https://www.freecodecamp.com/email-submit>).
 
-**User Story #13:** The navbar should always be at the top of the viewport.
+**User Story #13:** A navbar deve sempre estar fixada no topo da viewport.
 
-**User Story #14:** My product landing page should have at least one media query.
+**User Story #14:** Minha página inicial deve ter ao menos uma media query.
 
-**User Story #15:** My product landing page should utilize CSS flexbox at least once.
+**User Story #15:** Minha página inicial de produtos deve utilizar CSS flexbox ao menos uma vez.
 
-You can build your project by forking [this CodePen pen](https://codepen.io/freeCodeCamp/pen/MJjpwO). Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Você pode construir seu projeto fazendo forking de [deste CodePen pen](https://codepen.io/freeCodeCamp/pen/MJjpwO). Ou pode utilizar este link CDN para fazer os testes em qualquer ecossistema que queira:  `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Uma vez que tenha finalizado, submeta a URL do seu projeto com todos os testes feitos.
 
 # --solutions--
 
 ```html
-// solution required
+// solução
 ```
