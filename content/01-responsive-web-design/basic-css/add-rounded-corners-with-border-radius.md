@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08814
-title: Adicionar cantos arredondados com border-radius
+title: Adicionando cantos arredondados com border-radius
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cbZm2hg'
 forumTopicId: 16649
