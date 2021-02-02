@@ -11,7 +11,7 @@ dashedName: adjust-the-margin-of-an-element
 
 A `margin` de um elemento controla a quantidade de espaço entre a` border` de um elemento e os elementos circundantes.
 
-Aqui, podemos ver que a caixa azul e a caixa vermelha estão aninhadas na caixa amarela. Observe que a caixa vermelha tem uma `margin` maior do que a caixa azul, fazendo-a com parecer menor.
+Aqui, podemos ver que a caixa azul e a caixa vermelha estão aninhadas na caixa amarela. Observe que a caixa vermelha tem uma `margin` maior do que a caixa azul, fazendo-a parecer menor.
 
 
 Quando você aumenta a `margin` da caixa azul, aumenta a distância entre sua borda e os elementos ao redor.
