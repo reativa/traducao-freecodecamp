@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdff
-title: Request Header Parser Microservice
+title: Microserviço Parser de Header de Requisições
 challengeType: 4
 forumTopicId: 301507
 dashedName: request-header-parser-microservice
@@ -8,17 +8,17 @@ dashedName: request-header-parser-microservice
 
 # --description--
 
-Build a full stack JavaScript app that is functionally similar to this: <https://request-header-parser-microservice.freecodecamp.rocks/>. Working on this project will involve you writing your code using one of the following methods:
+Construa um projeto Javascript full stack cuja funcionalidade seja a similar a esta: <https://request-header-parser-microservice.freecodecamp.rocks/>. Para trabalhar nesse projeto será necessário que você escreva seu código utilizando um dos seguintes métodos:
 
--   Clone [this GitHub repo](https://github.com/freeCodeCamp/boilerplate-project-headerparser/) and complete your project locally.
--   Use [our repl.it starter project](https://repl.it/github/freeCodeCamp/boilerplate-project-headerparser) to complete your project.
--   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
+- Clone [esse repositório GitHub](https://github.com/freeCodeCamp/boilerplate-project-headerparser/) e complete seu projeto localmente.
+- Utilize [nosso inicializador de projeto repl.it ](https://repl.it/github/freeCodeCamp/boilerplate-project-headerparser) para completar seu projeto.
+- Utilize um inicializador de sua preferência para completar o projeto. Assegure-se de incorporar todos os arquivos à partir do nosso repositório GitHub.
 
-When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the `Solution Link` field. Optionally, also submit a link to your project's source code in the `GitHub Link` field.
+Ao terminar, assegure-se de que uma versão funcional do seu projeto esteja hospedada em algum lugar público. Em seguida, submeta a URL da sua versão no campo `Link da Solução`. Ainda, você pode, de forma opcional, submeter o link do código-fonte do seu projeto no campo `Link GitHub`.
 
 # --hints--
 
-You should provide your own project, not the example URL.
+Você deve fornecer seu próprio projeto, não a URL utilizada como exemplo.
 
 ```js
 (getUserInput) => {
@@ -30,7 +30,7 @@ You should provide your own project, not the example URL.
 };
 ```
 
-A request to `/api/whoami` should return a JSON object with your IP address in the `ipaddress` key.
+Uma requisição `GET` para `/api/whoami` deve retornar um objeto JSON com o seu endereço IP na chave `ipaddress`.
 
 ```js
 (getUserInput) =>
@@ -42,7 +42,7 @@ A request to `/api/whoami` should return a JSON object with your IP address in t
   );
 ```
 
-A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key.
+Uma requisição `GET` para `/api/whoami` deve retornar um objeto JSON com sua linguagem de preferência na chave `language`.
 
 ```js
 (getUserInput) =>
@@ -54,7 +54,7 @@ A request to `/api/whoami` should return a JSON object with your preferred langu
   );
 ```
 
-A request to `/api/whoami` should return a JSON object with your software in the `software` key.
+Uma requisição `GET` para `/api/whoami` deve retornar um objeto JSON com seu software na chave `software`.
 
 ```js
 (getUserInput) =>
@@ -70,8 +70,8 @@ A request to `/api/whoami` should return a JSON object with your software in the
 
 ```js
 /**
-  Backend challenges don't need solutions, 
-  because they would need to be tested against a full working project. 
-  Please check our contributing guidelines to learn more.
+  Desafios backend não precisam de soluções,
+  uma vez que eles serão testados em um projeto totalmente funcional.
+  Por favor, verifique nosso guia de contribuições para apreder mais.
 */
 ```

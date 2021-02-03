@@ -8,37 +8,37 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Objective:** Build a [CodePen.io](https://codepen.io) app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/zNBOYG>.
+**Objective:** Inicie um projeto no [CodePen.io](https://codepen.io) que seja funcionamelnte similar a este: <https://codepen.io/freeCodeCamp/full/zNBOYG>.
 
-Fulfill the below [user stories](https://en.wikipedia.org/wiki/User_story) and get all of the tests to pass. Give it your own personal style.
+Preencha a [user story](https://en.wikipedia.org/wiki/User_story) abaixo e faça todos os testes para prosseguir. Dê seu estilo pessoal ao projeto.
 
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Você pode utilizar HTML, JavaScript, e CSS para completar este projeto. CSS puro é recomendado porque até então é o que vimos nas lições anteriores e você deve praticar com este CSS puro. Você pode usar Bootstrap ou SAAS se vocÊ quiser. Tecnologias adicionais (como por exemplo jQuery, React, Angular, or Vue) não são recomendadas para este projeto, e utilizá-las é por sua conta e risco. Outros projetos darão a você a chance de trabalhar com diferentes stacks como o React. Nós aceitaremos e tentaremos corrigir todos os problemas relatados que utilizem a stack recomendada para este projeto. Bora codar!
 
-**User Story #1:** My portfolio should have a welcome section with an id of `welcome-section`.
+**User Story #1:** Meu portfólio deve ter uma seção de boas-vindas com um id `welcome-section`.
 
-**User Story #2:** The welcome section should have an `h1` element that contains text.
+**User Story #2:** A secção de boas-viindas deve ter um `h1` que contenha texto.
 
-**User Story #3:** My portfolio should have a projects section with an id of `projects`.
+**User Story #3:** Meu portfólio deve ter uma seção de projetos com um id `projects`.
 
-**User Story #4:** The projects section should contain at least one element with a class of `project-tile` to hold a project.
+**User Story #4:** A seção de projetos deve ter ao menos um elemento da classe `project-tile`.
 
-**User Story #5:** The projects section should contain at least one link to a project.
+**User Story #5:** A seção de projetos deve ter ao menos um link para um projeto.
 
-**User Story #6:** My portfolio should have a navbar with an id of `navbar`.
+**User Story #6:** Meu portfólio deve ter uma navbar com um id de `navbar`.
 
-**User Story #7:** The navbar should contain at least one link that I can click on to navigate to different sections of the page.
+**User Story #7:** A navbar deve conter ao menos um link clicável que possibilite navegar em diferentes seções da página.
 
-**User Story #8:** My portfolio should have a link with an id of `profile-link`, which opens my GitHub or FCC profile in a new tab.
+**User Story #8:** Meu portfólio deve ter um link com a id `profile-link`, que abre meu GitHub ou perfil FCC em uma nova aba.
 
-**User Story #9:** My portfolio should have at least one media query.
+**User Story #9:** Meu portfólio teve ter ao menos uma media query.
 
-**User Story #10:** The height of the welcome section should be equal to the height of the viewport.
+**User Story #10:** A altura da seção de boas-vindas deve ter altura igual a altura da viewport.
 
-**User Story #11:** The navbar should always be at the top of the viewport.
+**User Story #11:** A navbar deve sempre estar fixada no topo da viewport.
 
-You can build your project by forking [this CodePen pen](https://codepen.io/freeCodeCamp/pen/MJjpwO). Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Você pode criar seu projeto fazendo o forking [deste CodePen pen](https://codepen.io/freeCodeCamp/pen/MJjpwO). Ou pode utilizar este link CDN para fazer os testes em qualquer ecossistema que queira: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Uma vez feito, submeta a YRL do seu projeto com todos os testes feitos.
 
 # --solutions--
 

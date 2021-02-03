@@ -9,9 +9,9 @@ dashedName: use-a-retina-image-for-higher-resolution-displays
 
 # --description--
 
-With the increase of internet connected devices, their sizes and specifications vary, and the displays they use could be different externally and internally. Pixel density is an aspect that could be different on one device from others and this density is known as Pixel Per Inch(PPI) or Dots Per Inch(DPI). The most famous such display is the one known as a "Retina Display" on the latest Apple MacBook Pro notebooks, and recently iMac computers. Due to the difference in pixel density between a "Retina" and "Non-Retina" displays, some images that have not been made with a High-Resolution Display in mind could look "pixelated" when rendered on a High-Resolution display.
+Com o aumento dos dispositivos que se conectam a internet, seus tamanhos e especificação variam, e os displays que eles usam podem ser diferentes externa e internamente. A densidade de pixels é um aspecto que pode diferenciar um dispositivo de outros e esta densidade é conhecida como Pixel Por Polegada (PPI) ou Pontos por Polegada (DPI). O mais famoso desses displays é conhecido como "Tela Retina" (Retina Display) nos últimos MacBook Pro da Apple, e recentemente nos computadores iMac. Devido as diferenças na densidade de pixels entre displays "Retina" e os "Não-Retina", algumas imagens que não foram criadas pensando-se nos displays de alta resolução podem parecer "pixeladas" quando renderizadas em displays de alta resolução.
 
-The simplest way to make your images properly appear on High-Resolution Displays, such as the MacBook Pros "retina display" is to define their `width` and `height` values as only half of what the original file is. Here is an example of an image that is only using half of the original height and width:
+O jeito mais simples de fazer nossas imagens aparecerem de maneira apropriada em displays de alta resolução, tais como os display "Tela Retina" dos MacBook Pro é definir os valores de `width` e `height`somente na metade do indicado no arquivo original. Aqui está um exemplo de uma imagem que utiliza somente metade da largura e altura originais:
 
 ```html
 <style>
@@ -22,17 +22,17 @@ The simplest way to make your images properly appear on High-Resolution Displays
 
 # --instructions--
 
-Set the `width` and `height` of the `img` tag to half of their original values. In this case, both the original `height` and the original `width` are `200px`.
+Coloque a `width` e `height` da `img` com metade dos valores originais. Neste caso, tanto o `height`quanto o `width` são de `200px`.
 
 # --hints--
 
-Your `img` tag should have a `width` of 100 pixels.
+Sua `img` deve ter `width` de 100 pixels.
 
 ```js
 assert(document.querySelector('img').width === 100);
 ```
 
-Your `img` tag should have a `height` of 100 pixels.
+Sua `img` deve ter `height` de 100 pixels.
 
 ```js
 assert(document.querySelector('img').height === 100);

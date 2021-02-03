@@ -1,25 +1,25 @@
 ---
 id: 5d7925337954ed57a565a135
-title: Part 7
+title: Parte 7
 challengeType: 0
 dashedName: part-7
 ---
 
 # --description--
 
-This is possible because the anonymous function has been immediately assigned to a value - this is effectively the same as using a named function.
+Isto é possivel porque a função anônima foi imediatamente atribuída a um valor - isso é efetivamente o mesmo que usar uma função nomeada.
 
-Rewrite `addVar` using ES6's arrow syntax:
+Reescreva `addVar` usando a sintaxe de seta do ES6:
 
 ```js
 const fn = (x, y) => x;
 ```
 
-Note that the value is returned implicitly.
+Observe que o valor é retornado implicitamente.
 
 # --hints--
 
-See description above for instructions.
+Veja a descrição acima para obter as instruções.
 
 ```js
 assert(code.replace(/\s/g, '').includes('constaddVar=(x,y)=>x+y'));

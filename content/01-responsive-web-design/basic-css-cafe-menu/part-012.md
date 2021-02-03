@@ -1,13 +1,13 @@
 ---
 id: 5f344f9c805cd193c33d829c
-title: Part 12
+title: Parte 12
 challengeType: 0
 dashedName: part-12
 ---
 
 # --description--
 
-You can add style to an element by specifying it in the `style` element and setting a property for it like this:
+Você pode adicionar estilo a um elemento ao especificá-lo no elemento `style` e setar uma propriedade para ele, da seguinte forma:
 
 ```css
 element {
@@ -15,7 +15,7 @@ element {
 }
 ```
 
-Center your `h1` element by setting its `text-align` property to the value `center`.
+Centralize seu elemento `h1` ao definir a propriedade `text-align` com o valor `center`.
 
 # --hints--
 

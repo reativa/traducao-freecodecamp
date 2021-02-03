@@ -1,13 +1,13 @@
 ---
 id: 5f344fad8bf01691e71a30eb
-title: Part 11
+title: Parte 11
 challengeType: 0
 dashedName: part-11
 ---
 
 # --description--
 
-Up until now, you have been limited regarding the presentation and appearance of the content you create. To start taking control, add a `style` element within the `head` element.
+Até agora, você esteve limitado em relação à apresentação e aparência do conteúdo que criou. Para começar a tomar o controle, adicione um elemento `style` dentro do elemento `head`.
 
 # --hints--
 
