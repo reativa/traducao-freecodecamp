@@ -1,21 +1,21 @@
 ---
 id: 5d79253297c0ebb149ea9fed
-title: Part 1
+title: Parte 1
 challengeType: 0
 dashedName: part-1
 ---
 
 # --description--
 
-In functional programming, we prefer immutable values over mutable values.
+Na programação funcional, preferimos os valores imutáveis em vez de valores mutáveis.
 
-Mutable values (declared with `var` or `let`) can lead to unexpected behaviors and bugs. Values declared with `const` cannot be reassigned, which makes using them easier because you don't have to keep track of their values.
+Valores mutáveis (declarado com `var` ou `let`) podem levar a comportamentos e bugs inesperados. Os valores declarados como `const` não podem ser reatribuídos, o que facilita a sua utilização, pois não é necessário manter um controle dos seus valores.
 
-Start by creating an empty `infixToFunction` object using `const`.
+Comece criando um objeto vazio `infixToFunction` usando `const`.
 
 # --hints--
 
-See description above for instructions.
+Veja a descrição acima para obter as instruções.
 
 ```js
 assert(code.replace(/\s/g, '').includes('constinfixToFunction={}'));

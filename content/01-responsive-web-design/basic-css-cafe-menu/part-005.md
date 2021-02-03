@@ -1,13 +1,14 @@
+
 ---
 id: 5f33294a6af5e9188dbdb8f3
-title: Part 5
+title: Parte 5
 challengeType: 0
 dashedName: part-5
 ---
 
 # --description--
 
-The name of the cafe is `Camper Cafe`. Add an `h1` element with the name of the cafe in capitalized letters to make it stand out.
+O nome do café é `Camper Cafe`. Adicione um elemento `h1` com o nome do café em letras maiúsculas para fazê-lo se destacar.
 
 # --hints--
 

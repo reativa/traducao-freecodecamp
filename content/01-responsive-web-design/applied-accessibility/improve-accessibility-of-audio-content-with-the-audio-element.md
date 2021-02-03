@@ -9,11 +9,11 @@ dashedName: improve-accessibility-of-audio-content-with-the-audio-element
 
 # --description--
 
-HTML5's `audio` element gives semantic meaning when it wraps sound or audio stream content in your markup. Audio content also needs a text alternative to be accessible to people who are deaf or hard of hearing. This can be done with nearby text on the page or a link to a transcript.
+O elemento `audio` do HTML5 fornece significado semântico quando envolve o som ou o conteúdo do stream de áudio em sua marcação. O conteúdo de áudio também precisa de uma alternativa em texto para ser acessível a pessoas surdas ou com deficiência auditiva. Isso pode ser feito com um texto próximo na página ou um link para uma transcrição.
 
-The `audio` tag supports the `controls` attribute. This shows the browser default play, pause, and other controls, and supports keyboard functionality. This is a boolean attribute, meaning it doesn't need a value, its presence on the tag turns the setting on.
+A tag `audio` suporta o atributo` controls`. Ele mostra o play, o pause e controles padrão do navegador além de oferecer suporte à funcionalidades do teclado. Este é um atributo booleano, o que significa que não precisa de um valor, sua presença na tag ativa a configuração.
 
-Here's an example:
+Aqui está um exemplo:
 
 ```html
 <audio id="meowClip" controls>
@@ -22,23 +22,23 @@ Here's an example:
 </audio>
 ```
 
-**Note:** Multimedia content usually has both visual and auditory components. It needs synchronized captions and a transcript so users with visual and/or auditory impairments can access it. Generally, a web developer is not responsible for creating the captions or transcript, but needs to know to include them.
+**Nota:** O conteúdo multimídia geralmente tem componentes visuais e auditivos. Ele precisa de legendas sincronizadas e uma transcrição para que usuários com deficiência visual e / ou auditiva possam acessá-lo. Geralmente, um desenvolvedor da Web não é responsável por criar as legendas ou transcrições, mas precisa saber como incluí-las.
 
 # --instructions--
 
-Time to take a break from Camper Cat and meet fellow camper Zersiax (@zersiax), a champion of accessibility and a screen reader user. To hear a clip of his screen reader in action, add an `audio` element after the `p`. Include the `controls` attribute. Then place a `source` tag inside the `audio` tags with the `src` attribute set to "`https://s3.amazonaws.com/freecodecamp/screen-reader.mp3`" and `type` attribute set to "audio/mpeg".
+É hora de fazer uma pausa no Camper Cat e conhecer o colega campista Zersiax (@zersiax), um campeão de acessibilidade e usuário de leitor de tela. Para ouvir um clipe de seu leitor de tela em ação, adicione um elemento `audio` após o` p`. Incluindo o atributo `controls`. Em seguida, coloque uma tag `source` dentro das tags `audio` com o atributo `src` definido como " `https: // s3.amazonaws.com / freecodecamp / screen-reader.mp3`" e o atributo `type` definido como" audio / mpeg ".
 
-**Note:** The audio clip may sound fast and be difficult to understand, but that is a normal speed for screen reader users.
+**Note:** O clipe de áudio pode parecer rápido e difícil de entender, mas essa é uma velocidade normal para usuários de leitores de tela.
 
 # --hints--
 
-Your code should have one `audio` tag.
+Seu código deve ter uma tag `audio`.
 
 ```js
 assert($('audio').length === 1);
 ```
 
-Your `audio` element should have a closing tag.
+Seu elemento `audio` deve ter uma tag de fechamento.
 
 ```js
 assert(
@@ -47,25 +47,23 @@ assert(
 );
 ```
 
-The `audio` tag should have the `controls` attribute.
-
+A tag `audio` deve ter o atributo` controls`.
 ```js
 assert($('audio').attr('controls'));
 ```
 
-Your code should have one `source` tag.
-
+Seu código deve ter uma tag `source`.
 ```js
 assert($('source').length === 1);
 ```
 
-Your `source` tag should be inside the `audio` tags.
+Sua tag `source` deve estar dentro das tags` audio`.
 
 ```js
 assert($('audio').children('source').length === 1);
 ```
 
-The value for the `src` attribute on the `source` tag should match the link in the instructions exactly.
+O valor do atributo `src` na tag` source` deve corresponder exatamente ao link nas instruções.
 
 ```js
 assert(
@@ -74,7 +72,7 @@ assert(
 );
 ```
 
-Your code should include a `type` attribute on the `source` tag with a value of audio/mpeg.
+Seu código deve incluir um atributo `type` na tag` source` com um valor de audio / mpeg.
 
 ```js
 assert($('source').attr('type') === 'audio/mpeg');

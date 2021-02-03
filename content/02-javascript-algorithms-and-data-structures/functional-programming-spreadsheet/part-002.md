@@ -1,17 +1,17 @@
 ---
 id: 5d7925323be8848dbc58a07a
-title: Part 2
+title: Parte 2
 challengeType: 0
 dashedName: part-2
 ---
 
 # --description--
 
-Above `infixToFunction`, define an empty function `add` using the `function` keyword. It should accept two parameters, `x` and `y`.
+Acima de `infixToFunction`, defina uma função vazia `add` usando a palavra-chave `function`. Ela deve aceitar dois parâmetros, `x` e `y`.
 
 # --hints--
 
-See description above for instructions.
+Veja a descrição acima para obter as instruções.
 
 ```js
 assert(code.replace(/\s/g, '').includes('functionadd(x,y){}'));

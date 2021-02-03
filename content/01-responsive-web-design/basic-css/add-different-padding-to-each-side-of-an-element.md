@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08824
-title: Add Different Padding to Each Side of an Element
+title: Adicionando preenchimento diferente para cada lado de um elemento 
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cB7mwUw'
 forumTopicId: 16634

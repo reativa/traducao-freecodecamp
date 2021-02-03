@@ -9,33 +9,31 @@ dashedName: adjust-the-color-of-various-elements-to-complementary-colors
 
 # --description--
 
-The Complementary Colors challenge showed that opposite colors on the color wheel can make each other appear more vibrant when placed side-by-side. However, the strong visual contrast can be jarring if it's overused on a website, and can sometimes make text harder to read if it's placed on a complementary-colored background. In practice, one of the colors is usually dominant and the complement is used to bring visual attention to certain content on the page.
-
+O desafio de cores complementares mostrou que cores opostas na paleta de cores podem fazer as outras cores parecerem mais vibrantes quando colocadas lado a lado. Contudo, o contraste visual forte pode ser ruim se for usado em demasia em um site, e pode, às vezes, tornar um texto difícil de ler se for colocado sobre um plano de fundo de cor complementar. Na prática, uma das cores é normalmente dominante e a cor complementar é usada para trazer mais atenção visual a determinado conteúdo na página.
+ 
 # --instructions--
 
-This page will use a shade of teal (`#09A7A1`) as the dominant color, and its orange (`#FF790E`) complement to visually highlight the sign-up buttons. Change the `background-color` of both the `header` and `footer` from black to the teal color. Then change the `h2` text `color` to teal as well. Finally, change the `background-color` of the `button` to the orange color.
+Esta página usará uma sombra em azul-petróleo (`#09A7A1`) como cor dominante, e esta cor complementar em laranja (`#FF790E`) para destacar visualmente os botões de inscrição. Mude o `background-color` do `header` e do `footer` de preto para a cor azul-petróleo. Depois mude a `color` do texto em `h2` para azul-petróleo também. Por fim, mude o `background-color` do `button` para a cor laranja.
 
 # --hints--
 
-The `header` element should have a `background-color` of #09A7A1.
+O elemento `header` deve ter `background-color` com o valor #09A7A1.
 
 ```js
 assert($('header').css('background-color') == 'rgb(9, 167, 161)');
 ```
 
-The `footer` element should have a `background-color` of #09A7A1.
+O elemento `footer` deve ter `background-color` com o valor #09A7A1.
 
 ```js
 assert($('footer').css('background-color') == 'rgb(9, 167, 161)');
 ```
-
-The `h2` element should have a `color` of #09A7A1.
+O elemento `h2` deve ter `color` com o valor #09A7A1.
 
 ```js
 assert($('h2').css('color') == 'rgb(9, 167, 161)');
 ```
-
-The `button` element should have a `background-color` of #FF790E.
+O elemento `button` deve ter `background-color` com o valor #FF790E.
 
 ```js
 assert($('button').css('background-color') == 'rgb(255, 121, 14)');

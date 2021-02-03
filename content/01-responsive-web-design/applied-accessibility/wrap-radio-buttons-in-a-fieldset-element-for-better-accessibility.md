@@ -9,13 +9,13 @@ dashedName: wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility
 
 # --description--
 
-The next form topic covers accessibility of radio buttons. Each choice is given a `label` with a `for` attribute tying to the `id` of the corresponding item as covered in the last challenge. Since radio buttons often come in a group where the user must choose one, there's a way to semantically show the choices are part of a set.
+O próximo tópico do formulário cobre a acessibilidade dos botões de opção. Cada escolha recebe um `label` com um atributo `for` vinculado ao `id` do item correspondente, conforme abordado no último desafio. Como os botões de opção geralmente vêm em um grupo em que o usuário deve escolher um, há uma maneira de mostrar semanticamente que as opções fazem parte de um conjunto.
 
-The `fieldset` tag surrounds the entire grouping of radio buttons to achieve this. It often uses a `legend` tag to provide a description for the grouping, which is read by screen readers for each choice in the `fieldset` element.
+A tag `fieldset` envolve todo o agrupamento de botões de opção para fazer isso. Geralmente usa uma tag `legend` para fornecer uma descrição para o agrupamento, que é lida pelos leitores de tela para cada escolha no elemento `fieldset`.
 
-The `fieldset` wrapper and `legend` tag are not necessary when the choices are self-explanatory, like a gender selection. Using a `label` with the `for` attribute for each radio button is sufficient.
+O  `fieldset` e a tag `legend` não são necessários quando as escolhas são autoexplicativas, como uma seleção de gênero. Usar um `label` com o atributo `for` para cada botão de opção é suficiente.
 
-Here's an example:
+Aqui está um exemplo:
 
 ```html
 <form>
@@ -33,17 +33,17 @@ Here's an example:
 
 # --instructions--
 
-Camper Cat wants information about the ninja level of his users when they sign up for his email list. He's added a set of radio buttons and learned from our last lesson to use label tags with `for` attributes for each choice. Go Camper Cat! However, his code still needs some help. Change the `div` tag surrounding the radio buttons to a `fieldset` tag, and change the `p` tag inside it to a `legend`.
+O Camper Cat quer informações sobre o nível ninja de seus usuários quando eles se inscreverem em sua lista de e-mail. Ele adicionou um conjunto de botões de opção e aprendeu em nossa última lição a usar tags de rótulo com atributos `for` para cada escolha. Vai Camper Cat! No entanto, seu código ainda precisa de ajuda. Mude a tag `div` ao redor dos botões para uma tag `fieldset`, e altere a tag `p` dentro dela para uma `legend`.
 
 # --hints--
 
-Your code should have a `fieldset` tag around the radio button set.
+Seu código deve ter uma tag `fieldset` ao redor do conjunto de botões.
 
 ```js
 assert($('fieldset').length == 1);
 ```
 
-The `fieldset` element should have a closing tag.
+O elemento `fieldset` deve ter uma tag de fechamento.
 
 ```js
 assert(
@@ -52,19 +52,19 @@ assert(
 );
 ```
 
-Your code should have a `legend` tag around the text asking what level ninja a user is.
+Seu código deve ter uma tag `legend` ao redor do texto perguntando em que nível de ninja o usuário está.
 
 ```js
 assert($('legend').length == 1);
 ```
 
-Your code should not have any `div` tags.
+Seu código não deve ter nenhuma tag `div`.
 
 ```js
 assert($('div').length == 0);
 ```
 
-Your code should no longer have a `p` tag around the text asking what level ninja a user is.
+Seu código não deve mais ter uma tag `p` ao redor do texto perguntando em que nível de ninja o usuário está..
 
 ```js
 assert($('p').length == 4);
