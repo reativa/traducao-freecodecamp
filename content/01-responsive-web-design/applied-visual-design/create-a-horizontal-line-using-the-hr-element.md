@@ -9,23 +9,22 @@ dashedName: create-a-horizontal-line-using-the-hr-element
 
 # --description--
 
-You can use the `hr` tag to add a horizontal line across the width of its containing element. This can be used to define a change in topic or to visually separate groups of content.
+Você pode usar a tag `hr` para adicionar uma linha horizontal ao longo da largura do elemento que o contém. Isso pode ser usado para definir uma mudança no tópico ou para separar visualmente grupos de conteúdo.
 
 # --instructions--
 
-Add an `hr` tag underneath the `h4` which contains the card title.
+Adicione uma tag `hr` abaixo de `h4` que contém o título do cartão.
 
-**Note:** In HTML, `hr` is a self-closing tag, and therefore doesn't need a separate closing tag.
-
+**Nota:** Em HTML, `hr` é uma tag de fechamento automático e, portanto, não precisa de uma tag de fechamento separada.
 # --hints--
 
-Your code should add an `hr` tag to the markup.
+Seu código deve adicionar uma tag `hr` à marcação.
 
 ```js
 assert($('hr').length == 1);
 ```
 
-The `hr` tag should come between the title and the paragraph.
+A tag `hr` deve ficar entre o título e o parágrafo.
 
 ```js
 assert(code.match(/<\/h4>\s*?<hr(>|\s*?\/>)\s*?<p>/gi));

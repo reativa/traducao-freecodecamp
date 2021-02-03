@@ -9,9 +9,9 @@ dashedName: create-movement-using-css-animation
 
 # --description--
 
-When elements have a specified `position`, such as `fixed` or `relative`, the CSS offset properties `right`, `left`, `top`, and `bottom` can be used in animation rules to create movement.
+Quando os elementos têm uma `position` especificada, como `fixed` ou `relative`, as propriedades de deslocamento CSS `right`, `left`, `top` e `bottom` podem ser usadas em regras de animação para criar movimento.
 
-As shown in the example below, you can push the item downwards then upwards by setting the `top` property of the `50%` keyframe to 50px, but having it set to 0px for the first (`0%`) and the last (`100%`) keyframe.
+Como mostrado no exemplo abaixo, é possível empurrar o produto para baixo, em seguida, para cima, definindo a propriedade `top` do keyframe de `50% ` para 50 pixels, mas definindo a 0px para o primeiro (`0%`) e o úlitmo(`100%`) keyframe .
 
 ```css
 @keyframes rainbow {
@@ -32,23 +32,22 @@ As shown in the example below, you can push the item downwards then upwards by s
 
 # --instructions--
 
-Add a horizontal motion to the `div` animation. Using the `left` offset property, add to the `@keyframes` rule so rainbow starts at 0 pixels at `0%`, moves to 25 pixels at `50%`, and ends at -25 pixels at `100%`. Don't replace the `top` property in the editor - the animation should have both vertical and horizontal motion.
+Adicione um movimento horizontal à animação da `div`. Usando a propriedade de deslocamento `left`, adicione à regra `@ keyframes` para que o arco-íris comece em 0 pixels no ponto de `0%`, se mova para 25 pixels no ponto de `50%` e termine em -25 pixels em `100%`. Não substitua a propriedade `top` no editor - a animação deve ter movimento vertical e horizontal.
 
 # --hints--
 
-The `@keyframes` rule for `0%` should use the `left` offset of 0px.
-
+A regra `@ keyframes` para `0% ` deve usar o deslocamento `left` de 0px.
 ```js
 assert(code.match(/[^50]0%\s*?{[\s\S]*?left:\s*?0px(;[\s\S]*?|\s*?)}/gi));
 ```
 
-The `@keyframes` rule for `50%` should use the `left` offset of 25px.
+A regra `@ keyframes` para `50% ` deve usar o deslocamento `left` de 25px.
 
 ```js
 assert(code.match(/50%\s*?{[\s\S]*?left:\s*?25px(;[\s\S]*?|\s*?)}/gi));
 ```
 
-The `@keyframes` rule for `100%` should use the `left` offset of -25px.
+A regra `@ keyframes` para `100% ` deve usar o deslocamento `left` de -25px.
 
 ```js
 assert(code.match(/100%\s*?{[\s\S]*?left:\s*?-25px(;[\s\S]*?|\s*?)}/gi));
