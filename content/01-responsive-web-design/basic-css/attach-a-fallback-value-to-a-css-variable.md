@@ -40,8 +40,7 @@ assert(
 );
 ```
 
-O valor substituto de `black` deve ser usado na propriedade seguir da classe `penguin-bottom`. 
-
+O valor substituto de `black` deve ser usado na propriedade `background `da classe `penguin-bottom`.
 ```js
 assert(
   code.match(
