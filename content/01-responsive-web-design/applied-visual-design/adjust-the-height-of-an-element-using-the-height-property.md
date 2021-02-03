@@ -1,6 +1,6 @@
 ---
 id: 587d7791367417b2b2512ab5
-title: Adjust the Height of an Element Using the height Property
+title: Ajuste a altura de um elemento usando a propriedade height
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDaDTN'
 forumTopicId: 301034
@@ -9,7 +9,7 @@ dashedName: adjust-the-height-of-an-element-using-the-height-property
 
 # --description--
 
-You can specify the height of an element using the `height` property in CSS, similar to the `width` property. Here's an example that changes the height of an image to 20px:
+Você pode especificar a altura de um elemento usando a propriedade `height` do CSS, similar à propriedade `width`. Aqui está um exemplo que muda a altura de uma imagem para 20px: 
 
 ```css
 img {
@@ -19,13 +19,13 @@ img {
 
 # --instructions--
 
-Add a `height` property to the `h4` tag and set it to 25px.
+Adicione a propriedade `height` a tag `h4` e a defina para 25px.
 
-**Note:** You may need to be at 100% zoom to pass the test on this challenge.
+**Nota:** Você pode precisar estar com zoom de 100% para passar no teste neste desafio.
 
 # --hints--
 
-Your code should change the `h4` `height` property to a value of 25 pixels.
+Seu código deve mudar a propriedade `h4` `height` para o valor de 25 pixels.
 
 ```js
 assert(
@@ -67,7 +67,7 @@ assert(
   <div class="cardContent">
     <div class="cardText">
       <h4>Google</h4>
-      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
+      <p>Google foi fundado por Larry Page e Sergey Brin enquanto faziam doutorado na Universidade de Stanford.</p>
     </div>
     <div class="cardLinks">
       <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
@@ -107,7 +107,7 @@ assert(
   <div class="cardContent">
     <div class="cardText">
       <h4>Google</h4>
-      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
+      <p>Google foi fundado por Larry Page e Sergey Brin enquanto faziam doutorado na Universidade de Stanford.</p>
     </div>
     <div class="cardLinks">
       <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
