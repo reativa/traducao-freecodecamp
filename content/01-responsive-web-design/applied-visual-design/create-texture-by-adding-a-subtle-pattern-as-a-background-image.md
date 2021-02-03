@@ -9,15 +9,15 @@ dashedName: create-texture-by-adding-a-subtle-pattern-as-a-background-image
 
 # --description--
 
-Uma forma de adicionar textura e destaque para um *background*, e fazê-lo se destacar mais, é adicionando um padrão sutil. O segredo é o equilíbrio, pois você não quer que o fundo se destaque muito e se distancie do primeiro plano. A propriedade `background` suporta a função  `url()` para vincular uma imagem de textura ou de algum outro padrão escolhido. O endereço do link é colocado entre aspas entre parênteses. 
+One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The `background` property supports the `url()` function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
 
 # --instructions--
 
-Usando a url : `https://cdn-media-1.freecodecamp.org /imgr/ MJAkxbh.png`, defina o `background` da página interia com o seletor `body`.
+Using the url of `https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png`, set the `background` of the whole page with the `body` selector.
 
 # --hints--
 
-Seu elemento `body` deve ter uma propriedade `background` definido com a `url()` do link fornecido.
+Your `body` element should have a `background` property set to a `url()` with the given link.
 
 ```js
 assert(
