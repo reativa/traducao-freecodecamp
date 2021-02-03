@@ -9,23 +9,23 @@ dashedName: create-a-gradual-css-linear-gradient
 
 # --description--
 
-A aplicação de uma cor em elementos HTML não se limita a um matiz plano. CSS fornece a capacidade de usar transições de cores, também conhecidas como gradientes, em elementos. Isso é acessado por meio da função `linear-gradient()`. Aqui está a sintaxe geral:
+Applying a color on HTML elements is not limited to one flat hue. CSS provides the ability to use color transitions, otherwise known as gradients, on elements. This is accessed through the `background` property's `linear-gradient()` function. Here is the general syntax:
 
 `background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);`
 
-O primeiro argumento especifica a direção a partir da qual a transição de cor começa - pode ser declarada como um grau, onde `90deg` cria um gradiente horizontal (da esquerda para a direita) e `45deg` cria um gradiente diagonal (da parte inferior esquerda para a direita superior) . Os argumentos a seguir especificam a ordem das cores usadas no gradiente.
+The first argument specifies the direction from which color transition starts - it can be stated as a degree, where `90deg` makes a horizontal gradient (from left to right) and `45deg` makes a diagonal gradient (from bottom left to top right). The following arguments specify the order of colors used in the gradient.
 
-Exemplo:
+Example:
 
 `background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));`
 
 # --instructions--
 
-Use um `linear-gradient ()` para o elemento `div``s`, e defina-o a partir de uma direção de 35 graus para alterar a cor de `# CCFFFF` para `# FFCCCC`.
+Use a `linear-gradient()` for the `div` element's `background`, and set it from a direction of 35 degrees to change the color from `#CCFFFF` to `#FFCCCC`.
 
 # --hints--
 
-O elemento `div` deve ter um `linear-gradient` seguindo com a direção e cores especificadas.
+The `div` element should have a `linear-gradient` `background` with the specified direction and colors.
 
 ```js
 assert(
