@@ -9,19 +9,17 @@ dashedName: center-an-element-horizontally-using-the-margin-property
 
 # --description--
 
+Outra técnica de posicionamento é centralizar um elemento block horizontalmente. Uma forma de fazer isso é atributir o valor auto à sua propriedade `margin`
 
-Outra técnica de posicionamento é centralizar um elemento de bloco horizontalmente. Uma maneira de fazer isso é definir sua `margin` para um valor de `auto`.
+Esse método funciona também para imagens. Imagens são elementos inline por padrão, mas podem ser modificadas para elementos block se mudarmos a propriedade `display` para block.
 
-
-Este método também funciona com imagens. As imagens são elementos `inline` por padrão, mas podem ser alteradas para elementos `block` quando você define a propriedade `display` para `block`.
 # --instructions--
 
+Centralize a `div` na página atribuindo à propriedade `margin` o valor auto.
 
-Centralize a `div` na página adicionando uma propriedade `margin` com um valor de auto.
 # --hints--
 
-A `div` deve ter uma `margin` definida como `auto`.
-
+A `div` deve ter a `margin` configurada como auto.
 
 ```js
 assert(code.match(/margin:\s*?auto;/g));

@@ -13,6 +13,7 @@ O CSS trata cada elemento do HTML com sua própria 'box' (caixa), o que é norma
 
 Quando a `position` de um elemento é `relative`, isso te permite especificar como o CSS deve mover o elemento *relativamento* a sua posição atual no 'normal flow' da página. Isso se une as propriedades: `left`(esquerda) ou `right`(direita), e `top`(cima) ou `bottom`(baixo). Essas propriedades ditam quantos pixels, porcentagem, ou 'ems' mover *para longe* de onde esta normalmente posicionado. O exemplo a seguir move o paragrafor 10 pixels para longe da parte de baixo (bottom):
 
+
 ```css
 p {
   position: relative;
@@ -29,6 +30,7 @@ Mude o `position` do `h2` para `relative`, e use o CSS para mover 15 pixels para
 # --hints--
 
 O elemento `h2` tem que estar com o `position` como `relative`.
+
 
 ```js
 assert($('h2').css('position') == 'relative');
