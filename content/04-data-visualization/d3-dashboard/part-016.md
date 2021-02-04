@@ -1,13 +1,13 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9ed
-title: Part 16
+title: Parte 16
 challengeType: 0
 dashedName: part-16
 ---
 
 # --description--
 
-Add three more variables; `twitterColor` with a value of `#7cd9d1`, `tumblrColor` equal to `#f6dd71`, and `instagramColor` at `#fd9b98`. Make sure those Hex values are strings. These will be colors used to represent the different platforms throughout the project.
+E mais três variáveis; `twitterColor` com um valor de `#7cd9d1`, `tumblrColor` igual a `#f6dd71`, e `instagramColor` com `#fd9b98`. Certifique-se que esses valores hexadecimais são strings. Estas serão as cores usadas para representar as diferentes plataformas ao longo do projeto.
 
 # --hints--
 
