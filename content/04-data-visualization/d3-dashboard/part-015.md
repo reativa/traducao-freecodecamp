@@ -1,17 +1,17 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9ec
-title: Part 15
+title: Parte 15
 challengeType: 0
 dashedName: part-15
 ---
 
 # --description--
 
-The script at the top is the `data.js` file you added. I have placed it here so you can see the data and recommend taking a look at it. The second script is the one you just added and where you will build the rest of the project.
+O script no topo é o arquivo `data.js` que você adicionou. Eu coloquei aqui para que você possa ver os dados e recomendo dar uma olhada nele. O segundo script é aquele que você acabou de adicionar e onde construirá o resto do projeto.
 
-In the second script, create three `const` variables; `svgMargin` with a value of `70`, `svgWidth` with a value of `700`, and `svgHeight` equal to `500`. The first part of the dashboard will be a line graph. It will use these variables as its dimensions.
+No segundo script, crie uma três variáveis `const`; `svgMargin` com um valor de `70`, `svgWidth` com um valor de `700`, e `svgHeight` igual a `500`. A primeira parte do painel será um gráfico de linha. Ele usará essas variáveis como suas dimensões.
 
-The line graph will have the years from your data variable across the bottom, and a scale on the left to show the numbers of followers. Each platform will have a line going across the graph that shows how many followers you had for each year.
+O gráfico de linha terá os anos de sua variável de dados na parte inferior, e uma escala na esquerda para mostrar numero de seguidores. Cada plataforma terá uma linha cruzando o gráfico que mostra quantos seguidores você teve em cada ano.
 
 # --hints--
 
