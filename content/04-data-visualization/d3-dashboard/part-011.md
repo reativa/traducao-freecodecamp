@@ -1,13 +1,13 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e8
-title: Part 11
+title: Parte 11
 challengeType: 0
 dashedName: part-11
 ---
 
 # --description--
 
-Later on, you will be adding more elements to the dashboard container. Set the `display` to `flex` and the `align-items` to `center` so those items will be vertically centered.
+Após isso, adicione mais slementos ao contâiner do painel. Defina o `display` para `flex` e o `align-items` para `center`, para que esses itens sejam centralizados verticalmente.
 
 # --hints--
 
