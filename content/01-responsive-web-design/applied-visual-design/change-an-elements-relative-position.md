@@ -1,6 +1,8 @@
 ---
 id: 587d781e367417b2b2512ac9
+
 title: Mude a posição relativa de um elemento
+
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/czVmMtZ'
 forumTopicId: 301044
@@ -9,9 +11,11 @@ dashedName: change-an-elements-relative-position
 
 # --description--
 
+
 O CSS trata cada elemento do HTML com sua própria 'box' (caixa), o que é normalmente conhecido como <dfn>CSS Box Model</dfn>. Os elementos 'Block-level' começam automaticamente em uma nova linha (por exemplo: títulos (h1,h2,...), paragrafos (p), e as 'divs') enquanto os elementos inline se encaixam conforme os elementos a sua volta (como imagens ou 'spans'). O layout padrão dos elementos é chamado de o <dfn>'normal flow'</dfn> de um documento, mas o CSS oferece a propriedade 'position' para sobrescrever isso.
 
 Quando a 'position' de um elemento é `relative`, isso te permite especificar como o CSS deve mover o elemento *relativamento* a sua posição atual no 'normal flow' da página. Isso se une as propriedades: `left`(esquerda) ou `right`(direita), e `top`(cima) ou `bottom`(baixo). Essas propriedades ditam quantos pixels, porcentagem, ou 'ems' mover *para longe* de onde esta normalmente posicionado. O exemplo a seguir move o paragrafor 10 pixels para longe da parte de baixo (bottom):
+
 
 ```css
 p {
@@ -30,11 +34,13 @@ Mude o `position` do `h2` para `relative`, e use o CSS para mover 15 pixels para
 
 O elemento `h2` tem que estar com o `position` como `relative`.
 
+
 ```js
 assert($('h2').css('position') == 'relative');
 ```
 
-Seu código deve usar o CSS para mover relativamente a posição do `h2` 15px para longe do `top` de onde ele normalmente estaria.
+Seu código deve usar um deslocamento CSS para posicionar relativamente o `h2` 15px longe do `top` de onde ele normalmente fica.
+
 
 ```js
 assert($('h2').css('top') == '15px');

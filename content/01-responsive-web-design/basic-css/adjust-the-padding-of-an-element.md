@@ -1,6 +1,6 @@
 ---
 id: bad88fee1348bd9aedf08825
-title: Adjust the Padding of an Element
+title: Ajuste o preenchimento de um elemento 
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cED8ZC2'
 forumTopicId: 301083
@@ -9,25 +9,25 @@ dashedName: adjust-the-padding-of-an-element
 
 # --description--
 
-Now let's put our Cat Photo App away for a little while and learn more about styling HTML.
+Agora vamos deixar nosso Cat Photo App de lado por um tempo e aprender mais sobre como estilizar HTML.
 
-You may have already noticed this, but all HTML elements are essentially little rectangles.
+Você já deve ter notado isso, mas todos os elementos HTML são essencialmente pequenos retângulos.
 
-Three important properties control the space that surrounds each HTML element: `padding`, `border`, and `margin`.
+Três propriedades importantes controlam o espaço que envolve cada elemento HTML: `padding`,` border` e `margin`.
 
-An element's `padding` controls the amount of space between the element's content and its `border`.
+O `padding` de um elemento controla a quantidade de espaço entre o conteúdo do elemento e sua `border`.
 
-Here, we can see that the blue box and the red box are nested within the yellow box. Note that the red box has more `padding` than the blue box.
+Aqui, podemos ver que a caixa azul e a caixa vermelha estão aninhadas na caixa amarela. Observe que a caixa vermelha tem mais `padding` do que a caixa azul.
 
-When you increase the blue box's `padding`, it will increase the distance (`padding`) between the text and the border around it.
+Quando você aumenta o `padding` da caixa azul, aumenta a distância (` padding`) entre o texto e a borda ao redor dele. 
+
 
 # --instructions--
 
-Change the `padding` of your blue box to match that of your red box.
-
+Altere o `padding` da sua caixa azul para corresponder ao da sua caixa vermelha.
 # --hints--
 
-Your `blue-box` class should give elements `20px` of `padding`.
+Sua classe `blue-box` deve fornecer elementos` 20px` de `padding`. 
 
 ```js
 assert($('.blue-box').css('padding-top') === '20px');
