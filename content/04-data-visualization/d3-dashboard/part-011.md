@@ -7,7 +7,7 @@ dashedName: part-11
 
 # --description--
 
-Após isso, adicione mais slementos ao contâiner do painel. Defina o `display` para `flex` e o `align-items` para `center`, para que esses itens sejam centralizados verticalmente.
+Após isso, adicione mais elementos ao contâiner do painel. Defina o `display` para `flex` e o `align-items` para `center`, para que esses itens sejam centralizados verticalmente.
 
 # --hints--
 
