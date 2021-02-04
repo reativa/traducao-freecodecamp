@@ -7,7 +7,7 @@ dashedName: part-16
 
 # --description--
 
-E mais três variáveis; `twitterColor` com um valor de `#7cd9d1`, `tumblrColor` igual a `#f6dd71`, e `instagramColor` com `#fd9b98`. Certifique-se que esses valores hexadecimais são strings. Estas serão as cores usadas para representar as diferentes plataformas ao longo do projeto.
+Adicione mais três variáveis; `twitterColor` com um valor de `#7cd9d1`, `tumblrColor` igual a `#f6dd71`, e `instagramColor` com `#fd9b98`. Certifique-se que esses valores hexadecimais são strings. Estas serão as cores usadas para representar as diferentes plataformas ao longo do projeto.
 
 # --hints--
 
