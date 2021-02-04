@@ -1,13 +1,13 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e2
-title: Part 5
+title: Parte 5
 challengeType: 0
 dashedName: part-5
 ---
 
 # --description--
 
-Next, add a container for the dashboard. Put an empty `div` element in the body with class of `dashboard`. You will be appending all the dashboard elements to this div.
+Em seguida, adicione um contêiner para o painel. Coloque um elemento `div` vazio no corpo com uma classe `dashboard`. Você irá adicionar todos os elementos do painel dentro da div.
 
 # --hints--
 
