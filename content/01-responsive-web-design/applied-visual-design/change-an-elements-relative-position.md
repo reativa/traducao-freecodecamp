@@ -1,6 +1,6 @@
 ---
 id: 587d781e367417b2b2512ac9
-title: Mudar a posição relativa de um elemento
+title: Mude a posição relativa de um elemento
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/czVmMtZ'
 forumTopicId: 301044
@@ -9,9 +9,10 @@ dashedName: change-an-elements-relative-position
 
 # --description--
 
-CSS trata cada elemento HTML como sua própria caixa, que geralmente é conhecida como <dfn>CSS Box Model</dfn>. Os itens de nível de bloco começam automaticamente em uma nova linha (pense em títulos, parágrafos e divs), enquanto os itens em linha ficam dentro do conteúdo circundante (como imagens ou extensões). O layout padrão dos elementos dessa forma é chamado de <dfn>normal flow</dfn> de um documento, mas o CSS oferece a propriedade position para substituí-la.
+O CSS trata cada elemento do HTML com sua própria 'box' (caixa), o que é normalmente conhecido como <dfn>CSS Box Model</dfn>. Os elementos 'Block-level' começam automaticamente em uma nova linha (por exemplo: títulos (h1,h2,...), paragrafos (p), e as 'divs') enquanto os elementos inline se encaixam conforme os elementos a sua volta (como imagens ou 'spans'). O layout padrão dos elementos é chamado de o <dfn>'normal flow'</dfn> de um documento, mas o CSS oferece a propriedade 'position' para sobrescrever isso.
 
-Quando a posição de um elemento é definida como `relative`, permite que você especifique como o CSS deve movê-la *em relação* à sua posição atual no fluxo normal da página. Ele é pareado com as propriedades de deslocamento CSS `left` ou `right` e `top` ou `bottom`. Eles dizem quantos pixels, porcentagens ou ems mover o item *para longe* de onde ele está normalmente posicionado. O exemplo a seguir move o parágrafo 10 pixels para longe da parte inferior:
+Quando a `position` de um elemento é `relative`, isso te permite especificar como o CSS deve mover o elemento *relativamento* a sua posição atual no 'normal flow' da página. Isso se une as propriedades: `left`(esquerda) ou `right`(direita), e `top`(cima) ou `bottom`(baixo). Essas propriedades ditam quantos pixels, porcentagem, ou 'ems' mover *para longe* de onde esta normalmente posicionado. O exemplo a seguir move o paragrafor 10 pixels para longe da parte de baixo (bottom):
+
 
 ```css
 p {
@@ -20,21 +21,22 @@ p {
 }
 ```
 
-Alterar a posição de um elemento para relative não o remove do fluxo normal - outros elementos ao redor dele ainda se comportam como se aquele item estivesse em sua posição padrão. **Observação:** O posicionamento oferece bastante flexibilidade e poder sobre o layout visual de uma página. É bom lembrar que não importa a posição dos elementos, a marcação HTML subjacente deve ser organizada e fazer sentido quando lida de cima para baixo. É assim que usuários com deficiência visual (que contam com dispositivos auxiliares como leitores de tela) acessam seu conteúdo.
+Mudar a posição relativa de um elemento não remove ele do 'normal flow' - os outros elementos a sua volta ainda se comportam como se o item estivesse na sua posição original. **Nota:** O método 'position' traz uma grande flexibilidade e poder sobre o visual do layout. É bom lembrar que não importa a posição do elemento, o 'HTML' deve estar organizado e fazer sentido quando lido de cima para baixo. É dessa forma que pessoas com dificuldades visuais (que necessitam da assistência de aparelhos como leitores de tela) irão acessar essa página.
 
 # --instructions--
 
-Mude a `position` de `h2` para `relative`, e use um deslocamento CSS para movê-lo 15 pixels longe do `top` de onde ele se encontra no fluxo normal. Observe que não há impacto nas posições dos elementos h1 e p circundantes.
+Mude o `position` do `h2` para `relative`, e use o CSS para mover 15 pixels para longe do `top` onde ele está no normal flow. Note que não há nenhum impacto na posição dos elementos h1 e p.
 
 # --hints--
 
-O elemento `h2` deve ter uma propriedade `position` definida para `relative`.
+O elemento `h2` tem que estar com o `position` como `relative`.
+
 
 ```js
 assert($('h2').css('position') == 'relative');
 ```
 
-Seu código deve usar um deslocamento CSS para posicionar relativamente o `h2` 15px longe do `top` de onde ele normalmente fica.
+Seu código deve usar o CSS para mover relativamente a posição do `h2` 15px para longe do `top` de onde ele normalmente estaria.
 
 ```js
 assert($('h2').css('top') == '15px');
