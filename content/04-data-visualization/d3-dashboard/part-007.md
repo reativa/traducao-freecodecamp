@@ -7,7 +7,7 @@ dashedName: part-7
 
 # --description--
 
-Em seguida, direcione a classe `dashboard` que você criou e atribua a ela um `width` de `980px` e um `height` de `500px`.
+Em seguida, use a classe `dashboard` que você criou e atribua a ela um `width` de `980px` e um `height` de `500px`.
 
 # --hints--
 
