@@ -1,6 +1,6 @@
 ---
 id: 587d7791367417b2b2512ab3
-title: Criar um equilíbrio visual (Visual Balance) usando a propriedade 'text-align'
+title: Crie um equilíbrio visual (Visual Balance) usando a propriedade 'text-align'
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c3b4EAp'
 forumTopicId: 301053
@@ -27,13 +27,13 @@ Alinhe o texto com a tag `h4`, onde está escrito "Google", para o centro. Depoi
 
 # --hints--
 
-Seu código deve usar a propriedade text-align na tag `h4` para centraliza-la.
+Seu código deve usar a propriedade "text-align: center" na tag `h4` para centraliza-la.
 
 ```js
 assert($('h4').css('text-align') == 'center');
 ```
 
-Seu código deve usar a propriedade text-align na tag `p` para justificá-la.
+Seu código deve usar a propriedade "text-align: justify" na tag `p` para justificá-la.
 
 ```js
 assert($('p').css('text-align') == 'justify');
