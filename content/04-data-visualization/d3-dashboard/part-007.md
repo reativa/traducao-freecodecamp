@@ -1,13 +1,13 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e4
-title: Part 7
+title: Parte 7
 challengeType: 0
 dashedName: part-7
 ---
 
 # --description--
 
-Next, target the `dashboard` class you created and give it a `width` of `980px` and a `height` of `500px`.
+Em seguida, use a classe `dashboard` que você criou e atribua a ela um `width` de `980px` e um `height` de `500px`.
 
 # --hints--
 

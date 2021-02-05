@@ -1,13 +1,13 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e0
-title: Part 3
+title: Parte 3
 challengeType: 0
 dashedName: part-3
 ---
 
 # --description--
 
-In the head, add a `title` of `D3 Dashboard`.
+No cabeçalho, adicione um `title` com o conteúdo `D3 Dashboard`.
 
 # --hints--
 

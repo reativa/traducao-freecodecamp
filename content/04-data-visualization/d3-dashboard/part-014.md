@@ -1,13 +1,13 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9eb
-title: Part 14
+title: Parte 14
 challengeType: 0
 dashedName: part-14
 ---
 
 # --description--
 
-Add a third script just before the closing body tag. It will be the JavaScript file you will use to create the rest of the dashboard. Give the script a `src` of `./dashboard.js`.
+Adicione um terceiro script antes do fechamento da tag body. Este será o arquivo JavaScript que será usado para criar o restante do painel. Dê ao script o atributo `src` com `./dashboard.js`.
 
 # --hints--
 

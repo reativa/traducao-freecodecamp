@@ -1,13 +1,13 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e6
-title: Part 9
+title: Parte 9
 challengeType: 0
 dashedName: part-9
 ---
 
 # --description--
 
-Now you can see your dashboard element. Center it by adding a `margin` of `auto` to it.
+Agora, você pode ver o elemento do painel. Centralize-o adicionando um `margin` `auto` nele.
 
 # --hints--
 
