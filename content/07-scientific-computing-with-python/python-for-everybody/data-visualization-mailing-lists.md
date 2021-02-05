@@ -28,7 +28,7 @@ Recursos adicionais:
 
 ## --text--
 
-Qual é uma library JavaScript comum de visualização? 
+Qual é uma biblioteca JavaScript comum de visualização? 
 
 ## --answers--
 
