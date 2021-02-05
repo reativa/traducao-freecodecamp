@@ -29,6 +29,7 @@ Alinhe o texto com a tag `h4`, onde está escrito "Google", para o centro. Depoi
 
 Seu código deve usar a propriedade "text-align: center" na tag `h4` para centralizá-la.
 
+
 ```js
 assert($('h4').css('text-align') == 'center');
 ```

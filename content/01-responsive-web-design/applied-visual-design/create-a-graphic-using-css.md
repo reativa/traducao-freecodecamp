@@ -1,6 +1,6 @@
 ---
 id: 587d78a6367417b2b2512add
-title: Crie um desenho gráfico usando CSS
+title: Crie um gráfico usando CSS
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDWPs6'
 forumTopicId: 301048
@@ -36,6 +36,7 @@ assert(code.match(/border-radius:\s*?50%;/gi));
 ```
 
 O valor do `box-shadow` deve ser 25px para `offset-x`, 10px para `offset-y`, 0 para `blur-radius`, 0 para `spread-radius`, e finalmente 'blue' para 'color'.
+
 
 ```js
 assert(
