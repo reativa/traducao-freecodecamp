@@ -15,7 +15,7 @@ Uma principal diferença entre as posições `fixed` e `absolute` é que o eleme
 
 # --instructions--
 
-A barra de navegação no código está rotulado com um id de `navbar`. Mude sua `position` para `fixed`, e desloque-o 0 pixels a partir do `top` e 0 pixels a partir `left`. Após ter adicionado o código, role a janela de visualização para ver como a navegação continua no lugar.
+A barra de navegação no código está rotulada com um id de `navbar`. Mude sua `position` para `fixed`, e desloque-o 0 pixels a partir do `top` e 0 pixels a partir `left`. Após ter adicionado o código, role a janela de visualização para ver como a navegação continua no lugar.
 
 # --hints--
 
