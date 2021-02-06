@@ -1,13 +1,13 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9df
-title: Part 2
+title: Parte 2
 challengeType: 0
 dashedName: part-2
 ---
 
 # --description--
 
-Next, add opening and closing `html`, `head` and `body` tags below the doctype. Be sure to nest them properly.
+Em seguida, adicione as tags de abertura e fechamento `html`, `head` e `body` abaixo do doctype. Certifique-se de aninhá-los corretamente.
 
 # --hints--
 

@@ -1,6 +1,6 @@
 ---
 id: 5e7b9f6a0b6c005b0e76f097
-title: 'Data Visualization: Mailing Lists'
+title: 'Visualização de Dados: Listas de E-mail'
 challengeType: 11
 videoId: RYdW660KkaQ
 dashedName: data-visualization-mailing-lists
@@ -8,7 +8,7 @@ dashedName: data-visualization-mailing-lists
 
 # --description--
 
-More resources:
+Recursos adicionais:
 
 \- [Exercise: Geodata](https://www.youtube.com/watch?v=KfhslNzopxo)
 
@@ -28,7 +28,7 @@ More resources:
 
 ## --text--
 
-Which is a common JavaScript visualization library?
+Qual é uma biblioteca JavaScript comum de visualização? 
 
 ## --answers--
 

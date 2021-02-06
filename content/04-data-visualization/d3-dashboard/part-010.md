@@ -1,13 +1,13 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e7
-title: Part 10
+title: Parte 10
 challengeType: 0
 dashedName: part-10
 ---
 
 # --description--
 
-Give the container some space by adding a `padding` of `100px 10px` to the `body` element.
+Dê ao contâiner algum espaço adicionando um `padding` de `100px 10px` ao elemento `body`.
 
 # --hints--
 

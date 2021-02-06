@@ -1,37 +1,48 @@
+
 ---
-id: 587d78ad367417b2b2512af8
-title: Align Elements Using the align-items Property
-challengeType: 0
-videoUrl: 'https://scrimba.com/p/pVaDAv/c8aggtk'
-forumTopicId: 301101
-dashedName: align-elements-using-the-align-items-property
+
+id:  587d78ad367417b2b2512af8
+
+title:  Alinhe Elementos Usando a Propriedade align-items 
+
+challengeType:  0
+
+videoUrl:  'https://scrimba.com/p/pVaDAv/c8aggtk'
+
+forumTopicId:  301101
+
+dashedName:  align-elements-using-the-align-items-property
+
 ---
 
 # --description--
 
-The `align-items` property is similar to `justify-content`. Recall that the `justify-content` property aligned flex items along the main axis. For rows, the main axis is a horizontal line and for columns it is a vertical line.
+A propriedade `align-items` é similar à propriedade `justify-content`. Lembre-se que a propriedade `justify-content` alinhava os itens com flex ao eixo principal. Para linhas, o eixo principal é uma linha horizontal e para colunas, é uma linha vertical.
 
-Flex containers also have a **cross axis** which is the opposite of the main axis. For rows, the cross axis is vertical and for columns, the cross axis is horizontal.
+Contêiners com flex possuem também um **eixo transversal** o qual é oposto ao eixo principal. Para linhas, o eixo transversal é vertical e para colunas, o eixo transversal é horizontal.
 
-CSS offers the `align-items` property to align flex items along the cross axis. For a row, it tells CSS how to push the items in the entire row up or down within the container. And for a column, how to push all the items left or right within the container.
+O CSS oferece a propriedade `align-items` para alinhar os itens com flex ao longo do eixo trasnversal. Para uma linha, diz ao CSS como empurrar os itens em toda a linha para cima ou para baixo dentro do contêiner. E para uma coluna, como empurrar todos os itens para a esquerda ou direita dentro do contêiner.
 
-The different values available for `align-items` include:
+Os diferentes valores disponíveis para `align-items` :
 
-<ul><li><code>flex-start</code>: aligns items to the start of the flex container. For rows, this aligns items to the top of the container. For columns, this aligns items to the left of the container.</li><li><code>flex-end</code>: aligns items to the end of the flex container. For rows, this aligns items to the bottom of the container. For columns, this aligns items to the right of the container.</li><li><code>center</code>: align items to the center. For rows, this vertically aligns items (equal space above and below the items). For columns, this horizontally aligns them (equal space to the left and right of the items).</li><li><code>stretch</code>: stretch the items to fill the flex container. For example, rows items are stretched to fill the flex container top-to-bottom. This is the default value if no <code>align-items</code> value is specified.</li><li><code>baseline</code>: align items to their baselines. Baseline is a text concept, think of it as the line that the letters sit on.</li></ul>
+<ul><li><code>flex-start</code>: alinha os itens ao início do contêiner com flex. Para as linhas, alinha os itens ao topo do contêiner. Para colunas, alinha os itens à esquerda do contêiner.</li><li><code>flex-end</code>: alinha os itens ao final do contêiner com flex. Para linhas, alinha os itens na parte inferior do contêiner. Para colunas, isso alinha os itens à direita do contêiner.</li><li><code>center</code>: alinha os itens ao centro. Para as linhas, alinha os itens verticalmente (espaço igual acima e abaixo dos itens). Para colunas, alinha horizontalmente (espaço igual à esquerda e à direita dos itens).</li><li><code>stretch</code>: estica os itens para encher o contêiner com flex. Por exemplo, os itens das linhas são esticados para preencher o contêiner com flex de cima para baixo. Este é o valor principal se nenhum valor é especificado no <code>align-items</code>.</li><li><code>baseline</code>: alinha os itens às suas linhas de base. A linha de base é um conceito de texto, pense nisso como a linha em que as letras ficam.</li></ul>
 
 # --instructions--
 
-An example helps show this property in action. Add the CSS property `align-items` to the `#box-container` element, and give it a value of `center`.
+Um exemplo ajuda a mostrar essa propriedade em ação. Adicione à propriedade `align-items` no CSS no elemento `#box-container`  e dê o valor  `center`.
 
-**Bonus**  
-Try the other options for the `align-items` property in the code editor to see their differences. But note that a value of `center` is the only one that will pass this challenge.
+**Bônus**
+
+Tente as outras opções para a propriedade `align-items` no editor de código para ver suas diferenças. Mas apenas o valor `center`  é o único que passará no teste deste desafio.
 
 # --hints--
 
-The `#box-container` element should have an `align-items` property set to a value of `center`.
+O elemento `#box-container` deve conter uma propriedade `align-items` definida como  `center`.
 
 ```js
-assert($('#box-container').css('align-items') == 'center');
+
+assert($('#box-container').css('align-items')  ==  'center');
+
 ```
 
 # --seed--
@@ -39,57 +50,107 @@ assert($('#box-container').css('align-items') == 'center');
 ## --seed-contents--
 
 ```html
+
 <style>
-  #box-container {
-    background: gray;
-    display: flex;
-    height: 500px;
 
-  }
-  #box-1 {
-    background-color: dodgerblue;
-    width: 200px;
-    font-size: 24px;
-  }
+#box-container  {
 
-  #box-2 {
-    background-color: orangered;
-    width: 200px;
-    font-size: 18px;
-  }
+background:  gray;
+
+display:  flex;
+
+height:  500px;
+
+  
+
+}
+
+#box-1  {
+
+background-color:  dodgerblue;
+
+width:  200px;
+
+font-size:  24px;
+
+}
+
+  
+
+#box-2  {
+
+background-color:  orangered;
+
+width:  200px;
+
+font-size:  18px;
+
+}
+
 </style>
 
-<div id="box-container">
-  <div id="box-1"><p>Hello</p></div>
-  <div id="box-2"><p>Goodbye</p></div>
+  
+
+<div  id="box-container">
+
+<div  id="box-1"><p>Hello</p></div>
+
+<div  id="box-2"><p>Goodbye</p></div>
+
 </div>
+
 ```
 
 # --solutions--
 
 ```html
-<style>
-  #box-container {
-    background: gray;
-    display: flex;
-    height: 500px;
-    align-items: center;
-  }
-  #box-1 {
-    background-color: dodgerblue;
-    width: 200px;
-    font-size: 24px;
-  }
 
-  #box-2 {
-    background-color: orangered;
-    width: 200px;
-    font-size: 18px;
-  }
+<style>
+
+#box-container  {
+
+background:  gray;
+
+display:  flex;
+
+height:  500px;
+
+align-items:  center;
+
+}
+
+#box-1  {
+
+background-color:  dodgerblue;
+
+width:  200px;
+
+font-size:  24px;
+
+}
+
+  
+
+#box-2  {
+
+background-color:  orangered;
+
+width:  200px;
+
+font-size:  18px;
+
+}
+
 </style>
 
-<div id="box-container">
-  <div id="box-1"><p>Hello</p></div>
-  <div id="box-2"><p>Goodbye</p></div>
+  
+
+<div  id="box-container">
+
+<div  id="box-1"><p>Hello</p></div>
+
+<div  id="box-2"><p>Goodbye</p></div>
+
 </div>
+
 ```
