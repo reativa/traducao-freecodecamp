@@ -17,7 +17,7 @@ Adicionar uma propriedade `z-index` para o elemento com o nome de classe `first`
 
 # --hints--
 
-O elemento com a classe `first` de ter um `z-index` de valor 2.
+O elemento com a classe `first` deve ter um `z-index` de valor 2.
 
 ```js
 assert($('.first').css('z-index') == '2');
