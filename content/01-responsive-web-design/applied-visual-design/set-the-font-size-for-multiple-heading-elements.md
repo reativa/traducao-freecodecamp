@@ -1,6 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac2
-title: Set the font-size for Multiple Heading Elements
+title: Defina o "font-size" (tamanho da fonte) para varios elementos "heading" (h)
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cPpQNT3'
 forumTopicId: 301067
@@ -9,54 +9,54 @@ dashedName: set-the-font-size-for-multiple-heading-elements
 
 # --description--
 
-The `font-size` property is used to specify how large the text is in a given element. This rule can be used for multiple elements to create visual consistency of text on a page. In this challenge, you'll set the values for all `h1` through `h6` tags to balance the heading sizes.
+A propriedade `font-size` é usada para especificar o quão largo o texto pode ser em um elemento. Essa regra pode ser usada para varios elementos para criar uma consistencia visual nos textos da página. Nesse desafio, você vai definir todos os valores da tag `h1` até a `h6` para balancear o tamanho dos cabeçalhos (heading).
 
 # --instructions--
 
-  <p>In the <code>style</code> tags, set the <code>font-size</code> of the:</p>
+  <p>Nas tags do <code>style</code>, defina o <code>font-size</code> da tag:</p>
 
   <ul>
-    <li><code>h1</code> tag to 68px.</li>
-    <li><code>h2</code> tag to 52px.</li>
-    <li><code>h3</code> tag to 40px.</li>
-    <li><code>h4</code> tag to 32px.</li>
-    <li><code>h5</code> tag to 21px.</li>
-    <li><code>h6</code> tag to 14px.</li>
+    <li><code>h1</code> para 68px.</li>
+    <li><code>h2</code> para 52px.</li>
+    <li><code>h3</code> para 40px.</li>
+    <li><code>h4</code> para 32px.</li>
+    <li><code>h5</code> para 21px.</li>
+    <li><code>h6</code> para 14px.</li>
   </ul>
 
 # --hints--
 
-Your code should set the `font-size` property for the `h1` tag to 68 pixels.
+Seu código deve definir a propriedade `font-size` da tag `h1` para 68 pixels.
 
 ```js
 assert($('h1').css('font-size') == '68px');
 ```
 
-Your code should set the `font-size` property for the `h2` tag to 52 pixels.
+Seu código deve definir a propriedade `font-size` da tag `h2` para 52 pixels.
 
 ```js
 assert($('h2').css('font-size') == '52px');
 ```
 
-Your code should set the `font-size` property for the `h3` tag to 40 pixels.
+Seu código deve definir a propriedade `font-size` da tag `h3` para 40 pixels.
 
 ```js
 assert($('h3').css('font-size') == '40px');
 ```
 
-Your code should set the `font-size` property for the `h4` tag to 32 pixels.
+Seu código deve definir a propriedade `font-size` da tag `h4` para 32 pixels.
 
 ```js
 assert($('h4').css('font-size') == '32px');
 ```
 
-Your code should set the `font-size` property for the `h5` tag to 21 pixels.
+Seu código deve definir a propriedade `font-size` da tag `h5` para 21 pixels.
 
 ```js
 assert($('h5').css('font-size') == '21px');
 ```
 
-Your code should set the `font-size` property for the `h6` tag to 14 pixels.
+Seu código deve definir a propriedade `font-size` da tag `h6` para 14 pixels.
 
 ```js
 const regex = /h6\s*\{\s*font-size\s*:\s*14px\s*(;\s*\}|\})/i;

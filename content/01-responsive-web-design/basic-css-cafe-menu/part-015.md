@@ -1,13 +1,13 @@
 ---
 id: 5f3477aefa51bfc29327200b
-title: Part 15
+title: Parte 15
 challengeType: 0
 dashedName: part-15
 ---
 
 # --description--
 
-You have styled three elements by writing CSS inside the `style` tags. This works, but since there will many more styles, it's best to put all the styles in a separate file and link to it. Start by rewriting the styles you have created into the `styles.css` file. Make sure to exclude the opening and closing `style` tags.
+Você adicionou estilo a três elementos ao escrever CSS dentro das tags `style`. Isso funciona, porém uma vez que haverá muito mais estilos, é melhor colocar todos os estilos em um arquivo separado e adicionar um link para isso. Comece reescrevendo os estilos que você criou, no arquivo `styles.css`. Lembre-se de excluir as tags `style` de abertura e fechamento. 
 
 # --hints--
 

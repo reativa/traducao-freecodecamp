@@ -1,13 +1,13 @@
 ---
 id: 5f3477ae9675db8bb7655b30
-title: Part 13
+title: Parte 13
 challengeType: 0
 dashedName: part-13
 ---
 
 # --description--
 
-In the previous step, you used a <dfn>type selector</dfn> to style the `h1` element. Go ahead and center the `h2` and `p` elements with a new type selector for each one.
+No passo anterior, você usou um <dfn> type selector </dfn> para estilizar o elemento `h1`. Vá em frente e centralize o `h2` e o `p` com um novo tipo de seletor para cada um. 
 
 # --hints--
 

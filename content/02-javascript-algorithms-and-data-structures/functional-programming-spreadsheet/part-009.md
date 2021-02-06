@@ -1,17 +1,17 @@
 ---
 id: 5d792533d31e4f7fad33011d
-title: Part 9
+title: Parte 9
 challengeType: 0
 dashedName: part-9
 ---
 
 # --description--
 
-In `infixToFunction`, replace `addVar` with `(x, y) => x + y`.
+Em `infixToFunction`, substitua `addVar` por `(x, y) => x + y`.
 
 # --hints--
 
-See description above for instructions.
+Veja a descrição acima para obter as instruções.
 
 ```js
 assert(code.replace(/\s/g, '').match(/\+["']:\(x,y\)=>x\+y/));
