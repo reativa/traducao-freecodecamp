@@ -1,15 +1,15 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9ea
-title: Part 13
+title: Parte 13
 challengeType: 0
 dashedName: part-13
 ---
 
 # --description--
 
-Add another `script` below the one you just added. Give it a `src` attribute of `./data.js`.
+Adicione outro `script` abaixo do que você acabou de adicionar. Dê a ele um atributo `src` com `./data.js`.
 
-This adds a `data` variable to your project that contains your number of social media followers, it is an array of objects. Each object has the year and your followers for three different platforms. You will see what it looks like shortly.
+Isso adiciona uma variável `data` ao seu projeto que contém o seu número de seguidores de mídia social, isso é um array de objetos. Cada objeto tem o ano e o seus seguidores para três plataformas diferentes. Você verá como funciona em breve.
 
 # --hints--
 

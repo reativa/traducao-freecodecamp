@@ -1,13 +1,13 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e3
-title: Part 6
+title: Parte 6
 challengeType: 0
 dashedName: part-6
 ---
 
 # --description--
 
-You are now looking at the stylesheet that you linked to earlier. At the top of this file, target the `body` of the HTML document and give it a `background-color` of `#ccc`.
+Agora você está olhando para a folha de estilo à qual vinculou anteriormente. No topo deste arquivo, direcione o `body` do documento HTML e dê a ele uma` background-color` de `#ccc`.
 
 # --hints--
 

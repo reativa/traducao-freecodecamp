@@ -1,13 +1,14 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e9
-title: Part 12
+title: Parte 12
 challengeType: 0
 dashedName: part-12
 ---
 
 # --description--
 
-Back in the HTML file, add a `script` tag at the bottom of the head element and give it a `src` attribute of `./d3-5.9.2.min.js`. Don't forget the closing tag. This will add the D3 library to your project from a downloaded copy.
+De volta ao arquivo HTML, adicione uma tag `script` no fim do elemento head e dê a ele um atributo `src` com `./d3-5.9.2.min.js`. Não esqueça da tag de fechamento.
+Isso adicionará a biblioteca D3 para o seu projeto, a partir de um cópia baixada.
 
 # --hints--
 

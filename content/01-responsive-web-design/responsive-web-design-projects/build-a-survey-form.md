@@ -8,50 +8,50 @@ dashedName: build-a-survey-form
 
 # --description--
 
-**Objective:** Build a [CodePen.io](https://codepen.io) app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/VPaoNP>.
+**Objective:** Crie um app [CodePen.io](https://codepen.io) que seja funcionalmente similar a este: <https://codepen.io/freeCodeCamp/full/VPaoNP>.
 
-Fulfill the below [user stories](https://en.wikipedia.org/wiki/User_story) and get all of the tests to pass. Give it your own personal style.
+Preencha a [user story](https://en.wikipedia.org/wiki/User_story) abaixo e faça passe nos testes para prosseguir. Dê seu estilo pessoal ao projeto.
 
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Você pode utilizar HTML, JavaScript, e CSS para completar este projeto. CSS puro é recomendado porque até então é o que vimos nas lições anteriores e você deve praticar com este CSS puro. Você pode usar Bootstrap ou SAAS se você quiser. Tecnologias adicionais (como por exemplo jQuery, React, Angular, or Vue) não são recomendadas para este projeto, e utilizá-las é por sua conta e risco. Outros projetos darão a você a chance de trabalhar com diferentes stacks como o React. Nós aceitaremos e tentaremos corrigir todos os problemas relatados que utilizem a stack recomendada para este projeto. Bora codar!
 
-**User Story #1:** I can see a title with `id="title"` in H1 sized text.
+**User Story #1:** Posso ver um título com `id="title"` no texto com dimensão de H1.
 
-**User Story #2:** I can see a short explanation with `id="description"` in P sized text.
+**User Story #2:** Posso ver uma pequena descrição com `id="description"` em texto com dimensões de parágrafo (p).
 
-**User Story #3:** I can see a `form` with `id="survey-form"`.
+**User Story #3:** Posso ver um `form` com `id="survey-form"`.
 
-**User Story #4:** Inside the form element, I am required to enter my name in a field with `id="name"`.
+**User Story #4:** Dentro do elemento form, é requerido que eu digite meu nome no campo com `id="name"`.
 
-**User Story #5:** Inside the form element, I am required to enter an email in a field with `id="email"`.
+**User Story #5:** Dentro do elemento form, é requerido que eu digite um email no campo com `id="email"`.
 
-**User Story #6:** If I enter an email that is not formatted correctly, I will see an HTML5 validation error.
+**User Story #6:** Se eu digitar um email que não está formatado corretamente, irei ver um erro de validação do HTML5.
 
-**User Story #7:** Inside the form, I can enter a number in a field with `id="number"`.
+**User Story #7:** Dentro do formulário, eu posso digitar um número no campo com `id="number"`.
 
-**User Story #8:** If I enter non-numbers in the number input, I will see an HTML5 validation error.
+**User Story #8:** Se eu digitar caracteres que não sejam números, irei ver um erro de validação do HTML5.
 
-**User Story #9:** If I enter numbers outside the range of the number input, which are defined by the `min` and `max` attributes, I will see an HTML5 validation error.
+**User Story #9:** Se eu digitar números fora do intevalo do input de número, que estão definidos pelos atributos de `min` e `max`, irei ver um erro de validação do HTML5.
 
-**User Story #10:** For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: `id="name-label"`, `id="email-label"`, and `id="number-label"`.
+**User Story #10:** Para os campos de input de nome, email e número dentro do formulário posso ver rótulos correspondentes que descrevem o propósito de cada campo com o respectivo id: `id="name-label"`, `id="email-label"` e `id="number-label"`.
 
-**User Story #11:** For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.
+**User Story #11:** Para os campos de input de nome, email e número, posso ver placeholders que descrevem ou instruem cada campo.
 
-**User Story #12:** Inside the form element, I can select an option from a dropdown that has a corresponding `id="dropdown"`.
+**User Story #12:** Dentro do elemento form, posso selecionar uma opção de dropdown que tem o identificador correspondente `id="dropdown"`.
 
-**User Story #13:** Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the `name` attribute.
+**User Story #13:** Dentro do elemento form, posso selecionar um ou mais grupos de botões de rádio. Cada grupo deve ser agrupado com um atributo de `name`.
 
-**User Story #14:** Inside the form element, I can select several fields from a series of checkboxes, each of which must have a `value` attribute.
+**User Story #14:** Dentro do elemento form, posso selecionar vários campos de uma série de checkboxes, em que cada um deve ter um atributo `value`.
 
-**User Story #15:** Inside the form element, I am presented with a `textarea` at the end for additional comments.
+**User Story #15:** Dentro do elemento form, há um `textarea` no fim para comentários adicionais.
 
-**User Story #16:** Inside the form element, I am presented with a button with `id="submit"` to submit all my inputs.
+**User Story #16:** Dentro do elemento form, há um botão com `id="submit"` submissão de todos os inputs.
 
-You can build your project by forking [this CodePen pen](https://codepen.io/freeCodeCamp/pen/MJjpwO). Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Você pode criar seu projeto fazendo o forking [deste CodePen pen](https://codepen.io/freeCodeCamp/pen/MJjpwO). Ou pode utilizar este link CDN para fazer os testes em qualquer ecossistema que queira: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Uma vez feito, submeta a URL do seu projeto com todos os testes feitos..
 
 # --solutions--
 
 ```html
-// solution required
+// solução
 ```
