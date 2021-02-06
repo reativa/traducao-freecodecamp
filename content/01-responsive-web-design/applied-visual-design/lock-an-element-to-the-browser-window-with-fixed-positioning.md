@@ -1,6 +1,6 @@
 ---
 id: 587d781e367417b2b2512acc
-title: Bloqueie um elemento da janela do navegado com posição fixa 
+title: Bloquear um elemento para a janela do navegador com posição fixa 
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c2MDNUR'
 forumTopicId: 301061
