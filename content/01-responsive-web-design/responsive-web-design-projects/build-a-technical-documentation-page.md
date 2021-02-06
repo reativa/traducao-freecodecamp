@@ -8,48 +8,48 @@ dashedName: build-a-technical-documentation-page
 
 # --description--
 
-**Objective:** Build a [CodePen.io](https://codepen.io) app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/NdrKKL>.
+**Objective:** Inicie um projeto no [CodePen.io](https://codepen.io) que seja funcionalmente similar a este: <https://codepen.io/freeCodeCamp/full/NdrKKL>.
 
-Fulfill the below [user stories](https://en.wikipedia.org/wiki/User_story) and get all of the tests to pass. Give it your own personal style.
+Preencha a [user story](https://en.wikipedia.org/wiki/User_story) abaixo e faça passe nos testes para prosseguir. Dê seu estilo pessoal ao projeto.
 
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Você pode utilizar HTML, JavaScript, e CSS para completar este projeto. CSS puro é recomendado porque até então é o que vimos nas lições anteriores e você deve praticar com este CSS puro. Você pode usar Bootstrap ou SAAS se você quiser. Tecnologias adicionais (como por exemplo jQuery, React, Angular, or Vue) não são recomendadas para este projeto, e utilizá-las é por sua conta e risco. Outros projetos darão a você a chance de trabalhar com diferentes stacks como o React. Nós aceitaremos e tentaremos corrigir todos os problemas relatados que utilizem a stack recomendada para este projeto. Bora codar!
 
-**User Story #1:** I can see a `main` element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation).
+**User Story #1:** Posso ver um elemento `main` com o correspondente `id="main-doc"`, que contém o conteúdo principal da página (documentação técnica).
 
-**User Story #2:** Within the `#main-doc` element, I can see several `section` elements, each with a class of `main-section`. There should be a minimum of 5.
+**User Story #2:** Dentro do elemento `#main-doc`, posso ver vários elementos `section`, cada um com a classe `main-section`. Deve haver no mínimo cinco deles.
 
-**User Story #3:** The first element within each `.main-section` should be a `header` element which contains text that describes the topic of that section.
+**User Story #3:** O primeiro elemento dentro de cada `.main-section` deve ter um elemento `header` que coném o texto que descreve o tópico da seção.
 
-**User Story #4:** Each `section` element with the class of `main-section` should also have an id that corresponds with the text of each `header` contained within it. Any spaces should be replaced with underscores (e.g. The `section` that contains the header "JavaScript and Java" should have a corresponding `id="JavaScript_and_Java"`).
+**User Story #4:** Cada elemento `section` com a classe `main-section` deve ter um id que corresponde-se com o texto de cada `header` dentro dele. Qualquer espaço deve ser subtituído por underline (ex: A `section` que contém o header "JavaScript e Java" deve ter o correspondente identificador `id="JavaScript_e_Java"`).
 
-**User Story #5:** The `.main-section` elements should contain at least 10 `p` elements total (not each).
+**User Story #5:** Os elementos da `.main-section` devem ter no mínimo 10 elementos `p` no total (não cada um).
 
-**User Story #6:** The `.main-section` elements should contain at least 5 `code` elements total (not each).
+**User Story #6:** Os elementos da `.main-section` devem conter no mínimo 5 elementos `code` no total (não cada um).
 
-**User Story #7:** The `.main-section` elements should contain at least 5 `li` items total (not each).
+**User Story #7:** Os elementos da `.main-section` devem conter ao menos 5 itens `li` no total (não cada um).
 
-**User Story #8:** I can see a `nav` element with a corresponding `id="navbar"`.
+**User Story #8:** Posso ver um elemento `nav`com o identificador correspondente `id="navbar"`.
 
-**User Story #9:** The navbar element should contain one `header` element which contains text that describes the topic of the technical documentation.
+**User Story #9:** O elemento navbar deve conter um elemento `header` que contém o texto que descreve o tópico da documentação técnica.
 
-**User Story #10:** Additionally, the navbar should contain link (`a`) elements with the class of `nav-link`. There should be one for every element with the class `main-section`.
+**User Story #10:** Adicionalmente, a navbar deve conter elementos de link (`a`) com a classe `nav-link`. Deve haver um para cada elemento com a classe `main-section`.
 
-**User Story #11:** The `header` element in the navbar must come before any link (`a`) elements in the navbar.
+**User Story #11:** O elemento `header` na navbar deve vim antes que qualquer elemento link (`a`) da navbar.
 
-**User Story #12:** Each element with the class of `nav-link` should contain text that corresponds to the `header` text within each `section` (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world").
+**User Story #12:** Cada elemento da classe `nav-link` deve conter texto que corresponde ao texto do `header` dentro de cada `section` (ex: se você tem uma seção "Hello world", sua navbar deve ter um elemento que contenha o texto "Hello world").
 
-**User Story #13:** When I click on a navbar element, the page should navigate to the corresponding section of the `main-doc` element (e.g. If I click on a `nav-link` element that contains the text "Hello world", the page navigates to a `section` element that has that id and contains the corresponding `header`.
+**User Story #13:** Quando eu clico em um elemento na navbar, a página deve navegar até a seção correspondente do elemento `main-doc` (ex: se vocÊ clicar no elemento da `nav-link` que contém o texto "Hello world", a página deve navegar até a `section` que tem este id e contém o `header` correspondente).
 
-**User Story #14:** On regular sized devices (laptops, desktops), the element with `id="navbar"` should be shown on the left side of the screen and should always be visible to the user.
+**User Story #14:** Em dispositivos com tamanhos regulares (laptops, desktops), o elemento com `id="navbar"` deve ser exibido do lado esquerdo da tela e deve sempre estar vísivel para o usuário.
 
-**User Story #15:** My Technical Documentation page should use at least one media query.
+**User Story #15:** Minha página de Documentação Técnica deve ter ao menos uma media query.
 
-You can build your project by forking [this CodePen pen](https://codepen.io/freeCodeCamp/pen/MJjpwO). Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Você pode criar seu projeto fazendo o forking [deste CodePen pen]((https://codepen.io/freeCodeCamp/pen/MJjpwO). Ou pode utilizar este link CDN para fazer os testes em qualquer ecossistema que queira: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Uma vez que tenha finalizado, submeta a URL do seu projeto com todos os testes feitos.
 
 # --solutions--
 
 ```html
-// solution required
+// solução
 ```
