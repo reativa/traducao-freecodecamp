@@ -1,13 +1,13 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9e5
-title: Part 8
+title: Parte 8
 challengeType: 0
 dashedName: part-8
 ---
 
 # --description--
 
-Give the dashboard a `background-color` of `white` and a `box-shadow` of `5px 5px 5px 5px #888` to give it a little depth.
+Dê ao painel um `background-color` de `white` e um `box-shadow` de `5px 5px 5px 5px #888` para dar um pouco mais de profundidade.
 
 # --hints--
 
