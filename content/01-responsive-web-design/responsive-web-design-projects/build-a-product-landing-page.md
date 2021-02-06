@@ -12,7 +12,7 @@ dashedName: build-a-product-landing-page
 
 Preencha a [user story](https://en.wikipedia.org/wiki/User_story) abaixo e passe nos testes para prosseguir. Dê seu estilo pessoal ao projeto.
 
-Você pode utilizar HTML, JavaScript, e CSS para completar este projeto. CSS puro é recomendado porque até então é o que vimos nas lições anteriores e você deve praticar com este CSS puro. Você pode usar Bootstrap ou SAAS se vocÊ quiser. Tecnologias adicionais (como por exemplo jQuery, React, Angular, or Vue) não são recomendadas para este projeto, e utilizá-las é por sua conta e risco. Outros projetos darão a você a chance de trabalhar com diferentes stacks como o React. Nós aceitaremos e tentaremos corrigir todos os problemas relatados que utilizem a stack recomendada para este projeto. Bora codar!
+Você pode utilizar HTML, JavaScript, e CSS para completar este projeto. CSS puro é recomendado porque até então é o que vimos nas lições anteriores e você deve praticar com este CSS puro. Você pode usar Bootstrap ou SAAS se você quiser. Tecnologias adicionais (como por exemplo jQuery, React, Angular, or Vue) não são recomendadas para este projeto, e utilizá-las é por sua conta e risco. Outros projetos darão a você a chance de trabalhar com diferentes stacks como o React. Nós aceitaremos e tentaremos corrigir todos os problemas relatados que utilizem a stack recomendada para este projeto. Bora codar!
 
 **User Story #1:** Minha página inicial deve ter um elemento `header` com o identificador correspondente `id="header"`.
 
