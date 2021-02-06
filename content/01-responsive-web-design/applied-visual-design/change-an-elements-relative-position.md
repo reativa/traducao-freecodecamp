@@ -1,6 +1,10 @@
 ---
 id: 587d781e367417b2b2512ac9
+
+
 title: Mude a posição relativa de um elemento
+
+
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/czVmMtZ'
 forumTopicId: 301044
@@ -10,11 +14,9 @@ dashedName: change-an-elements-relative-position
 # --description--
 
 
-CSS trata cada elemento HTML como sua própria caixa, a qual é normalmente referenciada como <dfn>CSS Box Model</dfn>. Itens de nível de bloco automaticamente começam em uma nova linha (pense em cabeçalhos, parágrafos e divs) enquanto itens em linha se inserem em conteúdos que o circundam (como imagens ou spans). O layout padrão dos elementos neste formato é chamado de <dfn>normal flow</dfn> de um documento, mas o CSS oferece a propriedade posição para substituí-lo.
+O CSS trata cada elemento do HTML com sua própria 'box' (caixa), o que é normalmente conhecido como <dfn>CSS Box Model</dfn>. Os elementos 'Block-level' começam automaticamente em uma nova linha (por exemplo: títulos (h1,h2,...), paragrafos (p), e as 'divs') enquanto os elementos inline se encaixam conforme os elementos a sua volta (como imagens ou 'spans'). O layout padrão dos elementos é chamado de o <dfn>'normal flow'</dfn> de um documento, mas o CSS oferece a propriedade 'position' para sobrescrever isso.
 
-Quando a posição de um elemento é ajustada para `relative`, isto permite a você especificar como o CSS deve movê-lo * em relação * à sua posição atual no fluxo normal da página. 
-Esta propriedade combina com as propriedades de deslocamento do CSS, `left` ou `right`, e `top` ou `bottom`. Estas propriedades dizem quantos pixels, porcentagens, ou ems o item se move para *longe* de onde ela é normalmente posicionada. O exemplo a seguir move o parágrafo 10 pixels para longe da parte inferior:
-
+Quando a 'position' de um elemento é `relative`, isso te permite especificar como o CSS deve mover o elemento *relativamente* a sua posição atual no 'normal flow' da página. Isso se une as propriedades: `left`(esquerda) ou `right`(direita), e `top`(cima) ou `bottom`(baixo). Essas propriedades ditam quantos pixels, porcentagem, ou 'ems' mover *para longe* de onde esta normalmente posicionado. O exemplo a seguir move o paragrafor 10 pixels para longe da parte de baixo (bottom):
 
 ```css
 p {
@@ -39,6 +41,7 @@ assert($('h2').css('position') == 'relative');
 ```
 
 Seu código deve usar um deslocamento CSS para posicionar relativamente o `h2` 15px distante do` top` de onde ele normalmente fica.
+
 
 ```js
 assert($('h2').css('top') == '15px');

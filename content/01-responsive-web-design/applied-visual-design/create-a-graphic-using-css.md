@@ -37,7 +37,6 @@ assert(code.match(/border-radius:\s*?50%;/gi));
 
 O valor do `box-shadow` deve ser 25px para `offset-x`, 10px para `offset-y`, 0 para `blur-radius`, 0 para `spread-radius`, e finalmente 'blue' para 'color'.
 
-
 ```js
 assert(
   code.match(/box-shadow:\s*?25px\s+?10px\s+?0(px)?\s+?0(px)?\s+?blue\s*?;/gi)
