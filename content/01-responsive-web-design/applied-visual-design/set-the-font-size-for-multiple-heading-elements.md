@@ -49,7 +49,6 @@ O seu código deve definir a propriedade `font-size` da tag `h4` para 32 pixels.
 ```js
 assert($('h4').css('font-size') == '32px');
 ```
-
 O seu código deve definir a propriedade `font-size` da tag `h5` para 21 pixels.
 
 ```js
@@ -69,8 +68,6 @@ assert.strictEqual(true, regex.test(code));
 
 ```html
 <style>
-
-
 
 
 
