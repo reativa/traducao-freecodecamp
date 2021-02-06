@@ -1,8 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac2
-
 title: Defina o tamanho da fonte (font-size) para múltiplos elementos de cabeçalho (heading)
-
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cPpQNT3'
 forumTopicId: 301067
@@ -11,13 +9,11 @@ dashedName: set-the-font-size-for-multiple-heading-elements
 
 # --description--
 
-
 A propriedade `font-size`é usada para especificar o quão grande será o texto em um determinado elemento. Essa regra pode ser usado para múltiplos elementos para criar uma consistencia visual dos textos na página. Nesse desafio, você irá definir os valores das tags `h1` até `h6` para balancear os tamanhos dos cabeçalhos (heading).
 
 # --instructions--
 
   <p>Nas tags do <code>style</code>, defina o <code>font-size</code> das tags:</p>
-
 
   <ul>
     <li><code>h1</code> para 68px.</li>
@@ -44,7 +40,6 @@ assert($('h2').css('font-size') == '52px');
 
 O seu código deve definir a propriedade `font-size` da tag `h3` para 40 pixels.
 
-
 ```js
 assert($('h3').css('font-size') == '40px');
 ```
@@ -56,7 +51,6 @@ assert($('h4').css('font-size') == '32px');
 ```
 
 O seu código deve definir a propriedade `font-size` da tag `h5` para 21 pixels.
-
 
 ```js
 assert($('h5').css('font-size') == '21px');
@@ -75,8 +69,6 @@ assert.strictEqual(true, regex.test(code));
 
 ```html
 <style>
-
-
 
 
 
