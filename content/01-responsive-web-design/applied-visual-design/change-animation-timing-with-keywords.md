@@ -9,17 +9,17 @@ dashedName: change-animation-timing-with-keywords
 
 # --description--
 
-Em animações no CSS, a propriedade `animation-timing-function` controla a rapidez com que um elemento animado muda ao longo da duração da animação. Se a animação é um carro se movendo do ponto A para o ponto B em um determinado tempo (sua `animation-duration`), a `animation-timing-function` diz como o carro acelera e desacelera ao longo do percurso.
+Em animações CSS, a propriedade `animation-timing-function` controla o quão rápido um elemento animado muda durante a animação. Se a animação é um carro em movimento do ponto A para o ponto B dentro de determinado período (sua `animation-duration`), a `animation-timing-function` diz como o carro acelera e desacelera durante o percurso.
 
-Existem várias palavras-chave predefinidas disponíveis para opções populares. Por exemplo, o valor padrão é `ease`, que começa devagar, acelera no meio e depois desacelera novamente no final. Outras opções incluem `ease-out`, que é rápido no início e depois desacelera, `ease-in`, que é lento no início e acelera no final, ou `linear`, que aplica uma velocidade de animação constante.
+Existem várias palavras-chave predefindas disponíveis para opções populares. Por exemplo, o valor padrão é `ease`, que começa devagar, acelera no meio, e depois desacelera de novo no fim. Outras opções incluem `easy-out`, que é rápido no início e depois desacelera, `easy-in`, que é lento no início, depois acelera no fim, ou `linear`, que aplica uma animação constante de velocidade durante todo o percurso.
 
 # --instructions--
 
-Para os elementos com id de `ball1` e `ball2`, adicione uma propriedade `animation-timing-function` para cada um e defina `# ball1` para `linear` e `# ball2` para `eas-out`. Observe a diferença como os elementos se movem durante a animação, mas terminam juntos, pois eles compartilham a mesma `animation-duration` de 2 segundos.
+Para os elementos com id de `ball1` e `ball2`, adicione uma propriedade `animation-timing-function` para cada um deles, e defina a `#ball1` para `linear`, e `#ball2` para `ease-out`. Perceba a diferença de como os elementos se movem durante a animação mas terminam juntos, já que eles compartilham a mesma `animation-duration` de 2 segundos.
 
 # --hints--
 
-O valor da propriedade `animation-timing-function` para o elemento com o id `ball1` deve ser linear.
+O valor da propriedade `animation-timing-function` para o elemento com id `ball1` deve ser linear;
 
 ```js
 const ball1Animation = __helpers.removeWhiteSpace(
@@ -28,7 +28,11 @@ const ball1Animation = __helpers.removeWhiteSpace(
 assert(ball1Animation == 'linear' || ball1Animation == 'cubic-bezier(0,0,1,1)');
 ```
 
+<<<<<<< HEAD
 O valor da propriedade `animation-timing-function` para o elemento com o id `ball2` deve ser ease-out.
+=======
+O valor da propriedade `animation-timing-function` para o elemento com id `ball2` deve ser ease-out.
+>>>>>>> upstream/master
 
 ```js
 const ball2Animation = __helpers.removeWhiteSpace(

@@ -1,13 +1,13 @@
 ---
 id: 5f3477cb2e27333b1ab2b955
-title: Part 17
+title: Parte 17
 challengeType: 0
 dashedName: part-17
 ---
 
 # --description--
 
-Now you need to link the `styles.css` file so the styles will be applied again. Next a self-closing `link` element in the `head` element. Give it a `rel` attribute value `stylesheet`, a `type` attribute value of `text/css`, and an `href` attribute value of `styles.css`.
+Agora você precisa vincular o arquivo `styles.css` para que os estilos sejam aplicados novamente. Em seguida, adicione um elemento `link` de fechamento automático no elemento `head`. Dê ao atributo `rel` o valor `stylesheet`, ao atributo `type` o valor `text/css`, e ao atributo `href` o valor `style.css`.
 
 # --hints--
 

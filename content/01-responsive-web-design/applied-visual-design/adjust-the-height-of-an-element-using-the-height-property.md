@@ -9,7 +9,11 @@ dashedName: adjust-the-height-of-an-element-using-the-height-property
 
 # --description--
 
+<<<<<<< HEAD
 Você pode especificar a altura de um elemento usando a propriedade `height` em CSS, semelhante à propriedade `width`. Aqui está um exemplo que altera a altura de uma imagem para 20 px:
+=======
+Você pode especificar a altura de um elemento usando a propriedade `height` no CSS, igual a propriedade `width`. Aqui está um exemplo que muda a altura de uma imagem para 20px:
+>>>>>>> 57207be849f6b6fc94c5c0194845410afa5dbdbe
 
 ```css
 img {
@@ -19,6 +23,7 @@ img {
 
 # --instructions--
 
+<<<<<<< HEAD
 Adicione uma propriedade `height` à tag `h4` e defina-a como 25px.
 
 **Nota:** Você pode precisar estar com 100% de zoom para passar no teste do desafio.
@@ -26,6 +31,15 @@ Adicione uma propriedade `height` à tag `h4` e defina-a como 25px.
 # --hints--
 
 Seu código deve alterar a propriedade `h4` `height` para um valor de 25 pixels.
+=======
+Adicione uma propriedade `height` à tag `h4` e defina o valor para 25px.
+
+**Note:** Você talvez precise estar com o zoom em 100% para passar no teste desse desafio
+
+# --hints--
+
+Seu código deverá mudar a propriedade `height` da tag `h4` para o valor 25 pixels.
+>>>>>>> 57207be849f6b6fc94c5c0194845410afa5dbdbe
 
 ```js
 assert(
