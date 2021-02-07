@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08803
-title: Change the Color of Text
+title:  Mude a cor do texto 
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cRkVmSm'
 forumTopicId: 16775
@@ -9,13 +9,13 @@ dashedName: change-the-color-of-text
 
 # --description--
 
-Now let's change the color of some of our text.
+Agora vamos mudar a cor de algum de nosso texto.
 
-We can do this by changing the `style` of your `h2` element.
+Podemos fazer isso mudando o `style` do seu elemento` h2`.
 
-The property that is responsible for the color of an element's text is the `color` style property.
+A propriedade responsável pela cor do texto de um elemento é a propriedade de estilo `color`.
 
-Here's how you would set your `h2` element's text color to blue:
+Veja como você definiria a cor do texto do seu elemento `h2` para azul:
 
 `<h2 style="color: blue;">CatPhotoApp</h2>`
 
