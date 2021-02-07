@@ -9,7 +9,7 @@ dashedName: change-the-font-size-of-an-element
 
 # --description--
 
-Font size is controlled by the `font-size` CSS property, like this:
+O tamanho da fonte é controlado pela propriedade CSS `font-size`, como este: 
 
 ```css
 h1 {
@@ -19,11 +19,11 @@ h1 {
 
 # --instructions--
 
-Inside the same `<style>` tag that contains your `red-text` class, create an entry for `p` elements and set the `font-size` to 16 pixels (`16px`).
+Dentro da mesma tag `<style>` que contém sua classe `red-text`, crie uma entrada para os elementos `p` e defina o `font-size` para 16 pixels (` 16px`).
 
 # --hints--
 
-Between the `style` tags, give the `p` elements `font-size` of `16px`. Browser and Text zoom should be at 100%.
+Entre as tags `style`, forneça os elementos` p` `font-size` de` 16px`. O zoom do navegador e do texto deve ser de 100%. 
 
 ```js
 assert(code.match(/p\s*{\s*font-size\s*:\s*16\s*px\s*;\s*}/i));
