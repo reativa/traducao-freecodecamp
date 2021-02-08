@@ -28,11 +28,7 @@ const ball1Animation = __helpers.removeWhiteSpace(
 assert(ball1Animation == 'linear' || ball1Animation == 'cubic-bezier(0,0,1,1)');
 ```
 
-<<<<<<< HEAD
-O valor da propriedade `animation-timing-function` para o elemento com o id `ball2` deve ser ease-out.
-=======
 O valor da propriedade `animation-timing-function` para o elemento com id `ball2` deve ser ease-out.
->>>>>>> upstream/master
 
 ```js
 const ball2Animation = __helpers.removeWhiteSpace(
