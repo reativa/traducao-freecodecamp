@@ -21,11 +21,11 @@ Exemplo:
 
 # --instructions--
 
-Use um `linear-gradiente()` para o `background` do elemento `div` e defina-o a partir de uma direção de 35 graus para mudar a cor de `#CCFFFF` para `#FFCCCC`.
+Use um `linear-gradient()` para o `background` do elemento `div` e defina-o a partir de uma direção de 35 graus para mudar a cor de `#CCFFFF` para `#FFCCCC`.
 
 # --hints--
 
-O elemento `div` deve ter um `gradiente linear` `background` seguindo com a direção e cores especificadas.
+O elemento `div` deve ter um `linear-gradient` `background` seguindo com a direção e cores especificadas.
 
 ```js
 assert(
