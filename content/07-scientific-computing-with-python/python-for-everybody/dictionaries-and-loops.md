@@ -1,6 +1,6 @@
 ---
 id: 5e7b9f0a0b6c005b0e76f069
-title: Dictionaries and Loops
+title: Dicionários e Repetições
 challengeType: 11
 videoId: EEmekKiKG70
 dashedName: dictionaries-and-loops
@@ -8,7 +8,7 @@ dashedName: dictionaries-and-loops
 
 # --description--
 
-More resources:
+Recursos adicionais:
 
 \- [Exercise](https://www.youtube.com/watch?v=PrhZ9qwBDD8)
 
@@ -16,7 +16,7 @@ More resources:
 
 ## --text--
 
-What will the following code print?:
+O que o código a seguir irá imprimir an tela?:
 
 ```python
 counts = { 'chuck' : 1 , 'annie' : 42, 'jan': 100}
