@@ -8,36 +8,36 @@ dashedName: build-a-tribute-page
 
 # --description--
 
-**Objective:** Build a [CodePen.io](https://codepen.io) app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/zNqgVx>.
+**Objective:** Inicie um projeto no [CodePen.io](https://codepen.io) que seja funcionalmente similar a este: <https://codepen.io/freeCodeCamp/full/NdrKKL>.
 
-Fulfill the below [user stories](https://en.wikipedia.org/wiki/User_story) and get all of the tests to pass. Give it your own personal style.
+Preencha a [user story](https://en.wikipedia.org/wiki/User_story) abaixo e faça passe nos testes para prosseguir. Dê seu estilo pessoal ao projeto.
 
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Você pode utilizar HTML, JavaScript, e CSS para completar este projeto. CSS puro é recomendado porque até então é o que vimos nas lições anteriores e você deve praticar com este CSS puro. Você pode usar Bootstrap ou SAAS se você quiser. Tecnologias adicionais (como por exemplo jQuery, React, Angular, or Vue) não são recomendadas para este projeto, e utilizá-las é por sua conta e risco. Outros projetos darão a você a chance de trabalhar com diferentes stacks como o React. Nós aceitaremos e tentaremos corrigir todos os problemas relatados que utilizem a stack recomendada para este projeto. Bora codar!
 
-**User Story #1:** My tribute page should have an element with a corresponding `id="main"`, which contains all other elements.
+**User Story #1:** Minha página de tributo deve ter um elemento com o respectivo `id="main"`, que contêm todos os outros elementos.
 
-**User Story #2:** I should see an element with a corresponding `id="title"`, which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+**User Story #2:** Eu devo ver um elemento com o respectivo `id="title"`, que contém uma string (leia-se texto) que descreve o assunto da página de tributo (ex: "Dr. Norman Borlaug" ).
 
-**User Story #3:** I should see a `div` element with a corresponding `id="img-div"`.
+**User Story #3:** Eu devo ver uma `div` com o respectivo `id="img-div"`.
 
-**User Story #4:** Within the `img-div` element, I should see an `img` element with a corresponding `id="image"`.
+**User Story #4:** Dentro do elemento `img-div`, devo ver um elemento `img` com o respectivo `id="image"`.
 
-**User Story #5:** Within the `img-div` element, I should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `img-div`.
+**User Story #5:** Dentro do elemento `img-div`, devo ter um elemento com o identificador `id="img-caption"` que contenha texto descrevendo a imagem exibida no `img-div`.
 
-**User Story #6:** I should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page.
+**User Story #6:** Eu devo ver um elemento com o respectivo `id="tribute-info"`, que contenha texto descrevendo o assunto da página de tributo.
 
-**User Story #7:** I should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab (i.e. `target="_blank"`).
+**User Story #7:** Eu devo ver um elemento `a` com o respectivo `id="tribute-link"`, que direciona a um site externo que contém informação adicional sobre o assunto da página de tributo. DICA: Você deve dar a seu elemento um atributo de `target` e colocar o valor `_blank` para que o link abra em uma nova janela (ex: `target="_blank"`).
 
-**User Story #8:** The `img` element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+**User Story #8:** O elemento `img` deve ser redimensionado responsivamente, em relação ao comprimento do seu elemento pai, sem exceder o seu tamanho inicial.
 
-**User Story #9:** The `img` element should be centered within its parent element.
+**User Story #9:** O elemento `img` deve ser centralizado dentro do elemento pai.
 
-You can build your project by forking [this CodePen pen](https://codepen.io/freeCodeCamp/pen/MJjpwO). Or you can use this CDN link to run the tests in any environment you like: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
+Você pode criar seu projeto fazendo o forking [this CodePen pen](https://codepen.io/freeCodeCamp/pen/MJjpwO). Ou pode utilizar este link CDN para fazer os testes em qualquer ecossistema que queira: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
 
-Once you're done, submit the URL to your working project with all its tests passing.
+Uma vez que tenha finalizado, submeta a URL do seu projeto com todos os testes feitos.
 
 # --solutions--
 
 ```html
-// solution required
+// solução
 ```
