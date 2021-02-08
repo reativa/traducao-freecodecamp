@@ -1,15 +1,17 @@
 ---
 id: 5f3477cbcb6ba47918c1da92
-title: Part 18
+title: Parte 18
 challengeType: 0
 dashedName: part-18
 ---
 
 # --description--
 
-So the styling of the page looks similar on mobile as it does on a desktop or laptop, you need to add a `meta` element with a special `content` attribute.
+Como o estilo da página é semelhante no celular e em um computador desktop ou notebook, você precisa adicionar um elemento `meta` com um atributo especial `content`.
 
-Add the following within the `head` element:
+Adicione o seguinte no elemento `head`:
+
+
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
