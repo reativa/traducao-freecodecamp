@@ -9,15 +9,15 @@ dashedName: change-the-position-of-overlapping-elements-with-the-z-index-propert
 
 # --description--
 
-Quando os elementos são posicionados para sobrepor (e.g. usando `position: absolute | relative | fixed | sticky`), o elemento que vem depois na marcação HTML aparecerá, por padrão, na parte superior dos outros elementos. No entanto, a propriedade `z-index` pode especificar a ordem de como os elementos são empilhados uns sobre os outros. Deve ser um número inteiro (ou seja, um número inteiro e não decimal), e valores mais altos para a propriedade `z-index` de um elemento movem-no para cima na pilha do que aqueles com valores mais baixos.
+Quando elementos são posicionados para sobrepor (e.g. usando `position: absolute | relative | fixed | sticky`), o elemento que vem depois na marcação HTML irá, por padrão, aparecer no topo de outros elementos. Entretanto, a propriedade `z-index` pode especificar a ordem de como os elementos são empilhados um em cima do outro. Ele deve ser um inteiro (e.g. um número inteiro e não um decimal), e valores altos para a propriedade `z-index` de um elemento o movem mais alto na pilha do que aqueles com valores mais baixos.
 
 # --instructions--
 
-Adicione uma propriedade `z-index` ao elemento com o nome de classe `first` (o retângulo vermelho) e defina-o com um valor de 2 para cobrir o outro elemento (retângulo azul).
+Adicionar uma propriedade `z-index` para o elemento com o nome de classe `first` (o retângulo vermelho) e defina-o com um valor de 2 para cobrir o outro elemento (retângulo azul).
 
 # --hints--
 
-O elemento com a classe `first` deve ter um valor de `z-index` de 2.
+O elemento com a classe `first` deve ter um `z-index` de valor 2.
 
 ```js
 assert($('.first').css('z-index') == '2');

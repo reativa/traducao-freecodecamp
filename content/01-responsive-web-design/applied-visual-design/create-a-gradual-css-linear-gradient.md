@@ -1,6 +1,6 @@
 ---
 id: 587d78a5367417b2b2512ad6
-title: Criar um gradiente linear CSS gradual
+title: Criar um gradiente linear CSS
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cg4dpt9'
 forumTopicId: 301047
@@ -21,11 +21,11 @@ Exemplo:
 
 # --instructions--
 
-Use um `linear-gradient()` para o `background` do elemento `div` e defina-o a partir de uma direção de 35 graus para mudar a cor de `#CCFFFF` para `#FFCCCC`.
+Use um `linear-gradient()` para o `background` do elemento `div` e defina a partir de uma direção de 35 graus para mudar a cor de `#CCFFFF` para `#FFCCCC`.
 
 # --hints--
 
-O elemento `div` deve ter um `linear-gradient` `background` seguindo com a direção e cores especificadas.
+O elemento `div` deve ter um `background` `linear-gradient` com as direções especificadas e cores.
 
 ```js
 assert(
