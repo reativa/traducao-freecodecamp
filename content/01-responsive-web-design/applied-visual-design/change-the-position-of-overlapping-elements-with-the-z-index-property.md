@@ -1,6 +1,6 @@
 ---
 id: 587d78a3367417b2b2512acf
-title: Altere a posição de elementos sobrepostos com a propriedade z-index
+title: Alterar a posição de elementos sobrepostos com a propriedade z-index
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cM94aHk'
 forumTopicId: 301046
@@ -9,7 +9,7 @@ dashedName: change-the-position-of-overlapping-elements-with-the-z-index-propert
 
 # --description--
 
-Quando os elementos são posicionados para se sobrepor (ou seja, usando `position: absolute | relative | fixed | sticky`), o elemento que vem depois na marcação HTML aparecerá, por padrão, na parte superior dos outros elementos. No entanto, a propriedade `z-index` pode especificar a ordem de como os elementos são empilhados uns sobre os outros. Deve ser um número inteiro (ou seja, um número inteiro e não decimal), e valores mais altos para a propriedade `z-index` de um elemento movem-no para cima na pilha do que aqueles com valores mais baixos.
+Quando os elementos são posicionados para sobrepor (e.g. usando `position: absolute | relative | fixed | sticky`), o elemento que vem depois na marcação HTML aparecerá, por padrão, na parte superior dos outros elementos. No entanto, a propriedade `z-index` pode especificar a ordem de como os elementos são empilhados uns sobre os outros. Deve ser um número inteiro (ou seja, um número inteiro e não decimal), e valores mais altos para a propriedade `z-index` de um elemento movem-no para cima na pilha do que aqueles com valores mais baixos.
 
 # --instructions--
 
