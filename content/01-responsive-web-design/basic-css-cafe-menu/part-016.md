@@ -1,13 +1,13 @@
 ---
 id: 5f3477ae8466a9a3d2cc953c
-title: Part 16
+title: Parte 16
 challengeType: 0
 dashedName: part-16
 ---
 
 # --description--
 
-Now that you have the CSS in the `styles.css` file, go ahead and remove the `style` element and all its content. Once it is removed, the text that as centered, will shift back to the left.
+Agora que você tem o CSS no arquivo `styles.css`, vá em frente e remova o elemento `style` e todo o seu conteúdo. Após o estilo ser removido, o texto que estava centralizado irá voltar para a esquerda.
 
 # --hints--
 

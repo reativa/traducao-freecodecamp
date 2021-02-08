@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab8
-title: Use the u Tag to Underline Text
+title: Use a tag u para sublinhar um texto
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cN6aQCL'
 forumTopicId: 301082
@@ -9,23 +9,23 @@ dashedName: use-the-u-tag-to-underline-text
 
 # --description--
 
-To underline text, you can use the `u` tag. This is often used to signify that a section of text is important, or something to remember. With the `u` tag, the browser applies the CSS of `text-decoration: underline;` to the element.
+Para sublinhar um texto, você pode usar a tag `u`. Isso é usado normalmente para destacar uma seção do texto que é importante, ou precisa ser lembrada. Com a tag `u`, o navegador aplica a propriedade CSS `text-decoration: underline;` ao elemento.
 
 # --instructions--
 
-Wrap the `u` tag only around the text "Ph.D. students".
+Coloque a tag `u` somente dentro do texto "Ph.D. students".
 
-**Note:** Try to avoid using the `u` tag when it could be confused for a link. Anchor tags also have a default underlined formatting.
+**Nota:** Tente evitar a tag `u` quando ela pode ser confundida com um link. Tags âncora também têm uma formatação padrão de sublinhar.
 
 # --hints--
 
-Your code should add a `u` tag to the markup.
+Seu código deve ter uma tag `u` para a marcação.
 
 ```js
 assert($('u').length === 1);
 ```
 
-The `u` tag should wrap around the text `Ph.D. students`.
+A tag `u` deve ficar entre o texto `Ph.D. students`.
 
 ```js
 assert($('u').text() === 'Ph.D. students');
@@ -66,7 +66,7 @@ assert($('u').text() === 'Ph.D. students');
   <div class="cardContent">
     <div class="cardText">
       <h4>Google</h4>
-      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at <strong>Stanford University</strong>.</p>
+      <p>Google foi fundado por Larry Page e Sergey Brin enquanto faziam doutorado na <strong>Universidade de Stanford</strong>.</p>
     </div>
     <div class="cardLinks">
       <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a><br><br>
@@ -109,7 +109,7 @@ assert($('u').text() === 'Ph.D. students');
   <div class="cardContent">
     <div class="cardText">
       <h4>Google</h4>
-      <p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p>
+      <p>Google foi fundado por Larry Page e Sergey Brin enquanto faziam doutorado na <strong>Universidade de Stanford</strong>.</p>
     </div>
     <div class="cardLinks">
       <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a><br><br>

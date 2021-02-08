@@ -1,6 +1,6 @@
 ---
 id: 587d78ab367417b2b2512af1
-title: Adiciona Flex Superpowers ao Tweet Embutido
+title: Adicione superpoderes do Flex ao Tweet Embed
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/c9W7MhM'
 forumTopicId: 301100
@@ -24,13 +24,11 @@ Seu `header` deve ter a propriedade `display` definida para `flex`.
 ```js
 assert($('header').css('display') == 'flex');
 ```
-
 Seu `footer` deve ter a propriedade `display` definida para `flex`.
 
 ```js
 assert($('footer').css('display') == 'flex');
 ```
-
 Seu `h3` deve ter a propriedade `display` definida para `flex`.
 
 ```js

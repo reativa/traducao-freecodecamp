@@ -1,23 +1,22 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9f0
-title: Part 19
+title: Parte 19
 challengeType: 0
 dashedName: part-19
 ---
 
 # --description--
 
-You can't see it, but there is now an `svg` element nested in your dashboard container. When you appended it, it became the "selection" for this area of code. Any functions you chain after it will be used on this selection.
+Você não pode ver, mas existe agora um elemento `svg` aninhado em seu contêiner de painel. Quando você o anexa, ele se torna a "seleção" dessa área do código. Todas as funções que você encadeia depois dela serão usadas nesta seleção.
 
-`attr` is a function to set attributes. You need to pass it the attribute you want to set, and the value you want to give it. Here's an example of how to chain `attr` to a selection:
+`attr` é uma função para definir atributos. Você pode passar nele o atributo que quiser definir, e o valor que quiser dar. Aqui está um exemplo de como encadear `attr` à uma seleção:
 
 ```js
 const variableName = d3.select('element')
   .append('element')
   .attr('attribute', 'value')
 ```
-
-Chain an `attr` function to the selection that sets the `width` as the `svgWidth` variable you created earlier. When using a variable as a value, you do not need to put it in any kind of quotations.
+Encadeie uma função `attr` à seleção que define a `largura` como a variável `svgWidth` que você criou anteriormente. Ao usar uma variável como um valor, você não precisa colocá-la entre aspas.
 
 # --hints--
 
