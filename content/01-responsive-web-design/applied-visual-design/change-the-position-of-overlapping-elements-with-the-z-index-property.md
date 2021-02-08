@@ -1,6 +1,6 @@
 ---
 id: 587d78a3367417b2b2512acf
-title: Alterar a posição de elementos sobrepostos
+title: Alterar a posição de elementos sobrepostos com a propriedade z-index
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cM94aHk'
 forumTopicId: 301046
