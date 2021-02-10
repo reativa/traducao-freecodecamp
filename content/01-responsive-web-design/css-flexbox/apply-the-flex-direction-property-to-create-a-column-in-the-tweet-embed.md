@@ -1,6 +1,6 @@
 ---
 id: 587d78ac367417b2b2512af5
-title: Apply the flex-direction Property to Create a Column in the Tweet Embed
+title: Aplique a propriedade flex-direction para Criar uma Coluna no Tweet Incorporado
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/cnzdVC9'
 forumTopicId: 301103
@@ -9,15 +9,15 @@ dashedName: apply-the-flex-direction-property-to-create-a-column-in-the-tweet-em
 
 # --description--
 
-The tweet embed `header` and `footer` used the `flex-direction` property earlier with a row value. Similarly, the items inside the `.profile-name` element would work well stacked as a column.
+O `header` e` footer` do tweet incorporado usou a propriedade `flex-direction` anteriormente com um valor de linha. Da mesma forma, os itens dentro do elemento `.profile-name` funcionariam bem empilhados como uma coluna.
 
 # --instructions--
 
-Add the CSS property `flex-direction` to the header's `.profile-name` element and set the value to column.
+Adicione a propriedade `flex-direction` do CSS para o elemento `.profile-name` do header e  defina o valor para column.
 
 # --hints--
 
-The `.profile-name` element should have a `flex-direction` property set to column.
+O elemento `.profile-name` deve possuir uma propriedade `flex-direction` definida como column.
 
 ```js
 assert($('.profile-name').css('flex-direction') == 'column');
@@ -97,7 +97,7 @@ assert($('.profile-name').css('flex-direction') == 'column');
   </div>
 </header>
 <div id="inner">
-  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <p>Conheço muitas pessoas que estão em busca daquele truque que as ajudará a trabalhar de maneira inteligente. Mesmo se você trabalhar de forma inteligente, ainda terá que trabalhar muito.</p>
   <span class="date">1:32 PM - 12 Jan 2018</span>
   <hr>
 </div>
@@ -190,7 +190,7 @@ assert($('.profile-name').css('flex-direction') == 'column');
   </div>
 </header>
 <div id="inner">
-  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <p>Conheço muitas pessoas que estão em busca daquele truque que as ajudará a trabalhar de maneira inteligente. Mesmo se você trabalhar de forma inteligente, ainda terá que trabalhar muito.</p>
   <span class="date">1:32 PM - 12 Jan 2018</span>
   <hr>
 </div>
