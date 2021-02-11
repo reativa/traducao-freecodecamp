@@ -1,6 +1,6 @@
 ---
 id: 5e6a54c358d3af90110a60a3
-title: 'Introduction: Elements of Python'
+title: 'Introdução: Elementos do Python'
 challengeType: 11
 videoId: aRY_xjL35v0
 dashedName: introduction-elements-of-python
@@ -10,7 +10,7 @@ dashedName: introduction-elements-of-python
 
 ## --text--
 
-What will the following program print out:
+O que o programa a seguir imprimirá na tela?:
 
 ```python
 x = 43
