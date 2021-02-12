@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08829
-title: Create a Text Field
+title: Crie um Campo de Texto
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/c2EVnf6'
 forumTopicId: 16823
@@ -9,23 +9,23 @@ dashedName: create-a-text-field
 
 # --description--
 
-Now let's create a web form.
+Agora vamos criar um formulário web.
 
-`input` elements are a convenient way to get input from your user.
+Os elementos `input` são uma maneira conveniente de obter informações do seu usuário.
 
-You can create a text input like this:
+Você pode criar uma entrada de texto como esta:
 
 `<input type="text">`
 
-Note that `input` elements are self-closing.
+Observe que os elementos `input` se fecham sozinhos
 
 # --instructions--
 
-Create an `input` element of type `text` below your lists.
+Crie um elemento `input` do tipo `text` abaixo de suas listas.
 
 # --hints--
 
-Your app should have an `input` element of type `text`.
+Seu aplicativo deve ter um elemento `input` do tipo `text`.
 
 ```js
 assert($('input[type=text]').length > 0);
