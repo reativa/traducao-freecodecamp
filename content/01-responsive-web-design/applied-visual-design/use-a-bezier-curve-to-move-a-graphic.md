@@ -11,7 +11,7 @@ dashedName: use-a-bezier-curve-to-move-a-graphic
 
 Um desafio anterior discutiu o valor `ease-out` que descreve uma animação que inicia rápido e então diminui sua velocidade no fim da animação. À direita, é mostrada a diferença entre valor `ease-out` (no elemento azul) e o valor `linear` (no elemento vermelho). Uma progressão de animação similar ao do valor `ease-out` pode ser feito usando uma função cúbica personalizada de uma curva de Bézier (`cubic-bezier`). 
 
-No geral, mudar os pontos `p1` e `p2` leva a criação de diferentes curvas de Bézier, que controla a progressão da animação sobre o tempo. Aqui está um exempor de uma curva e Bézier usando valores para imitar o efeito do estilo ease-out:
+No geral, mudar os pontos `p1` e `p2` leva a criação de diferentes curvas de Bézier, que controla a progressão da animação sobre o tempo. Aqui está um exemplo de uma curva e Bézier usando valores para imitar o efeito do estilo ease-out:
 
 `animation-timing-function: cubic-bezier(0, 0, 0.58, 1);`
 
