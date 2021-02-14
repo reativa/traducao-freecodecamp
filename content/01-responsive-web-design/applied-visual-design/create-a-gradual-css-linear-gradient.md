@@ -9,11 +9,11 @@ dashedName: create-a-gradual-css-linear-gradient
 
 # --description--
 
-Aplicando de uma cor em elementos no HTML não é limitado apenas a uma tonalidade plana. CSS providencia a habilidade de usar cores de transições, de outra forma conhecido como gradientes, nos elementos. Isso é acessado através da função `linear-gradient()` da propriedade `background`. Aqui está a sintaxe geral:
+A aplicação de uma cor em elementos HTML não se limita a um matiz plano. O CSS fornece a capacidade de usar transições de cores, em elementos, também conhecidas como gradientes. Isso é acessado por meio da função `linear-gradient()` da propriedade `background`. Aqui está a sintaxe geral:
 
 `background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);`
 
-O primeiro argumento especifica a direção a partir do qual começa a transição de cor - pode ser declarado como um grau, onde `90deg` cria um gradiente horizontal (da esquerda para a direita) e `45deg` cria um gradiente diagonal (do canto inferior esquerdo para o canto superior direito). Os seguintes argumentos especificam a ordem das cores usadas no gradiente.
+O primeiro argumento especifica a direção a partir da qual a transição de cor começa - pode ser declarada como um grau, onde `90deg` cria um gradiente horizontal (da esquerda para a direita) e `45deg` cria um gradiente diagonal (da parte inferior esquerda para a direita superior). Os argumentos a seguir especificam a ordem das cores usadas no gradiente.
 
 Exemplo:
 
@@ -21,7 +21,7 @@ Exemplo:
 
 # --instructions--
 
-Use um `linear-gradient()` para o `background` do elemento `div`, e defina a partir de uma direção de 35 graus para mudar a cor de `#CCFFFF` para `#FFCCCC`.
+Use um `linear-gradient()` para o `background` do elemento `div` e defina a partir de uma direção de 35 graus para mudar a cor de `#CCFFFF` para `#FFCCCC`.
 
 # --hints--
 

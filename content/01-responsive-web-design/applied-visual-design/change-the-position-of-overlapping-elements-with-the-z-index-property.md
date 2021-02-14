@@ -9,7 +9,7 @@ dashedName: change-the-position-of-overlapping-elements-with-the-z-index-propert
 
 # --description--
 
-Quando elementos são posicionados para sobrepor (e.g. usando `position: absolute | relative | fixed | sticky`), o elemento que vem depois na marcação HTML irá, por padrão, aparecer no topo de outros elementos. Entretando, a propriedade `z-index` pode especificar a ordem de como os elementos são empilhados um em cima do outro. Ele deve ser um inteiro (e.g. um número inteiro e não um decimal), e valores altos para a propriedade `z-index` de um elemento o movem mais alto na pilha do que aqueles com valores mais baixos.
+Quando elementos são posicionados para sobrepor (e.g. usando `position: absolute | relative | fixed | sticky`), o elemento que vem depois na marcação HTML irá, por padrão, aparecer no topo de outros elementos. Entretanto, a propriedade `z-index` pode especificar a ordem de como os elementos são empilhados um em cima do outro. Ele deve ser um inteiro (e.g. um número inteiro e não um decimal), e valores altos para a propriedade `z-index` de um elemento o movem mais alto na pilha do que aqueles com valores mais baixos.
 
 # --instructions--
 
