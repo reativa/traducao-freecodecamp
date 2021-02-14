@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08803
-title: Alterando a cor do texto
+title:  Mude a cor do texto 
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cRkVmSm'
 forumTopicId: 16775

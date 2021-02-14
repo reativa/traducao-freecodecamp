@@ -1,13 +1,13 @@
 ---
 id: 5f34a1fd611d003edeafd681
-title: Part 20
+title: Parte 20
 challengeType: 0
 dashedName: part-20
 ---
 
 # --description--
 
-That brown background makes it hard to read the text. Change the `body` element's background color to be `burlywood` so it has some color but you are still be able to read the text.
+Esse fundo marrom deixa difícil ler o texto. Mude a cor de background do elemento `body` para `burlywood` para que ele tenha alguma cor, porém de modo que ainda seja possível ler o texto.
 
 # --hints--
 

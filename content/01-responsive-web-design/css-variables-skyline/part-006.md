@@ -1,20 +1,20 @@
 ---
 id: 5d822fd413a79914d39e98ce
-title: Part 6
+title: Parte 6
 challengeType: 0
 dashedName: part-6
 ---
 
 # --description--
 
-Also add a `box-sizing` of `border-box` to the everything. This will make it so the border you added doesn't add any size to your elements.
+Também adicione um `box-sizing` em` border-box` para tudo. Isso fará com que a borda que você adicionou não adicione nenhum tamanho aos seus elementos.
 
 # --hints--
 
-test-text
+texto de teste
 
 ```js
-assert($('#display-body').css('box-sizing') === 'border-box');
+assert($("#display-body").css("box-sizing") === "border-box");
 ```
 
 # --seed--
@@ -23,7 +23,7 @@ assert($('#display-body').css('box-sizing') === 'border-box');
 
 ```html
 <!DOCTYPE html>
-<html>    
+<html>
   <head>
     <title>freeCodeCamp Skyline Project</title>
     <style>
@@ -33,8 +33,7 @@ assert($('#display-body').css('box-sizing') === 'border-box');
     </style>
   </head>
 
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
 
@@ -42,7 +41,7 @@ assert($('#display-body').css('box-sizing') === 'border-box');
 
 ```html
 <!DOCTYPE html>
-<html>    
+<html>
   <head>
     <title>freeCodeCamp Skyline Project</title>
     <style>
@@ -53,7 +52,6 @@ assert($('#display-body').css('box-sizing') === 'border-box');
     </style>
   </head>
 
-  <body>
-  </body>
+  <body></body>
 </html>
 ```

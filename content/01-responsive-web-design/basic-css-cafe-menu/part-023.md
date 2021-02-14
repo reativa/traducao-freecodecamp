@@ -1,19 +1,19 @@
 ---
 id: 5f356ed60a5decd94ab66986
-title: Part 23
+title: Parte 23
 challengeType: 0
 dashedName: part-23
 ---
 
 # --description--
 
-Comments in CSS look like this:
+Comentários em CSS se parecem com isso:
 
 ```css
-/* comment here */
+/* comentario aqui */
 ```
 
-In your style sheet, comment out the the line containing the `background-color` property and value, so you can see the effect of only styling `div` element. This will make the background white again.
+No seu arquivo de estilos, comente a linha contendo a propriedade `background-color` e seu valor, e então você pode ver o efeito de adicionar estilo apenas ao elemento `div`. Isso fará o fundo ficar branco novamente. 
 
 # --hints--
 

@@ -10,7 +10,8 @@ dashedName: dictionaries-common-applications
 
 ## --text--
 
-O que é o código a seguir irá imprimir na tela?
+
+O que o código a seguir imprimirá na tela?
 
 ```python
 counts = { 'quincy' : 1 , 'mrugesh' : 42, 'beau': 100, '0': 10}

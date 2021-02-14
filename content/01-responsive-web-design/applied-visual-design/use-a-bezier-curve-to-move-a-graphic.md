@@ -1,6 +1,6 @@
 ---
 id: 587d78a9367417b2b2512ae9
-title: Use a Bezier Curve to Move a Graphic
+title: Use uma curva de Bézier para mover um Gráfico
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/c6bnRCK'
 forumTopicId: 301071
@@ -9,21 +9,21 @@ dashedName: use-a-bezier-curve-to-move-a-graphic
 
 # --description--
 
-A previous challenge discussed the `ease-out` keyword that describes an animation change that speeds up first and then slows down at the end of the animation. On the right, the difference between the `ease-out` keyword (for the blue element) and `linear` keyword (for the red element) is demonstrated. Similar animation progressions to the `ease-out` keyword can be achieved by using a custom cubic Bezier curve function.
+Um desafio anterior discutiu o valor `ease-out` que descreve uma animação que inicia rápido e então diminui sua velocidade no fim da animação. À direita, é mostrada a diferença entre valor `ease-out` (no elemento azul) e o valor `linear` (no elemento vermelho). Uma progressão de animação similar ao do valor `ease-out` pode ser feito usando uma função cúbica personalizada de uma curva de Bézier (`cubic-bezier`). 
 
-In general, changing the `p1` and `p2` anchor points drives the creation of different Bezier curves, which controls how the animation progresses through time. Here's an example of a Bezier curve using values to mimic the ease-out style:
+No geral, mudar os pontos `p1` e `p2` leva a criação de diferentes curvas de Bézier, que controla a progressão da animação sobre o tempo. Aqui está um exemplo de uma curva e Bézier usando valores para imitar o efeito do estilo ease-out:
 
 `animation-timing-function: cubic-bezier(0, 0, 0.58, 1);`
 
-Remember that all `cubic-bezier` functions start with `p0` at (0, 0) and end with `p3` at (1, 1). In this example, the curve moves faster through the Y-axis (starts at 0, goes to `p1` y value of 0, then goes to `p2` y value of 1) than it moves through the X-axis (0 to start, then 0 for `p1`, up to 0.58 for `p2`). As a result, the change in the animated element progresses faster than the time of the animation for that segment. Towards the end of the curve, the relationship between the change in x and y values reverses - the y value moves from 1 to 1 (no change), and the x values move from 0.58 to 1, making the animation changes progress slower compared to the animation duration.
+Lembre-se que todas as funções `cubic-bezier` começam com um ponto `p0` na coordenada (0, 0) e termina em um ponto `p3` na coordenada (1, 1). Nesse exemplo, a curve se move mais rápido no eixo Y (começa no 0, vai até o `p1` de y com valor 0, depois vai para o `p2` de y com valor 1) do que se move através do eixo X (0 para iniciar, depois de 0 em `p1` para 0.58 no `p2`). Como resultade, a modificação da progressão de animação do elemento é mais rápida do que o tempo de animação desse segmento. Mas, próximo ao final da curva, a relação entre a mudança dos valores de x e y fica da seguinte forma - o valor de y se move de 1 para 1 (sem alteração), já o valor de x se move de 0.58 para 1, fazendo com que a progressão da animação fique mais devagar comparado com a duração da animação. 
 
 # --instructions--
 
-To see the effect of this Bezier curve in action, change the `animation-timing-function` of the element with id of `red` to a `cubic-bezier` function with x1, y1, x2, y2 values set respectively to 0, 0, 0.58, 1. This will make both elements progress through the animation similarly.
+Para ver o efeito da curva de Bézier em ação, mude a propriedade `animation-timing-function` do elemento com o id `red` para uma função `cubic-bezier` com os valores x1, y1, x2, y2 definidos respectivamente 0, 0, 0.58, 1. Isso irá deixar as animações de ambos os elementos similares.
 
 # --hints--
 
-The value of the `animation-timing-function` property of the element with the id `red` should be a `cubic-bezier` function with x1, y1, x2, y2 values set respectively to 0, 0, 0.58, 1 .
+O valor da propriedade `animation-timing-function` do elemento com o id `red` deve ser uma função `cubic-bezier` com os valores x1, y1, x2, y2 definidos respectivamente como 0, 0, 0.58, 1 .
 
 ```js
 assert(
@@ -31,13 +31,13 @@ assert(
 );
 ```
 
-The element with the id `red` should no longer have the `animation-timing-function` property of linear.
+O elemento com o id `red` não deve ter mais a propriedade `animation-timing-function` com o valor `linear`.
 
 ```js
 assert($('#red').css('animation-timing-function') !== 'linear');
 ```
 
-The value of the `animation-timing-function` property for the element with the id `blue` should not change.
+O valor da propriedade `animation-timing-function` para o id `blue` não deve ser alterado.
 
 ```js
 const blueBallAnimation = __helpers.removeWhiteSpace(
