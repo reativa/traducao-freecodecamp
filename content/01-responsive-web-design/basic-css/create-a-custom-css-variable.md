@@ -1,6 +1,6 @@
 ---
 id: 5a9d726c424fe3d0e10cad11
-title: Create a custom CSS Variable
+title: Crie uma variável CSS personalizada 
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cQd27Hr'
 forumTopicId: 301086
@@ -9,21 +9,21 @@ dashedName: create-a-custom-css-variable
 
 # --description--
 
-To create a CSS variable, you just need to give it a name with two hyphens in front of it and assign it a value like this:
+Para criar uma variável CSS, você só precisa dar a ela um nome com dois hifens na frente e atribuir a ela um valor como este: 
 
 ```css
 --penguin-skin: gray;
 ```
 
-This will create a variable named `--penguin-skin` and assign it the value of `gray`. Now you can use that variable elsewhere in your CSS to change the value of other elements to gray.
+Isso criará uma variável chamada `--penguin-skin` e atribuirá a ela o valor `cinza`. Agora você pode usar essa variável em outro lugar em seu CSS para alterar o valor de outros elementos para cinza. 
 
 # --instructions--
 
-In the `penguin` class, create a variable name `--penguin-skin` and give it a value of `gray`.
+Na classe `penguin`, crie um nome de variável` --penguin-skin` e atribua a ela o valor `grey` .
 
 # --hints--
 
-`penguin` class should declare the `--penguin-skin` variable and assign it to `gray`.
+A classe `penguin` deve declarar a variável` --penguin-skin` e atribuí-la a `grey`. 
 
 ```js
 assert(
