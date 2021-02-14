@@ -1,20 +1,20 @@
 ---
 id: 5d822fd413a79914d39e98d0
-title: Part 8
+title: Parte 8
 challengeType: 0
 dashedName: part-8
 ---
 
 # --description--
 
-It's tough to see now, but there's a border at the edge of your preview, that's the body. Create a `div` element in the body with a class of `background-buildings`. This will be a container for a group of buildings.
+É difícil ver agora, mas há um border na borda da visualização, que é o body .Crie um elemento `div` no body com uma classe de `background-buildings`. Este será um contêiner para um grupo de edifícios.
 
 # --hints--
 
-test-text
+texto de teste
 
 ```js
-assert($('#display-body')[0].contains($('div.background-buildings')[0]));
+assert($("#display-body")[0].contains($("div.background-buildings")[0]));
 ```
 
 # --seed--
@@ -23,7 +23,7 @@ assert($('#display-body')[0].contains($('div.background-buildings')[0]));
 
 ```html
 <!DOCTYPE html>
-<html>    
+<html>
   <head>
     <title>freeCodeCamp Skyline Project</title>
     <style>
@@ -40,8 +40,7 @@ assert($('#display-body')[0].contains($('div.background-buildings')[0]));
     </style>
   </head>
 
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
 
@@ -49,7 +48,7 @@ assert($('#display-body')[0].contains($('div.background-buildings')[0]));
 
 ```html
 <!DOCTYPE html>
-<html>    
+<html>
   <head>
     <title>freeCodeCamp Skyline Project</title>
     <style>

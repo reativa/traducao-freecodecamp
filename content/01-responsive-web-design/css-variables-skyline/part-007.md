@@ -1,17 +1,17 @@
 ---
 id: 5d822fd413a79914d39e98cf
-title: Part 7
+title: Parte 7
 challengeType: 0
 dashedName: part-7
 ---
 
 # --description--
 
-You can see the body, it's the horizontal line on your page; the box around it is the html element. Make your body fill the whole viewport by giving it a `height` of `100vh`. Remove the default margin from the body by setting the `margin` to `0`. Finally, set the `overflow` property to `hidden` to hide any scroll bars that appear when something extends past the viewport.
+Você pode ver o body, é a linha horizontal em sua página; a caixa ao redor é o elemento html. Faça seu body preencher toda a janela de visualização, dando-lhe uma `height` de` 100vh`. Remova a margem padrão do body, definindo o `margin` para `0`. Finalmente, defina a propriedade de `overflow` para `hidden` para ocultar as barras de rolagem que aparecem quando algo ultrapassa a janela de visualização.
 
 # --hints--
 
-test-text
+texto de teste
 
 ```js
 const body = code.match(/body\s*{[\s\S]+?[^}]}/g)[0];
@@ -28,7 +28,7 @@ assert(
 
 ```html
 <!DOCTYPE html>
-<html>    
+<html>
   <head>
     <title>freeCodeCamp Skyline Project</title>
     <style>
@@ -39,8 +39,7 @@ assert(
     </style>
   </head>
 
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
 
@@ -48,7 +47,7 @@ assert(
 
 ```html
 <!DOCTYPE html>
-<html>    
+<html>
   <head>
     <title>freeCodeCamp Skyline Project</title>
     <style>
@@ -65,7 +64,6 @@ assert(
     </style>
   </head>
 
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
