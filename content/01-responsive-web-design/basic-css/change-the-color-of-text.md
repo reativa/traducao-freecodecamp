@@ -9,9 +9,9 @@ dashedName: change-the-color-of-text
 
 # --description--
 
-Agora vamos mudar a cor de algum de nosso texto.
+Agora vamos mudar a cor de uma parte de nosso texto.
 
-Podemos fazer isso mudando o `style` do seu elemento` h2`.
+Nós podemos fazer isso alterando o `style` do nosso elemento `h2`.
 
 A propriedade responsável pela cor do texto de um elemento é a propriedade de estilo `color`.
 
@@ -19,27 +19,26 @@ Veja como você definiria a cor do texto do seu elemento `h2` para azul:
 
 `<h2 style="color: blue;">CatPhotoApp</h2>`
 
-Note that it is a good practice to end inline `style` declarations with a `;` .
+Note que é uma boa prática terminar as declarações `style` na mesma linha com um `;` .
 
 # --instructions--
 
-Change your `h2` element's style so that its text color is red.
+Mude o estilo do seu elemento `h2` para que a cor do texto fique vermelha.
 
 # --hints--
 
-Your `h2` element should have a `style` declaration.
+Seu elemento `h2` deve ter uma declaração `style` .
 
 ```js
 assert($('h2').attr('style'));
 ```
 
-Your `h2` element should have color set to `red`.
+Seu elemento `h2` deve ter a cor definida como `red` (vermelho).
 
 ```js
 assert($('h2')[0].style.color === 'red');
 ```
-
-Your `style` declaration should end with a `;` .
+Sua declaração `style` deve terminar com um `;` .
 
 ```js
 assert($('h2').attr('style') && $('h2').attr('style').endsWith(';'));

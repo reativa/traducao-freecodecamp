@@ -1,13 +1,13 @@
 ---
 id: 5f356ed6cf6eab5f15f5cfe6
-title: Part 21
+title: Parte 21
 challengeType: 0
 dashedName: part-21
 ---
 
 # --description--
 
-The `div` element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
+O elemento `div` é usado principalmente para propósitos de layout, diferente de outros elementos de conteúdo que você usou até agora. Adicione um elemento `div` dentro do elemento `body` e então mova todos os outros elementos para dentro da nova `div`.
 
 # --hints--
 

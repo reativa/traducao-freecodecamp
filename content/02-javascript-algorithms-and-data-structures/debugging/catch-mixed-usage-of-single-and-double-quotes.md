@@ -1,6 +1,6 @@
 ---
 id: 587d7b84367417b2b2512b37
-title: Catch Mixed Usage of Single and Double Quotes
+title: Capturar Uso Misto de Aspas Simples e Duplas
 challengeType: 1
 forumTopicId: 301188
 dashedName: catch-mixed-usage-of-single-and-double-quotes
@@ -8,11 +8,11 @@ dashedName: catch-mixed-usage-of-single-and-double-quotes
 
 # --description--
 
-JavaScript allows the use of both single (`'`) and double (`"`) quotes to declare a string. Deciding which one to use generally comes down to personal preference, with some exceptions.
+JavaScript permite o uso de aspas simples (`'`) e duplas (`"`) para declarar uma string. A decisão de qual usar geralmente se resume à preferência pessoal, com algumas exceções.
 
-Having two choices is great when a string has contractions or another piece of text that's in quotes. Just be careful that you don't close the string too early, which causes a syntax error.
+Ter duas opções é ótimo quando uma string tem contrações ou outro pedaço de texto entre aspas. Apenas tome cuidado para não fechar a string muito cedo, o que causa um erro de sintaxe.
 
-Here are some examples of mixing quotes:
+Aqui estão alguns exemplos de mixagem de aspas:
 
 ```js
 // These are correct:
@@ -22,7 +22,7 @@ const quoteInString = "Groucho Marx once said 'Quote me as saying I was mis-quot
 const uhOhGroucho = 'I've had a perfectly wonderful evening, but this wasn't it.';
 ```
 
-Of course, it is okay to use only one style of quotes. You can escape the quotes inside the string by using the backslash (<code>\\</code>) escape character:
+Claro, não há problema em usar apenas um estilo de aspas. Você pode escapar das aspas dentro da string usando o caractere de escape da barra invertida (<code> \\ </code>):
 
 ```js
 // Correct use of same quotes:
@@ -31,17 +31,17 @@ const allSameQuotes = 'I\'ve had a perfectly wonderful evening, but this wasn\'t
 
 # --instructions--
 
-Fix the string so it either uses different quotes for the `href` value, or escape the existing ones. Keep the double quote marks around the entire string.
+Corrija a string para que use aspas diferentes para o valor `href` ou escape das existentes. Mantenha as aspas duplas em toda a string.
 
 # --hints--
 
-Your code should fix the quotes around the `href` value "#Home" by either changing or escaping them.
+Seu código deve corrigir as aspas em torno do valor `href` "#Home" alterando-as ou escapando-as.
 
 ```js
 assert(code.match(/<a href=\s*?('|\\")#Home\1\s*?>/g));
 ```
 
-Your code should keep the double quotes around the entire string.
+Seu código deve manter as aspas duplas ao redor de toda a string.
 
 ```js
 assert(code.match(/"<p>.*?<\/p>";/g));
