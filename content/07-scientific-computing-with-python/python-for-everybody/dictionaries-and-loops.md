@@ -16,7 +16,7 @@ Recursos adicionais:
 
 ## --text--
 
-O que o código a seguir irá imprimir an tela?:
+O que o código a seguir irá imprimir na tela?:
 
 ```python
 counts = { 'chuck' : 1 , 'annie' : 42, 'jan': 100}
