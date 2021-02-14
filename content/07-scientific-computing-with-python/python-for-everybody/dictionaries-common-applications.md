@@ -10,6 +10,7 @@ dashedName: dictionaries-common-applications
 
 ## --text--
 
+
 O que o código a seguir imprimirá na tela?
 
 ```python
