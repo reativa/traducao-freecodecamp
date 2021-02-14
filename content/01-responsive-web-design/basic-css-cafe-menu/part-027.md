@@ -1,21 +1,20 @@
 ---
 id: 5f356ed6199b0cdef1d2be8f
-title: Part 27
+title: Parte 27
 challengeType: 0
 dashedName: part-27
 ---
 
 # --description--
 
-So far you have been using type selectors to style elements. A <dfn>class selector</dfn> is defined by a name with a dot directly in front it, like this:
+Até agora, você usou seletores de tipo para adicionar estilo aos elementos. Um <dfn>class selector</dfn> é definido por um nome com um ponto na frente, do seguinte modo:
 
 ```css
 .class-name {
   styles
 }
 ```
-
-Change the existing `div` selector into a class selector by replacing `div` with a class named `menu`.
+Mude o seletor de `div` atual para um seletor de classe, substituindo `div` por uma classe chamada `menu`.
 
 # --hints--
 

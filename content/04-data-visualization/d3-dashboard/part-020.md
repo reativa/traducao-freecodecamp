@@ -7,7 +7,7 @@ dashedName: part-20
 
 # --description--
 
-Chain another `attr` function that sets the `height` as the `svgHeight` variable you created.
+Encadeie outra função `attr` que define a `altura` com a variável `svgHeight` que você criou.
 
 # --hints--
 

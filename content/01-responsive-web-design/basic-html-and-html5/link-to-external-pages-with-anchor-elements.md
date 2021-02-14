@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf08816
-title: Link to External Pages with Anchor Elements
+title: Link para páginas externas com elementos âncora
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/c8EkncB'
 forumTopicId: 18226
@@ -9,33 +9,33 @@ dashedName: link-to-external-pages-with-anchor-elements
 
 # --description--
 
-You can use `a` (*anchor*) elements to link to content outside of your web page.
+Você pode usar elementos `a` (*âncora*) para criar um link para conteúdos fora de sua página web.
 
-`a` elements need a destination web address called an `href` attribute. They also need anchor text. Here's an example:
+Os elementos `a` precisam de um endereço web de destino, chamado de atributo `href`. Eles também precisam de texto âncora. Aqui está um exemplo:
 
 `<a href="https://freecodecamp.org">this links to freecodecamp.org</a>`
 
-Then your browser will display the text `this links to freecodecamp.org` as a link you can click. And that link will take you to the web address `https://www.freecodecamp.org`.
+Então o seu navegador exibirá o texto `this links to freecodecamp.org` como um link em que você pode clicar. E esse link o levará ao endereço web `https://www.freecodecamp.org`.
 
 # --instructions--
 
-Create an `a` element that links to `https://freecatphotoapp.com` and has "cat photos" as its anchor text.
+Crie um elemento `a` vinculado a `https://freecatphotoapp.com` e que tenha "fotos de gatos" como texto âncora.
 
 # --hints--
 
-Your `a` element should have the anchor text of "cat photos".
+Seu elemento `a` deve ter o texto âncora de "fotos de gatos ".
 
 ```js
 assert(/cat photos/gi.test($('a').text()));
 ```
 
-You need an `a` element that links to `https://freecatphotoapp.com`
+Você precisa de um elemento `a` vinculado a `https://freecatphotoapp.com`
 
 ```js
 assert(/https:\/\/(www\.)?freecatphotoapp\.com/gi.test($('a').attr('href')));
 ```
 
-Your `a` element should have a closing tag.
+Seu elemento `a` deve possuir uma tag de fechamento.
 
 ```js
 assert(

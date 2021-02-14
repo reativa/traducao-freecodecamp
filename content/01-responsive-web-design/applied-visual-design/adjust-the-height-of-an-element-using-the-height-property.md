@@ -1,6 +1,6 @@
 ---
 id: 587d7791367417b2b2512ab5
-title: Adjust the Height of an Element Using the height Property
+title: Ajuste a altura de um elemento usando a propriedade height
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cEDaDTN'
 forumTopicId: 301034
@@ -9,7 +9,8 @@ dashedName: adjust-the-height-of-an-element-using-the-height-property
 
 # --description--
 
-Você pode especificar a altura de um elemento usando a propriedade `height` em CSS, semelhante à propriedade `width`. Aqui está um exemplo que altera a altura de uma imagem para 20 px:
+Você pode especificar a altura de um elemento usando a propriedade `height` do CSS, similar à propriedade `width`. Aqui está um exemplo que muda a altura de uma imagem para 20px: 
+
 
 ```css
 img {
@@ -19,13 +20,15 @@ img {
 
 # --instructions--
 
-Adicione uma propriedade `height` à tag `h4` e defina-a como 25px.
 
-**Nota:** Você pode precisar estar com 100% de zoom para passar no teste do desafio.
+Adicione uma propriedade `height` à tag `h4` e defina o valor para 25px.
+
+**Note:** Você talvez precise estar com o zoom em 100% para passar no teste desse desafio
 
 # --hints--
 
-Seu código deve alterar a propriedade `h4` `height` para um valor de 25 pixels.
+Seu código deverá mudar a propriedade `height` da tag `h4` para o valor 25 pixels.
+
 
 ```js
 assert(
@@ -67,7 +70,7 @@ assert(
   <div class="cardContent">
     <div class="cardText">
       <h4>Google</h4>
-      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
+      <p>Google foi fundado por Larry Page e Sergey Brin enquanto faziam doutorado na Universidade de Stanford.</p>
     </div>
     <div class="cardLinks">
       <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
@@ -107,7 +110,7 @@ assert(
   <div class="cardContent">
     <div class="cardText">
       <h4>Google</h4>
-      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
+      <p>Google foi fundado por Larry Page e Sergey Brin enquanto faziam doutorado na Universidade de Stanford.</p>
     </div>
     <div class="cardLinks">
       <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>

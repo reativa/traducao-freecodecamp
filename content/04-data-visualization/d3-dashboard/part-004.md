@@ -6,8 +6,7 @@ dashedName: part-4
 ---
 
 # --description--
-
-Below the title, link to your external stylesheet by adding a `link` element with a `rel` attribute of `stylesheet` and an `href` attribute of `./dashboard.css`. Remember that link elements do not need a closing tag. You will be adding some styles to this file shortly.
+Abaixo do título, crie um link para sua folha de estilo externa adicionando um elemento `link` com um atributo` rel` de `stylesheet` e um atributo` href` de `. / dashboard.css`. Lembre-se de que os elementos do link não precisam de uma tag de fechamento. Você adicionará alguns estilos a este arquivo em breve.
 
 # --hints--
 

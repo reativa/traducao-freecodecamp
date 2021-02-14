@@ -1,6 +1,6 @@
 ---
 id: 5a9d72a1424fe3d0e10cad15
-title: Change a variable for a specific area
+title: Altere uma variável para uma área específica 
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/cdRwbuW'
 forumTopicId: 301085
@@ -9,17 +9,18 @@ dashedName: change-a-variable-for-a-specific-area
 
 # --description--
 
-When you create your variables in `:root` they will set the value of that variable for the whole page.
+Quando você cria suas variáveis em `: root`, elas definirão o valor dessa variável para a página inteira.
 
-You can then over-write these variables by setting them again within a specific element.
+Você pode sobrescrever essas variáveis configurando-as novamente em um elemento específico. 
 
 # --instructions--
 
-Change the value of `--penguin-belly` to `white` in the `penguin` class.
+Altere o valor de `--penguin-belly` para `white` na classe `penguin`.
+
 
 # --hints--
 
-The `penguin` class should reassign the `--penguin-belly` variable to `white`.
+A classe `penguin` deve atribuir a variável` --penguin-belly` a `white`. 
 
 ```js
 assert(

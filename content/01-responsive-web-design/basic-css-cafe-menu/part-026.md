@@ -1,13 +1,13 @@
 ---
 id: 5f356ed656a336993abd9f7c
-title: Part 26
+title: Parte 26
 challengeType: 0
 dashedName: part-26
 ---
 
 # --description--
 
-Next, you want to center the `div` horizontally. You can do this by setting its `margin-left` and `margin-right` properties to `auto`. Think of the margin as invisible space around an element. Using these two margin properties, center the `div` element within the `body` element.
+Em seguida, você deseja centralizar a `div` horizontalmente. Você pode fazer isso ao definir suas propriedades `margin-left` e `margin-right` para `auto`. Pense na margem como um espaço invisível ao redor do elemento. Usando estas duas propriedades de margem, centralize o elemento `div` dentro do elemento `body`.
 
 # --hints--
 

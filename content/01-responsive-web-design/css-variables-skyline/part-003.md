@@ -1,17 +1,17 @@
 ---
 id: 5d822fd413a79914d39e98cb
-title: Part 3
+title: Parte 3
 challengeType: 0
 dashedName: part-3
 ---
 
 # --description--
 
-Next, add opening and closing `head` and `body` tags within the html element.
+Em seguida, adicione as tags de abertura e fechamento `head` e` body` dentro do elemento html.
 
 # --hints--
 
-test-text
+texto de teste
 
 ```js
 assert(
@@ -27,21 +27,16 @@ assert(
 
 ```html
 <!DOCTYPE html>
-<html>
-  
-</html>
+<html></html>
 ```
 
 # --solutions--
 
 ```html
 <!DOCTYPE html>
-<html>    
-  <head>
-    
-  </head>
+<html>
+  <head> </head>
 
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
