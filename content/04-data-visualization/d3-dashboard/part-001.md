@@ -7,9 +7,9 @@ dashedName: part-1
 
 # --description--
 
-Bem vindo ao painel de controle do projeto. Você usará a biblioteca para visualização de dados do Javascript, D3, para construir a visualização dos seguidores da sua rede social. Consistirá de um gráfico de linha, um gráfico de pizza e uma legenda
+Bem-vindo ao projeto do painel! Você usará a biblioteca de visualização de dados JavaScript, D3, para construir uma visualização de seus seguidores de mídia social. Ele consistirá em um gráfico de linha, um gráfico de pizza e uma legenda.
 
-Primeiro, você precisa criar um arrquivo HTML. Comece adicionando a declaração `<!DOCTYPE html>` ao topo do arquivo para informar ao navegador que tipo de documento está sendo lido.
+Primeiro, você precisa criar um arquivo HTML. Inicie adicionando a declaração `<!DOCTYPE html>` ao topo do arquivo para chamar ao navegador que tipo de documento ele está lendo.
 
 # --hints--
 

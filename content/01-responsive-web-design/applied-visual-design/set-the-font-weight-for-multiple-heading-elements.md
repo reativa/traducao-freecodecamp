@@ -1,6 +1,6 @@
 ---
 id: 587d781c367417b2b2512ac3
-title: Set the font-weight for Multiple Heading Elements
+title: Defina a propriedade 'font-weight' (peso da fonte) para vários elementos 'Heading' (h).
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/crVWRHq'
 forumTopicId: 301069
@@ -9,47 +9,47 @@ dashedName: set-the-font-weight-for-multiple-heading-elements
 
 # --description--
 
-You set the `font-size` of each heading tag in the last challenge, here you'll adjust the `font-weight`.
+Você definiu o `font-size` de cada tag 'heading' no último desafio, aqui você irá ajustar o `font-weight`. 
 
-The `font-weight` property sets how thick or thin characters are in a section of text.
+A propriedade `font-weight` (peso da fonte) define o quão expesso ou fino serão os caracteres da seção de texto determinada.
 
 # --instructions--
 
-<ul><li>Set the <code>font-weight</code> of the <code>h1</code> tag to 800.</li><li>Set the <code>font-weight</code> of the <code>h2</code> tag to 600.</li><li>Set the <code>font-weight</code> of the <code>h3</code> tag to 500.</li><li>Set the <code>font-weight</code> of the <code>h4</code> tag to 400.</li><li>Set the <code>font-weight</code> of the <code>h5</code> tag to 300.</li><li>Set the <code>font-weight</code> of the <code>h6</code> tag to 200.</li></ul>
+<ul><li>Defina o <code>font-weight</code> da tag <code>h1</code> para 800.</li><li>Defina o <code>font-weight</code> da tag <code>h2</code> para 600.</li><li>Defina o <code>font-weight</code> da tag <code>h3</code> para 500.</li><li>Defina o <code>font-weight</code> da tag <code>h4</code> para 400.</li><li>Defina o <code>font-weight</code> da tag <code>h5</code> para 300.</li><li>Defina o <code>font-weight</code> da tag <code>h6</code> para 200.</li></ul>
 
 # --hints--
 
-Your code should set the `font-weight` property for the `h1` tag to 800.
+Seu código deve definir a propridade `font-weight` da tag `h1` para 800.
 
 ```js
 assert($('h1').css('font-weight') == '800');
 ```
 
-Your code should set the `font-weight` property for the `h2` tag to 600.
+Seu código deve definir a propridade `font-weight` da tag `h2` para 600.
 
 ```js
 assert($('h2').css('font-weight') == '600');
 ```
 
-Your code should set the `font-weight` property for the `h3` tag to 500.
+Seu código deve definir a propridade `font-weight` da tag `h3` para 500.
 
 ```js
 assert($('h3').css('font-weight') == '500');
 ```
 
-Your code should set the `font-weight` property for the `h4` tag to 400.
+Seu código deve definir a propridade `font-weight` da tag `h4` para 400.
 
 ```js
 assert($('h4').css('font-weight') == '400');
 ```
 
-Your code should set the `font-weight` property for the `h5` tag to 300.
+Seu código deve definir a propridade `font-weight` da tag `h5` para 300.
 
 ```js
 assert($('h5').css('font-weight') == '300');
 ```
 
-Your code should set the `font-weight` property for the `h6` tag to 200.
+Seu código deve definir a propridade `font-weight` da tag `h6` para 200.
 
 ```js
 assert($('h6').css('font-weight') == '200');

@@ -9,53 +9,51 @@ dashedName: add-flex-superpowers-to-the-tweet-embed
 
 # --description--
 
-À direita está o tweet incorporado que será usado como exemplo prático. Alguns do elementos ficariam melhores com um layout diferente. No último desafio  `display: flex` foi demonstrado. Aqui, você irá adicionar diversos componentes no tweet incorporado para começar a ajustar seus posicionamentos.
+Ao lado direito está o tweet embutido que será usado como exemplo prático. Alguns elementos terão uma aparência melhor com um layout diferente. O último desafio demonstrou o `display: flex`. Aqui você vai adicioná-lo a vários componentes no tweet embutido para começar a ajustar o posicionamento deles.
 
 # --instructions--
 
-Adicione a propriedade CSS `display: flex` para todos os seguintes itens - note que os seletores já estão dedinidos no CSS:
+Adicione a propriedade CSS `display: flex` a todos os itens a seguir - observe que o seletores já estão configurados no CSS:
 
-`header`, `.profile-name` do header, `.follow-btn` do header, `h3` e `h4` do header, o `footer`, e os `.stats` do footer.
+`header`, o `.profile-name` do header, o `.follow-btn` do header, os `h3` e `h4` do header, o `footer` e o `.stats` do footer.
 
 # --hints--
 
-Seu `header`deve conter uma propriedade `display` definida como `flex`.
+Seu `header` deve ter a propriedade `display` definida para `flex`.
 
 ```js
 assert($('header').css('display') == 'flex');
 ```
-
-Seu `footer` deve conter uma propriedade `display` definida como `flex`.
+Seu `footer` deve ter a propriedade `display` definida para `flex`.
 
 ```js
 assert($('footer').css('display') == 'flex');
 ```
-
-Seu `h3` deve conter uma propridedade `display` definidada como `flex`.
+Seu `h3` deve ter a propriedade `display` definida para `flex`.
 
 ```js
 assert($('h3').css('display') == 'flex');
 ```
 
-Seu `h4` deve conter uma propriedade `display` definida como `flex`.
+Seu `h4` deve ter a propriedade `display` definida para `flex`.
 
 ```js
 assert($('h4').css('display') == 'flex');
 ```
 
-Seu `.profile-name` deve conter uma propriedade `display` definida como `flex`.
+Seu `.profile-name` deve ter a propriedade `display` definida para `flex`.
 
 ```js
 assert($('.profile-name').css('display') == 'flex');
 ```
 
-Seu `.follow-btn` deve conter uma propriedade `display` definida como `flex`.
+Seu `.follow-btn` deve ter a propriedade `display` definida para `flex`.
 
 ```js
 assert($('.follow-btn').css('display') == 'flex');
 ```
 
-Seu `.stats` deve conter uma propriedade `display` definida como `flex`.
+Seu `.stats` deve ter a propriedade `display` definida para `flex`.
 
 ```js
 assert($('.stats').css('display') == 'flex');

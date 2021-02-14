@@ -1,17 +1,17 @@
 ---
 id: 5d822fd413a79914d39e98ca
-title: Part 2
+title: Parte 2
 challengeType: 0
 dashedName: part-2
 ---
 
 # --description--
 
-Add opening and closing `html` tags below the doctype so you have a place to start putting some code.
+Adicione as tags `html` de abertura e fechamento abaixo do doctype para que você tenha um lugar para começar a colocar algum código.
 
 # --hints--
 
-test-text
+texto de teste
 
 ```js
 assert(code.match(/<!DOCTYPE\s+html\s*>\s*<html\s*>\s*<\/html\s*>/gi));
@@ -29,7 +29,5 @@ assert(code.match(/<!DOCTYPE\s+html\s*>\s*<html\s*>\s*<\/html\s*>/gi));
 
 ```html
 <!DOCTYPE html>
-<html>
-  
-</html>
+<html></html>
 ```

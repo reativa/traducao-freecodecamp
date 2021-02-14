@@ -1,13 +1,13 @@
 ---
 id: 5d822fd413a79914d39e98c9
-title: Part 1
+title: Parte 1
 challengeType: 0
 dashedName: part-1
 ---
 
 # --description--
 
-Welcome to the CSS Variables skyline project! Start by adding the `!DOCTYPE html` declaration at the top of the document so the browser knows what type of document it's reading.
+Bem-vindo ao projeto de horizonte de Variáveis CSS! Comece adicionando a declaração `! DOCTYPE html` no topo do documento para que o navegador saiba que tipo de documento está lendo.
 
 # --hints--
 
@@ -22,6 +22,7 @@ assert(code.match(/<!DOCTYPE\s+html\s*>/gi));
 ## --seed-contents--
 
 ```html
+
 ```
 
 # --solutions--

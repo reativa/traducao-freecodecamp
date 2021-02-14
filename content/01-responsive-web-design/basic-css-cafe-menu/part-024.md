@@ -1,13 +1,13 @@
 ---
 id: 5f356ed63e0fa262326eef05
-title: Part 24
+title: Parte 24
 challengeType: 0
 dashedName: part-24
 ---
 
 # --description--
 
-Now make the background color of the `div` element to be `burlywood`.
+Agora mude a cor de fundo do elemento `div` para `burlywood`.
 
 # --hints--
 

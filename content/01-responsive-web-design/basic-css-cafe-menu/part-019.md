@@ -1,13 +1,13 @@
 ---
 id: 5f3477cb303c5cb61b43aa9b
-title: Part 19
+title: Parte 19
 challengeType: 0
 dashedName: part-19
 ---
 
 # --description--
 
-The text is centered again so the link to the CSS file is working. Add another style to the file that changes the `background-color` property to `brown` for the `body` element.
+O texto está centralizado novamente, então o vínculo ao arquivo CSS está funcionando. Adicione outro estilo ao arquivo que altera a propriedade `background-color` para `brown` no elemento `body`.
 
 # --hints--
 
