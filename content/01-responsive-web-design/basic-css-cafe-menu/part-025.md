@@ -1,13 +1,13 @@
 ---
 id: 5f356ed60785e1f3e9850b6e
-title: Part 25
+title: Parte 25
 challengeType: 0
 dashedName: part-25
 ---
 
 # --description--
 
-Now it's easy to see that the text is centered inside the `div` element. Currently, the width of the `div` element is specified in pixels (`px`). Change the `width` property's value to be `80%`, to make it is 80% the width of its parent element (`body`).
+Agora é fácil ver que o texto está centralizado dentro do elemento `div`. Atualmente, a largura do elemento `div` está especificada em pixels (`px`). Altere o valor da propriedade `width` para `80%`, para fazer com que seja 80% da largura do seu elemento pai (`body`).
 
 # --hints--
 
