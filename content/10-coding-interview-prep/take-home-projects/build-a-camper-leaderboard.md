@@ -1,6 +1,6 @@
 ---
 id: bd7156d8c242eddfaeb5bd13
-title: Construir uma página inicial do fórum freeCodeCamp
+title: Construir a página inicial do fórum freeCodeCamp
 challengeType: 3
 forumTopicId: 302349
 dashedName: build-a-freecodecamp-forum-homepage
@@ -8,7 +8,7 @@ dashedName: build-a-freecodecamp-forum-homepage
 
 # --description--
 
-**Objective:** Construir um app no [CodePen.io](https://codepen.io) que é funcionalmente similar a isto: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
+**Objective:** Construir um app no [CodePen.io](https://codepen.io) que é funcionalmente similar a este: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
 
 Cumpra abaixo as [user stories](https://en.wikipedia.org/wiki/User_story). Utilize quaisquer bibliotecas ou APIs que precisar. Dê ao app seu própio estilo pessoal.
 
