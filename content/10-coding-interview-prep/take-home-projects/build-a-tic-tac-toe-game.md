@@ -8,7 +8,7 @@ dashedName: build-a-tic-tac-toe-game
 
 # --description--
 
-**Objective:** Construir um app [CodePen.io](https://codepen.io) que é funcionalmente similar a isto: <https://codepen.io/freeCodeCamp/full/KzXQgy/>.
+**Objective:** Construir um app [CodePen.io](https://codepen.io) que é funcionalmente similar a este: <https://codepen.io/freeCodeCamp/full/KzXQgy/>.
 
 Preencha abaixo [user stories](https://en.wikipedia.org/wiki/User_story). Utilize quaisquer bibliotecas ou APIs que precisar. Dê ao app seu própio estilo pessoal.
 
