@@ -1,13 +1,13 @@
 ---
 id: 5f356ed63c7807a4f1e6d054
-title: Part 22
+title: Parte 22
 challengeType: 0
 dashedName: part-22
 ---
 
 # --description--
 
-The goal now is to make the `div` not take up the entire width of the page. The CSS `width` property is perfect for this. Create a new type selector in the style sheet that gives your `div` element a width of `300px`.
+O objetivo agora é fazer com que a `div` não ocupe toda a largura da página. A propriedade `width` do CSS é perfeita para isso. Crie um novo tipo de seletor no arquivo de estilos que dê ao seu elemento `div` uma largura de `300px`. 
 
 # --hints--
 
