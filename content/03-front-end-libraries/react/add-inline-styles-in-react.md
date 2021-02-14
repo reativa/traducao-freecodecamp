@@ -1,6 +1,6 @@
 ---
 id: 5a24c314108439a4d4036182
-title: Add Inline Styles in React
+title: Adicione estilos in-line com React
 challengeType: 6
 forumTopicId: 301378
 dashedName: add-inline-styles-in-react
@@ -8,41 +8,41 @@ dashedName: add-inline-styles-in-react
 
 # --description--
 
-You may have noticed in the last challenge that there were several other syntax differences from HTML inline styles in addition to the `style` attribute set to a JavaScript object. First, the names of certain CSS style properties use camel case. For example, the last challenge set the size of the font with `fontSize` instead of `font-size`. Hyphenated words like `font-size` are invalid syntax for JavaScript object properties, so React uses camel case. As a rule, any hyphenated style properties are written using camel case in JSX.
+Você deve ter notado que no último desafio havia várias sintaxes diferentes, partindo de estilos in-line com HTML e o atributo `style` até pra um objeto do JavaScript. Primeiro, os nomes de certas propriedades CSS usam camel case. Por exemplo, o último desafio seta o tamanho da fonte com a propriedade `fontSize` ao invés de `font-size`. Palavras com hífen como `font-size` são inválidas na sintaxe de objetos JavaScript, então o React usa camel case. Como uma regra, qualquer propriedade CSS com hífen em seu nome é escrita com camel case dentro do JSX.
 
-All property value length units (like `height`, `width`, and `fontSize`) are assumed to be in `px` unless otherwise specified. If you want to use `em`, for example, you wrap the value and the units in quotes, like `{fontSize: "4em"}`. Other than the length values that default to `px`, all other property values should be wrapped in quotes.
+Todas propriedades que contém um valor de unidade (como `height`, `width`, e `fontSize`) são supostas para ser em `px` a não ser que outra unidade seja especificada. Se você quer usar `em` por exemplo, basta encapsular o valor e a unidade entre aspas, como `{ fontSize: "4em" }`. Além de propriedades de tamanho que são por padrão em `px`, todas outras propriedades que esperam um valor devem ser contidas entre aspas.
 
 # --instructions--
 
-If you have a large set of styles, you can assign a style `object` to a constant to keep your code organized. Initialize a `styles` constant and assign an `object` with three style properties and their values to it. Give the `div` a color of `"purple"`, a font-size of `40`, and a border of `"2px solid purple"`. Then set the `style` attribute equal to the `styles` constant.
+Se você tem uma grande quantidade de estilos, você pode atribuir o `object` de estilos a uma constante, para assim, manter seu código mais organizado. Inicialize uma constante `styles` e atribua a ela um `object` com três propriedades de estilo a seus respectivos valores. Dê à `div` um cor `"purple"`, um `font-size` de `40` e uma borda de `"2px solid purple"`. Então atribua o objeto `style` para o atributo `style` do elemento no JSX.
 
 # --hints--
 
-The `styles` variable should be an `object` with three properties.
+A variável `styles` deve ser um objeto(`object`) com três propriedades.
 
 ```js
 assert(Object.keys(styles).length === 3);
 ```
 
-The `styles` variable should have a `color` property set to a value of `purple`.
+A variável `styles` deve tem uma propriedade `color` com o valor de `purple`.
 
 ```js
 assert(styles.color === 'purple');
 ```
 
-The `styles` variable should have a `fontSize` property set to a value of `40`.
+A variável `styles` deve tem uma propriedade `fontSize` com o valor `40`.
 
 ```js
 assert(styles.fontSize === 40);
 ```
 
-The `styles` variable should have a `border` property set to a value of `2px solid purple`.
+A variável `styles` deve ter uma propriedade `border` com o valor de `2px solid purple`
 
 ```js
 assert(styles.border === '2px solid purple');
 ```
 
-The component should render a `div` element.
+O componente deve renderizar uma `div`.
 
 ```js
 assert(
@@ -53,7 +53,7 @@ assert(
 );
 ```
 
-The `div` element should have its styles defined by the `styles` object.
+A `div` retornada deve ter seu estilo definido com o objeto `styles`.
 
 ```js
 assert(
