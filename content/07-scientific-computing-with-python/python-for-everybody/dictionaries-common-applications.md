@@ -1,6 +1,6 @@
 ---
 id: 5e7b9f090b6c005b0e76f068
-title: 'Dictionaries: Common Applications'
+title: 'Dicionários: Aplicações Comuns'
 challengeType: 11
 videoId: f17xPfIXct0
 dashedName: dictionaries-common-applications
@@ -10,7 +10,7 @@ dashedName: dictionaries-common-applications
 
 ## --text--
 
-What will the following code print?
+O que o código a seguir imprimirá na tela?
 
 ```python
 counts = { 'quincy' : 1 , 'mrugesh' : 42, 'beau': 100, '0': 10}
