@@ -1,6 +1,6 @@
 ---
 id: 587d78ab367417b2b2512af3
-title: Apply the flex-direction Property to Create Rows in the Tweet Embed
+title: Aplique a Propriedade flex-direction para Criar Linhas no Tweet Incorporado
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/cJb8yuq'
 forumTopicId: 301104
@@ -9,21 +9,21 @@ dashedName: apply-the-flex-direction-property-to-create-rows-in-the-tweet-embed
 
 # --description--
 
-The `header` and `footer` in the tweet embed example have child items that could be arranged as rows using the `flex-direction` property. This tells CSS to align the children horizontally.
+O `header` e `footer` no exemplo do tweet incorporado tem itens filhos que podem ser organizados como linhas usando a propriedade `flex-direction`. Isto diz ao CSS para alinhar os filhos horizontalmente.This tells CSS to align the children horizontally.
 
 # --instructions--
 
-Add the CSS property `flex-direction` to both the `header` and `footer` and set the value to row.
+Adicione a propriedade  `flex-direction` do CSS para ambos `header` e `footer` e defina defina o valor para row.
 
 # --hints--
 
-The `header` should have a `flex-direction` property set to row.
+O `header` deve possuir a propriedade `flex-direction` definida como row.
 
 ```js
 assert(code.match(/header\s*?{[^}]*?flex-direction:\s*?row;/g));
 ```
 
-The `footer` should have a `flex-direction` property set to row.
+O `footer` deve possuir a propriedade `flex-direction` definida como row.
 
 ```js
 assert(code.match(/footer\s*?{[^}]*?flex-direction:\s*?row;/g));
@@ -106,7 +106,7 @@ assert(code.match(/footer\s*?{[^}]*?flex-direction:\s*?row;/g));
   </div>
 </header>
 <div id="inner">
-  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <p>Conheço muitas pessoas que estão em busca daquele truque que as ajudará a trabalhar de maneira inteligente. Mesmo se você trabalhar de forma inteligente, ainda terá que trabalhar muito.</p>
   <span class="date">1:32 PM - 12 Jan 2018</span>
   <hr>
 </div>
@@ -202,7 +202,7 @@ assert(code.match(/footer\s*?{[^}]*?flex-direction:\s*?row;/g));
   </div>
 </header>
 <div id="inner">
-  <p>I meet so many people who are in search of that one trick that will help them work smart. Even if you work smart, you still have to work hard.</p>
+  <p>Conheço muitas pessoas que estão em busca daquele truque que as ajudará a trabalhar de maneira inteligente. Mesmo se você trabalhar de forma inteligente, ainda terá que trabalhar muito</p>
   <span class="date">1:32 PM - 12 Jan 2018</span>
   <hr>
 </div>
@@ -222,3 +222,4 @@ assert(code.match(/footer\s*?{[^}]*?flex-direction:\s*?row;/g));
   </div>
 </footer>
 ```
+
