@@ -1,6 +1,6 @@
 ---
 id: 5e7b9f070b6c005b0e76f05d
-title: 'Iterations: Definite Loops'
+title: 'Iterações: Loops Definidos'
 challengeType: 11
 videoId: hiRTRAqNlpE
 dashedName: iterations-definite-loops
@@ -10,7 +10,7 @@ dashedName: iterations-definite-loops
 
 ## --text--
 
-How many lines will the following code print?:
+Quantas linhas o código a seguir imprimirá na tela?:
 
 ```python
 for i in [2,1,5]:
