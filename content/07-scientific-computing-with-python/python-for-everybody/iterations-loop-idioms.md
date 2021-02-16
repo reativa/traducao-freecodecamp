@@ -1,6 +1,6 @@
 ---
 id: 5e7b9f070b6c005b0e76f05e
-title: 'Iterations: Loop Idioms'
+title: 'Iterações: Loop Idioms'
 challengeType: 11
 videoId: AelGAcoMXbI
 dashedName: iterations-loop-idioms
@@ -10,7 +10,7 @@ dashedName: iterations-loop-idioms
 
 ## --text--
 
-Below is code to find the smallest value from a list of values. One line has an error that will cause the code to not work as expected. Which line is it?:
+Abaixo vemos um código para achar o menor valor em uma lista de valores. Uma linha tem um erro que fará com que o código não trabalhe como o esperado. Qual linha é essa?:
 
 ```python
 smallest = None
