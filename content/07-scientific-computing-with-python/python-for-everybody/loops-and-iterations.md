@@ -1,6 +1,6 @@
 ---
 id: 5e7b9f060b6c005b0e76f05c
-title: Loops and Iterations
+title: Repetições e Iterações
 challengeType: 11
 videoId: dLA-szNRnUY
 dashedName: loops-and-iterations
@@ -10,7 +10,7 @@ dashedName: loops-and-iterations
 
 ## --text--
 
-What will the following code print out?:
+O que o código a seguir imprimirá na tela?:
 
 ```python
 n = 0
