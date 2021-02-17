@@ -1,6 +1,6 @@
 ---
 id: 587d781a367417b2b2512ab7
-title: Use the strong Tag to Make Text Bold
+title: Use a Tag Strong Para Tornar o Texto em Negrito
 challengeType: 0
 videoUrl: 'https://scrimba.com/c/ceJNBSb'
 forumTopicId: 301080
@@ -9,27 +9,27 @@ dashedName: use-the-strong-tag-to-make-text-bold
 
 # --description--
 
-To make text bold, you can use the `strong` tag. This is often used to draw attention to text and symbolize that it is important. With the `strong` tag, the browser applies the CSS of `font-weight: bold;` to the element.
+Para deixar o texto em negrito, você pode usar a tag `strong`. Geralmente isso é usado para chamar a atenção para o texto e simbolizar que ele é importante. Com a tag `strong`, o navegador aplica o CSS de `font-weight: bold;` ao elemento.
 
 # --instructions--
 
-Wrap a `strong` tag around "Stanford University" inside the `p` tag (do not include the period).
+Envolva uma tag `strong` em torno de "Stanford University" dentro da tag `p` (não inclua o ponto).
 
 # --hints--
 
-Your code should add one `strong` tag to the markup.
+Seu código deve adicionar uma tag `strong` à marcação.
 
 ```js
 assert($('strong').length == 1);
 ```
 
-The `strong` tag should be inside the `p` tag.
+A tag `strong` deve estar dentro da tag `p`.
 
 ```js
 assert($('p').children('strong').length == 1);
 ```
 
-The `strong` tag should wrap around the words `Stanford University`.
+A tag `strong` deve estar em das palavras `Stanford University`.
 
 ```js
 assert(
