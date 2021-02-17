@@ -1,6 +1,6 @@
 ---
 id: 587d78ab367417b2b2512af0
-title: 'Use display: flex to Position Two Boxes'
+title: 'Use display: Posicione Duas Caixas com flex'
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVaDAv/cgz3QS7'
 forumTopicId: 301105
@@ -9,17 +9,17 @@ dashedName: use-display-flex-to-position-two-boxes
 
 # --description--
 
-This section uses alternating challenge styles to show how to use CSS to position elements in a flexible way. First, a challenge will explain theory, then a practical challenge using a simple tweet component will apply the flexbox concept.
+Esta seção usa estilos de desafio alternados para mostrar como usar CSS para posicionar elementos de maneira flexível. Primeiro, um desafio explicará a teoria, depois um desafio prático usando um componente de tweet simples aplicará o conceito do flexbox.
 
-Placing the CSS property `display: flex;` on an element allows you to use other flex properties to build a responsive page.
+Colocar a propriedade CSS `display: flex;` em um elemento permite que você use outras propriedades flex para construir uma página responsiva.
 
 # --instructions--
 
-Add the CSS property `display` to `#box-container` and set its value to `flex`.
+Adicione a propriedade do CSS `display` ao `#box-container` e defina seu valor para `flex`.
 
 # --hints--
 
-`#box-container` should have the `display` property set to a value of `flex`.
+`#box-container` deve possuir a propriedade `display` definida como `flex`.
 
 ```js
 assert($('#box-container').css('display') == 'flex');
