@@ -1,17 +1,17 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9f3
-title: Part 22
+title: Parte 22
 challengeType: 0
 dashedName: part-22
 ---
 
 # --description--
 
-D3 has a bunch of functions for working with scales as well. One of them is `domain`. It takes an array that is used to describe the highest and lowest values of the data for this scale. After a quick look at the data, the values of the "followers" go from about 0 to 5000. Chain the `domain` function to the `yScale` and pass it the array `[0, 5000]`.
+D3 possui muitas funções para trabalhar com escalas também. Uma delas é `domain`. É necessário um array que é usado para descrever os valores mais altos e mais baixos dos dados para esta escala. Após uma rápida olhada nos dados, os valores dos "seguidores" vão de cerca de 0 a 5000. Encadeie a função `domain` com `yScale` e passe para a função o array `[0, 5000]`.
 
 # --hints--
 
-test-text
+Teste
 
 ```js
 const domain = yScale.domain();
