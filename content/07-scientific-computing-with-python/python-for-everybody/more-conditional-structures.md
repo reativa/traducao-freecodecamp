@@ -1,6 +1,6 @@
 ---
 id: 5e7b9f060b6c005b0e76f059
-title: More Conditional Structures
+title: Mais Estruturas Condicionais
 challengeType: 11
 videoId: HdL82tAZR20
 dashedName: more-conditional-structures
@@ -8,17 +8,17 @@ dashedName: more-conditional-structures
 
 # --description--
 
-More resources:
+Recursos adicionais:
 
-\- [Exercise 1](https://www.youtube.com/watch?v=crLerB4ZxMI)
+\- [Exercício 1](https://www.youtube.com/watch?v=crLerB4ZxMI)
 
-\- [Exercise 2](https://www.youtube.com/watch?v=KJN3-7HH6yk)
+\- [Exercício 2](https://www.youtube.com/watch?v=KJN3-7HH6yk)
 
 # --question--
 
 ## --text--
 
-Given the following code:
+Dado o código a seguir:
 
 ```python
 temp = "5 degrees"
@@ -28,7 +28,7 @@ cel = (fahr - 32.0) * 5.0 / 9.0
 print(cel)
 ```
 
-Which line/lines should be surrounded by `try` block?
+Qual/Quais linha(s) deveriam estar envoltas por um bloco `try`?
 
 ## --answers--
 
