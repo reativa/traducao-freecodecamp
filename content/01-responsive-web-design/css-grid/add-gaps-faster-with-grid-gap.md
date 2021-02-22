@@ -1,6 +1,6 @@
 ---
 id: 5a9036ee38fddaf9a66b5d37
-title: Add Gaps Faster with grid-gap
+title: Adicionar gaps mais rapidamente com grid-gap
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pByETK/ca2qVtv'
 forumTopicId: 301118
@@ -9,15 +9,16 @@ dashedName: add-gaps-faster-with-grid-gap
 
 # --description--
 
-`grid-gap` is a shorthand property for `grid-row-gap` and `grid-column-gap` from the previous two challenges that's more convenient to use. If `grid-gap` has one value, it will create a gap between all rows and columns. However, if there are two values, it will use the first one to set the gap between the rows and the second value for the columns.
+
+`grid-gap` é uma propriedade atalho para `grid-row-gap` e `grid-column-gap` dos dois desafios anteriores que é mais conveniente de usar. Se `grid-gap` tem um valor, criará gaps entre todas as linhas e colunas. Entretanto, se houver dois valores, o primeiro representará gap entre as linhas e o segundo entre as colunas.
 
 # --instructions--
 
-Use `grid-gap` to introduce a `10px` gap between the rows and `20px` gap between the columns.
+Use `grid-gap` para adicionar um gap de `10px` entre as linhas e `20px`para adicionar gap entre as colunas.
 
 # --hints--
 
-`container` class should have a `grid-gap` property that introduces `10px` gap between the rows and `20px` gap between the columns.
+A classe`container` deve ter uma propriedade `grid-gap` que adiciona um gap de `10px` gap entre linhas e um gap de `20px` entre colunas.
 
 ```js
 assert(
