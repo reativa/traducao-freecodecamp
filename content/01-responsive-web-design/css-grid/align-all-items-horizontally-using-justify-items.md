@@ -1,6 +1,6 @@
 ---
 id: 5a90376038fddaf9a66b5d3c
-title: Align All Items Horizontally using justify-items
+title: Alinhar todos itens horizontalmente utilizand justify-items
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pByETK/cJbpECn'
 forumTopicId: 301120
@@ -9,15 +9,15 @@ dashedName: align-all-items-horizontally-using-justify-items
 
 # --description--
 
-Sometimes you want all the items in your CSS Grid to share the same alignment. You can use the previously learned properties and align them individually, or you can align them all at once horizontally by using `justify-items` on your grid container. This property can accept all the same values you learned about in the previous two challenges, the difference being that it will move **all** the items in our grid to the desired alignment.
+Às vezes você quer que todos os itens em seu Grid CSS tenham o mesmo alinhamento. Você pode utilizar as propriedades aprendidas anteriormente e alinha cada item individualmente, ou pode alinhar eles de uma vez por todas utilizando `justify-items` em seu grid container. Esta propriedade pode aceitar todos os mesmo valores que você aprendeu nos dois desafios anteriores, a diferença é que aqui fazer isto dará o alinhamento desejado a  **todos** os itens de seu grid.
 
 # --instructions--
 
-Use this property to center all our items horizontally.
+Utilize esta propriedade para centralizar todos os seus itens horizontalmente.
 
 # --hints--
 
-`container` class should have a `justify-items` property that has the value of `center`.
+A classe `container` deve ter a propriedade `justify-items`que deve ter o valor `center`.
 
 ```js
 assert(

@@ -1,6 +1,6 @@
 ---
 id: 5a94fdf869fb03452672e45b
-title: Align All Items Vertically using align-items
+title: Alinhar todos os itens verticalmente utilizando align-items
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pByETK/ckzPeUv'
 forumTopicId: 301121
@@ -9,15 +9,16 @@ dashedName: align-all-items-vertically-using-align-items
 
 # --description--
 
-Using the `align-items` property on a grid container will set the vertical alignment for all the items in our grid.
+Utilizar a propriedade `align-items` no seu grid container irá setar vertizalmente todos os itens em seu grid.
 
 # --instructions--
 
+Utilize agora para mover todos os itens para o final de cada célula.
 Use it now to move all the items to the end of each cell.
 
 # --hints--
 
-`container` class should have a `align-items` property that has the value of `end`.
+A classe`container` deve ter uma propriedade `align-items`como valor de `end`.
 
 ```js
 assert(
