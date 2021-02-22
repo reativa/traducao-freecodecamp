@@ -9,7 +9,7 @@ dashedName: part-21
 
 Seu gráfico de linha precisa de algumas escalas para saber como traduzir os dados em distâncias visuais. A primeira é a escala do eixo Y. Isso irá mostrar o número de seguidores. D3 tem muita utilidade na criação de escalas. Você precisa usar o método `scaleLinear` para essa escala.
 
-Crie uma nova `const` com o nome de `yScale`, e atribua `d3.scaleLinear()` a ele.
+Crie uma nova `const` com o nome de `yScale`, e atribua `d3.scaleLinear()` a ela.
 
 # --hints--
 
