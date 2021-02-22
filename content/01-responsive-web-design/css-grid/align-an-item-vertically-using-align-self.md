@@ -1,6 +1,6 @@
 ---
 id: 5a90375238fddaf9a66b5d3b
-title: Align an Item Vertically using align-self
+title:  Alinhar um item verticalmente utilizando align-self
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pByETK/cmzd4fz'
 forumTopicId: 301123
@@ -9,15 +9,15 @@ dashedName: align-an-item-vertically-using-align-self
 
 # --description--
 
-Just as you can align an item horizontally, there's a way to align an item vertically as well. To do this, you use the `align-self` property on an item. This property accepts all of the same values as `justify-self` from the last challenge.
+Assim como você pode alinhar um item horizontalmente, há um jeito de alinhar um item verticalmente também. Para fazer isto, use a propriedade `align-self` no item. Esta propriedade aceita todos os mesmos valores do `justify-self` do último desafio.
 
 # --instructions--
 
-Align the item with the class `item3` vertically at the `end`.
+Alinhe o item com a classe `item3` vertialmente com `end`.
 
 # --hints--
 
-`item3` class should have a `align-self` property that has the value of `end`.
+A classe `item3` deve ter uma propriedade `align-self`que tem o valor de `end`.
 
 ```js
 assert(code.match(/.item3\s*?{[\s\S]*align-self\s*?:\s*?end\s*?;[\s\S]*}/gi));
