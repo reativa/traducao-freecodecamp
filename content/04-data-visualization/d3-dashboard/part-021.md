@@ -1,15 +1,15 @@
 ---
 id: 5d8a4cfbe6b6180ed9a1c9f2
-title: Part 21
+title: Parte 21
 challengeType: 0
 dashedName: part-21
 ---
 
 # --description--
 
-Your line graph needs some scales so it knows how to translate the data into visual distances. The first one is the scale for the y-axis. It will be to show the number of followers. D3 has many utilities for creating scales. You want to use it's `scaleLinear` method for this scale.
+Seu gráfico de linha precisa de algumas escalas para saber como traduzir os dados em distâncias visuais. A primeira é a escala do eixo Y. Isso irá mostrar o número de seguidores. D3 tem muita utilidade na criação de escalas. Você precisa usar o método `scaleLinear` para essa escala.
 
-Create a new `const` named `yScale`, and set it equal to `d3.scaleLinear()`.
+Crie uma nova `const` com o nome de `yScale`, e atribua `d3.scaleLinear()` a ele.
 
 # --hints--
 
