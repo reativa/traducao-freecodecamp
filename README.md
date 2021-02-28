@@ -5,6 +5,16 @@
   </a>
 </p>
 
+# ❌⛔️ AVISO IMPORTANTE!! ❌⛔️
+
+O FreeCodeCamp iniciou um projeto de tradução colaborativo OFICIAL, acesse agora o [SITE OFICIAL DA TRADUÇÃO](http://bit.ly/traducao-oficial-freecodecamp) e contribua diretamente por lá!
+
+> Pegue os arquivos que já traduzimos por aqui e comece a enviar por lá! 
+
+Agradeço a todos que colaboraram! Continuem o trabalho por lá, nada do que fizemos por aqui ser perdido 😉
+
+# ❌⛔️ NÃO COMMITE MAIS NESSE REPOSITÓRIO! ❌⛔️
+
 ## Tradução dos enunciados do FreeCodeCamp para PT-BR
 
 ### 🏠 [Homepage](https://bit.ly/reativa-iniciantes)
